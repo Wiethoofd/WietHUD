@@ -1,0 +1,312 @@
+"Resource/UI/TargetID.res"
+{
+	"TargetIDBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG"
+		"xpos"			"11"
+		"ypos"			"29"
+		"zpos"			"-1"
+		"wide"			"640"
+		"tall"	 		"25"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
+	}
+	"TargetBG"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName"	"TargetBG"
+		"xpos"		"11"
+		"ypos"		"3.5"
+		"zpos"		"-1"
+		"wide"		"600"
+		"tall"		"13"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"	"1"
+		"enabled"	"1"
+		"fillcolor"	"0 0 0 128"
+	}
+
+	"TargetTeamIndicator"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetBackgroundPanel"
+		"xpos"			"11"
+		"ypos"			"3.5"
+		"zpos"			"-2"
+		"wide"			"640"
+		"tall"	 		"25"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		//"teambg_1"		"../hud/color_panel_brown"
+		//"teambg_2"		"../hud/color_panel_red"
+		//"teambg_3"		"../hud/color_panel_blu"
+
+		"src_corner_height"		"100"		// pixels inside the image
+		"src_corner_width"		"100"
+		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"
+		"alpha"		"160"
+	}
+	"TargetIDBG_Spec_Blue"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Blue"
+		"xpos"			"11"
+		"ypos"			"29"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"25"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_blu"
+
+		"src_corner_height"	"23"		// pixels inside the image
+		"src_corner_width"	"23"
+
+		"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
+	}
+	"TargetIDBG_Spec_Red"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Red"
+		"xpos"			"11"
+		"ypos"			"29"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"25"
+		"autoResize"		"1"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_red"
+
+		"src_corner_height"	"23"		// pixels inside the image
+		"src_corner_width"	"23"
+
+		"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
+	}
+
+	"TargetNameLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabel"
+		"font"			"Default"
+		"textinsetx"		"0"
+		"xpos"			"0" //"8"
+		"ypos"			"4"
+		"zpos"			"7"
+		"wide"			"640"
+		"tall"			"13"
+		"autoResize"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"North-West"
+		"dulltext"		"0"
+		"brighttext"		"0"
+	}
+	"TargetDataLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TargetDataLabel"
+		"font"			"SpectatorKeyHints" //"DefaultVerySmall"
+		"textinsetx"		"0"
+		"xpos"			"0"
+		"ypos"			"15"
+		"zpos"			"6"
+		"wide"			"300"
+		"tall"			"13"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetdata%"
+		"textAlignment"		"Left"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"230 235 233 255" //"171 205 239 255"
+	}
+	"SpectatorGUIHealth"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"SpectatorGUIHealth"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"31"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"HealthBonusPosAdj"	"10"
+		"HealthDeathWarning"	"0.40"
+		"TFFont"			"HudFontSmall"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+	}
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"6"
+		"ypos"			"5"	[$WIN32]
+		"zpos"			"99"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+		"color_outline"		"52 48 45 255"
+	}
+
+	"AmmoIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoIcon"
+		"xpos"			"40"
+		"ypos"			"18"
+		"zpos"			"12"
+		"wide"			"7"
+		"tall"			"7"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_ammo_64"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"
+	}
+
+	"KillstreakIconAnchor" // Anchor to move KillstreakIcon
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" 	"KillstreakIconAnchor"
+		"xpos" 		"-6"
+		"ypos"		"17"
+		"wide"		"9"
+		"tall" 		"9"
+		"visible"	"1"
+		"enabled" 	"1"
+	}
+	"KillStreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"0" //"10"
+		"ypos"			"0" //"17"
+		"zpos"			"5"
+		"pincorner"		"0"
+		"wide"			"9"
+		"tall"			"9"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+		"scaleImage"		"1"
+		"pin_to_sibling" 	"KillstreakIconAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"MoveableSubPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"M2EngineerStuff" //"MoveableSubPanel"
+		"xpos"			"r0"
+		"ypos"			"0"
+		"zpos"			"-5"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"autoResize"		"1"
+		
+		"MoveableIconBG"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"MoveableIconBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"10"
+			"tall"			"36"
+			"visible"		"0"
+			"enabled"		"0"
+			"icon"			"obj_status_alert_background_tall_nocolor"
+			"iconColor"		"HudBlack"
+			"scaleImage"	"1"
+		}
+
+		"MoveableIcon"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"MoveableIcon"
+			"xpos"			"5"
+			"ypos"			"7"
+			"zpos"			"11"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"0"
+			"enabled"		"0"
+			"icon"			"obj_status_sentrygun_1"
+			"drawcolor"		"ProgressOffWhite"
+			"scaleImage"	"1"
+		}
+		"MoveableSymbolIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MoveableSymbolIcon"
+			"xpos"			"16"
+			"ypos"			"-2"
+			"zpos"			"12"
+			"wide"			"16"
+			"tall"			"8"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"../hud/eng_sel_item_movable"
+			"drawcolor"		"ProgressOffWhite"
+			"scaleImage"	"1"
+		}
+
+		"MoveableKeyLabel"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"MoveableKeyLabel"
+			"font"			"TFFontMedium"
+			"xpos"			"0"
+			"ypos"			"23"
+			"zpos"			"1"
+			"wide"			"640"
+			"tall"			"0"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%movekey%"
+			"textAlignment"		"North"
+			"dulltext"		"0"
+			"brighttext"		"0"
+			"fgcolor_override"	"0 0 0 0"
+		}
+	}
+}

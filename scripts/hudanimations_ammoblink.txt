@@ -1,0 +1,22 @@
+event HudLowAmmoPulse
+{
+	Animate	AmmoInClipShadow	FgColor		"LowAmmoColor"	Linear 0.0 0.075
+	Animate	AmmoInClipShadow	FgColor		"LowAmmoColor2"	Linear 0.125 0.075
+
+	Animate	AmmoInReserveShadow 	FgColor		"LowAmmoColor"	Linear 0.0 0.075
+	Animate	AmmoInReserveShadow	FgColor		"LowAmmoColor2"	Linear 0.125 0.075
+
+	Animate	AmmoNoClipShadow	FgColor		"LowAmmoColor"	Linear 0.0 0.075
+	Animate	AmmoNoClipShadow	FgColor		"LowAmmoColor2"	Linear 0.125 0.075
+
+	RunEvent HudLowAmmoPulseLoop	0.3
+}
+event HudLowAmmoPulseStop
+{
+	Animate	  AmmoInClipShadow	FgColor		"Black"		Accel 0.0 0.0
+	Animate	  AmmoInReserveShadow	FgColor		"Black"		Accel 0.0 0.0
+	Animate	  AmmoNoClipShadow	FgColor		"Black"		Accel 0.0 0.0
+
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+}

@@ -1,0 +1,14 @@
+// Flag pickup/drop
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"200"			Linear 0.1 0.2
+
+	Animate OutlineImage	Position	"c-100 r120"		Linear 0.1 0.2
+	Animate OutlineImage	Size		"200 100"		Linear 0.1 0.2
+
+	Animate OutlineImage	Position	"c-40 r60"		Linear 0.6 0.2	[$WIN32]
+	Animate OutlineImage	Size		"80 50"			Linear 0.6 0.2
+
+	Animate OutlineImage	Alpha		"0"			Linear 0.8 0.1
+}

@@ -1,0 +1,15 @@
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"200"		Linear 0.0 0.2
+
+	Animate PlayerStatusSpyOutlineImage		Position	"0 380"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"100 100"	Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"200"		Linear 0.9 0.1
+}

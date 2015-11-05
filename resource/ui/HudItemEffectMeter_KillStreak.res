@@ -1,0 +1,127 @@
+"Resource/UI/HudItemEffectMeter_KillStreak.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-185"	[$WIN32]
+		"ypos"			"c115"	[$WIN32]
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"20"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
+	
+	"ItemEffectMeterDescription"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"KillstreakHudCounter"
+		"enabled"	"1"
+		"visible"	"1"
+		"wide" "0"
+		"tall" "0"
+	}
+	
+	"ItemEffectMeter"
+	{
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"		"ItemEffectMeter"
+		"visible"		"0"
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"			"ItemEffectMeterLabel"
+		"xpos"				"0"
+		"ypos"				"10"
+		"zpos"				"2"
+		"wide"				"50"
+		"tall"				"10"
+		"autoResize"			"1"
+		"pinCorner"			"2"
+		"visible"			"0"
+		"enabled"			"1"
+		"tabPosition"			"0"
+		"labelText"			"#TF_KillStreak"
+		"textAlignment"			"west"
+		"dulltext"			"0"
+		"brighttext"			"0"
+		"font"				"SpectatorKeyHints"
+	}
+	"ItemEffectMeterIcon"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterIcon"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"	
+		"image"			"../hud/leaderboard_streak"
+		"PaintBackgroundType"	"0"
+	}
+	"ItemEffectMeterIconShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterIcon"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"	
+		"image"			"../hud/dneg_leaderboard_streak"
+		"PaintBackgroundType"	"0"
+	}
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"			"ItemEffectMeterCount"
+		"xpos"				"11"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"40"
+		"tall"				"11"	
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"			"0"
+		"labelText"			"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"			"0"
+		"brighttext"			"0"
+		"font"				"HudFontSmallBold"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"			"ItemEffectMeterCount"
+		"xpos"				"12"
+		"ypos"				"1"
+		"zpos"				"2"
+		"wide"				"40"
+		"tall"				"11"	
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"			"0"
+		"labelText"			"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"			"0"
+		"brighttext"			"0"
+		"font"				"HudFontSmallBold"
+		"fgcolor"			"Black"
+	}
+}

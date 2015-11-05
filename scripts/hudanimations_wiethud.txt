@@ -1,0 +1,87 @@
+// Color Damage Text Dealt on player hit
+event DamagedPlayer
+{
+	Animate DamageAccountValue	FgColor		"210 60 60 255"	Linear 0.0 0.0001
+	Animate DamageAccountValue	FgColor		"TanLight"	Accel 0.05 0.1
+}
+event HealPlayer // Doesn't exist
+{
+	Animate DamageAccountValue	FgColor		"60 210 60 255"	Linear 0.0 0.0001
+	Animate DamageAccountValue	FgColor		"TanLight"	Linear 0.10 0.10001
+}
+
+// Reduce Notification Blinking
+event NotificationsPresentBlinkLoop
+{
+	RunEvent NotificationsPresentBlink	5.0
+}
+
+// Move letter off-screen when sending in trade up
+event CollectionCrafting_LetterSend
+{
+	SetVisible ShowExplanationsButton2	0			0
+	SetVisible	SendEvelopeButton	0			0
+	Animate Stamp				xpos	c70	Deaccel	0 0.3
+	Animate LetterFront			xpos	c-320	Deaccel 0 0.3
+	Animate DrawingPanel			xpos	c-320	Deaccel 0 0.3
+
+	RunEventChild BehindItemParticlePanel PlayEnvelopSendParticles 0.3
+	Animate Stamp				xpos 2120	Accel 0.3 0.2
+	Animate LetterFront			xpos 2000	Accel 0.3 0.2
+	Animate DrawingPanel			xpos 2000	Accel 0.3 0.2
+	SetVisible CloseButton			0			0
+	FireCommand	0.2 "playsound ui/trade_up_envelope_slide_out.wav"
+}
+
+// Hide Replay/Screenshot reminders
+event HudSnapShotReminderIn
+{
+	Animate ScreenshotPanel		Position	"c-83 -40"	Linear 0.0 0.001
+	Animate ScreenshotPanel		Position	"c-83 0"	Spline 0.001 0.2
+}
+event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
+{
+	Animate ReplayReminder		Position	"c-83 -40"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 0"	Spline 0.001 0.2
+}
+event HudReplayReminderIn2	// Puts the panel below the snapshot panel
+{
+	Animate ReplayReminder		Position	"c-83 -40"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 53"	Spline 0.001 0.2
+}
+
+// Reduced Opacity on Koth Active Timer Indicator
+event ActiveTimerBGPulse
+{
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.1 0.1
+	Animate	ActiveTimerBG 	Alpha		"200"		Linear 0.3 0.1
+
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.5 0.1
+	Animate	ActiveTimerBG 	Alpha		"200"		Linear 0.7 0.1
+
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.9 0.1
+	Animate	ActiveTimerBG 	Alpha		"200"		Linear 1.1 0.1
+}
+
+// Animate TeamMenu.res full arrow
+event TeamsFullArrowAnimate
+{
+	Animate TeamsFullArrow	Position	"c91 c-42"		Linear	0	0
+	Animate TeamsFullArrow	Position	"c95 c-42"		Linear	0	0.5
+	Animate TeamsFullArrow	Position	"c91 c-42"		Linear	0.5	0.5
+
+	RunEvent TeamsFullArrowAnimateLoop	1
+}
+
+// Animate HudTournamentSetup.res panel
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-90 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 46"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-90 46"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.001 0.2
+}
