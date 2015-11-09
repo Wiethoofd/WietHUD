@@ -105,17 +105,16 @@
 
 		"OpenHelpButton"
 		{
-			"xpos"			"190" //"4"
-			"ypos"			"60" //"4"
+			"xpos"			"190"
+			"ypos"			"60"
 			"tall"			"24"
-			//"visible"		"0"
 			"border_default"	"QuickplayBorder"
 			"border_armed"		"QuickplayBorder"
 		}
 
 		"MannUpTicketImage"
 		{
-			"xpos"			"122" //"134"
+			"xpos"			"122"
 			"ypos"			"9"
 		}
 		"MannUpTicketCountLabel"
@@ -123,13 +122,13 @@
 			"font"			"HudFontMediumBoldShadow"
 			"textAlignment"		"center"
 			"fgcolor_override"	"TanLight"
-			"xpos"			"67" //"79"
+			"xpos"			"67"
 			"ypos"			"26"
 			"wide"			"70"
 		}
 		"OpenStoreButton" // Buy Ticket button
 		{
-			"xpos"			"67" //"79"
+			"xpos"			"67"
 			"ypos"			"60"
 			"wide"			"120"
 			"tall"			"24"
@@ -139,7 +138,7 @@
 
 		"SquadSurplusImage"
 		{
-			"xpos"			"217" //"205"
+			"xpos"			"217"
 			"ypos"			"8"
 			"wide"			"62"
 			"tall"			"62"
@@ -149,13 +148,13 @@
 			"font"			"HudFontMediumBoldShadow"
 			"textAlignment"		"center"
 			"fgcolor_override"	"TanLight"
-			"xpos"			"263" //"251"
+			"xpos"			"263"
 			"ypos"			"26"
 			"wide"			"70"
 		}
 		"OpenStoreButton2" // Buy Voucher button
 		{
-			"xpos"			"213" //"201"
+			"xpos"			"213"
 			"ypos"			"60"
 			"wide"			"120"
 			"tall"			"24"

@@ -99,7 +99,9 @@
 
 	"MannUpDisabledLabel"
 	{
+		"xpos"			"c-302"
 		"ypos"			"328"
+		"wide"			"196"
 	}
 
 	"PracticeButton"

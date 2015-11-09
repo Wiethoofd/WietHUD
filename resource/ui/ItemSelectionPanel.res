@@ -5,14 +5,14 @@
 // Select item to equip or use in crafting
 #base "../../default_hudfiles/resource/ui/itemselectionpanel.res"
 
-"Resource/UI/ItemSelectionPanel.res" {
+"Resource/UI/ItemSelectionPanel.res"
+{
 	"reloadschemebutton" { xpos r20 ypos 5 }
+	
 	"ItemSelectionPanel" {
-		"tall"			"f0"
-		"proportionaltoparent"	"1"
+		"tall"				"420"
 		"item_ypos"			"44"
 		"bgcolor_override"		"BackpackBGColor"
-		"sheetinset_bottom"		"45"
 		
 		"item_backpack_xdelta"		"3"
 		"item_backpack_ydelta"		"3"

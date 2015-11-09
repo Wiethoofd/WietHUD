@@ -142,8 +142,8 @@
 	
 	HudArenaPlayerCount // Arena Player count
 	{
-		"xpos"		"-60"
-		"ypos"		"r50"
+		"xpos"		"-62"
+		"ypos"		"r51"
 	}
 	HudArenaCapPointCountdown
 	{
