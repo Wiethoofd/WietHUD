@@ -209,25 +209,26 @@
 
 	"HudMenuEngyBuild" // Engineer Build Menu
 	{
-		"xpos"			"r450" //"r455"
-		"ypos"			"c-61"
+		"xpos"			"c-122"
+		"ypos"			"c35"
 	}
 	"HudMenuEngyDestroy" // Engineer Destroy Menu (Build ypos-4)
 	{
-		"xpos"			"r450" //"r455"
-		"ypos"			"c-65"
+		"xpos"			"c-122"
+		"ypos"			"c35"
 
 	}
 	"HudEurekaEffectTeleportMenu" // Eureka effect (Build ypos)
 	{
-		"xpos"			"r448" //"r457"
-		"ypos"			"c-61"
+		"xpos"			"0"
+		"ypos"			"c35"
+		"wide"			"f0"
 	}
 
 	BuildingStatus_Engineer // Engineer Building Status
 	{
-		"xpos"		"-5"
-		"ypos"		"-5"
+		"xpos"			"-5"
+		"ypos"			"-5"
 	}
 	
 	"HudAchievementTracker" // Achievement Tracker

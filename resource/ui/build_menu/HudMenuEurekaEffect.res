@@ -1,0 +1,86 @@
+"Resource/UI/build_menu/HudMenuEurekaEffect.res"
+{
+	"TitleLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"TitleLabel"
+		"font"		"DefaultShadow"
+		"xpos"		"c-61"
+		"ypos"		"74"
+		"zpos"		"1"
+		"wide"		"122"
+		"tall"		"10"
+		"labelText"	"#Hud_Menu_Teleport_Title"
+		"textAlignment"	"Left"
+		"textinsetx"	"2"
+	}
+	"CancelLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"CancelLabel"
+		"font"		"DefaultShadow"
+		"xpos"		"c-61"
+		"ypos"		"74"
+		"zpos"		"1"
+		"wide"		"122"
+		"tall"		"10"
+		"visible"	"1"
+		"labelText"	"Cancel: lastinv" //"#Hud_Menu_Build_Cancel"
+		"textAlignment"	"East"
+		"textinsetx"	"2"
+	}
+
+	"available_target_1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"available_target_1"
+		"xpos"			"c-61"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"74"
+		"visible"		"1"
+		"bgcolor_override"	"MainMenuBGColor"
+		"border"		"QuickplayBorder"
+	}
+	"available_target_2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"available_target_2"
+		"xpos"			"c1"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"74"
+		"visible"		"1"
+		"bgcolor_override"	"MainMenuBGColor"
+		"border"		"QuickplayBorder"
+	}
+
+	"unavailable_target_1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_target_1"
+		"xpos"			"c-61"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"74"
+		"visible"		"0"
+		"bgcolor_override"	"MainMenuBGColor"
+		"border"		"QuickplayBorder"
+	}
+	"unavailable_target_2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_target_2"
+		"xpos"			"c1"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"74"
+		"visible"		"0"
+		"bgcolor_override"	"MainMenuBGColor"
+		"border"		"QuickplayBorder"
+	}
+}
