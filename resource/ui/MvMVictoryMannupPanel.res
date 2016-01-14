@@ -8,7 +8,7 @@
 		"xpos"			"0"
 		"ypos"			"600"
 		"zpos"			"9999"
-		"wide"			"250"
+		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"	"0 0 0 0"
@@ -112,7 +112,8 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		//"image"			"loadout_solid_line"
+		"fillcolor"		"BackpackPopupBGColor"
 		"scaleImage"		"1"
 
 		"pin_to_sibling"               "OutterBackground"
@@ -131,7 +132,8 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		//"image"			"loadout_solid_line"
+		"fillcolor"		"BackpackPopupBGColor"
 		"scaleImage"		"1"
 
 		"pin_to_sibling"               "OutterBackground"
@@ -150,8 +152,6 @@
 		"wide"			"399"
 		"tall"			"40"
 		"visible"		"1"
-		"proportionalToParent"	"1"
-
 
 		"PlayerTab1"
 		{
@@ -167,7 +167,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"BackpackBGColor"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"proportionalToParent"	"1"
 		}
 
@@ -186,7 +186,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"proportionalToParent"	"1"
 		}
 
@@ -205,7 +205,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"proportionalToParent"	"1"
 		}
 
@@ -224,7 +224,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"proportionalToParent"	"1"
 		}
 
@@ -243,7 +243,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"proportionalToParent"	"1"
 		}
 
@@ -262,7 +262,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"proportionalToParent"	"1"
 		}
 	}
@@ -277,9 +277,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-
-
-			
+		
 		"NoItemServerContainer"
 		{
 			"ControlName"	"EditablePanel"

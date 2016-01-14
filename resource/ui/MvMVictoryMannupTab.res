@@ -28,7 +28,8 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		//"image"			"loadout_solid_line"
+		"fillcolor"		"BackpackPopupBGColor"
 		"scaleImage"		"1"
 		"proportionalToParent"	"1"
 	}

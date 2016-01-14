@@ -1,4 +1,5 @@
 #base "../../../default_hudfiles/Resource/UI/econ/ConfirmCustomizeTextureDialog.res"
+// Applying Decal
 
 "Resource/UI/econ/ConfirmCustomizeTextureDialog.res"
 {
@@ -64,6 +65,10 @@
 				
 	"AdjustFilterPage"
 	{
+		"PageTitleLabel"
+		{
+			"labelText"		"2. Filter"
+		}
 		"FilterOptionsGroupBox"
 		{
 			"bgcolor_override"	"52 50 52 255"
@@ -91,6 +96,7 @@
 		"WarningTextGroupBox"
 		{
 			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
 		}
 		"PreviewModelGroupBox"
 		{

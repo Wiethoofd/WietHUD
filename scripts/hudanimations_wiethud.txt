@@ -13,7 +13,19 @@ event HealPlayer // Doesn't exist
 // Reduce Notification Blinking
 event NotificationsPresentBlinkLoop
 {
-	RunEvent NotificationsPresentBlink	5.0
+	RunEvent NotificationsPresentBlink	6.0
+}
+
+// Add to Cart button flash
+event AddToCartBlink
+{
+	Animate	CartButton	BgColor	"ButtonColor"		Linear 0.0 0.1
+	Animate	CartButton	BgColor	"ButtonPressColor"	Linear 0.2 0.01
+
+	Animate	CartButton 	BgColor	"ButtonColor"		Linear 0.3 0.1
+	Animate	CartButton 	BgColor	"ButtonPressColor"	Linear 0.5 0.01
+
+	Animate	CartButton 	BgColor	"ButtonColor"		Linear 0.5 0.01
 }
 
 // Move letter off-screen when sending in trade up

@@ -16,6 +16,7 @@
 	"TitleLabel"
 	{
 		"tall"		"32"
+		"fgcolor_override" "230 220 200 255"
 	}
 	"PanelListPanel"
 	{

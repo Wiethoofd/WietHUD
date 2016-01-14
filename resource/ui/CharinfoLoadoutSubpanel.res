@@ -1,8 +1,9 @@
 #base "../../default_hudfiles/resource/ui/CharInfoLoadoutSubPanel.res"
-// Inventory Class selection | Inventory/Crafting
+// Inventory Class selection | Backpack/Crafting/Catalog/Trading
 
 "Resource/UI/CharInfoLoadoutSubPanel.res" {
 	"CharInfoLoadoutSubPanel" {
+		"zpos"			"0"
 		"bgcolor_override"		"BackpackBGColor"
 	}
 	"mouseoveritempanel"
@@ -27,4 +28,13 @@
 	"medic"		{ "labelText"	"&7"	"textAlignment" "south" }
 	"sniper"	{ "labelText"	"&8"	"textAlignment" "south" }
 	"spy"		{ "labelText"	"&9"	"textAlignment" "south" }
+
+	"BackpackShortKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&0"
+		"command"	"backpack"
+	}
 }

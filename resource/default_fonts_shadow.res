@@ -234,7 +234,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		DefaultLargeShadow
+		"DefaultLargeShadow"
 		{
 			"1"
 			{

@@ -33,6 +33,7 @@
 			"selectedcolor"			"200 187 161 255"
 			"unselectedcolor"		"130 120 104 255"
 			"titlebarbgcolor_override"	"BackpackBGColor"
+			"activeborder_override" 	"NoBorder"
 			"normalborder_override" 	"NoBorder"
 			"paintbackground"		"1"
 		}
@@ -50,8 +51,8 @@
 	}
 	"FooterLine"
 	{
-		"tall"		"2"
 		"ypos"		"435"
+		"tall"		"2"
 	}
 	
 	"CloseButton"

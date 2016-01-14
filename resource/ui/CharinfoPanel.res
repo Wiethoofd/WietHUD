@@ -1,4 +1,6 @@
 //#base "../../alternatives/reloadscheme_button.res"
+// Tabs & Back button for backpack/econ related panels
+
 "Resource/UI/CharInfoPanel.res"
 {
 	"character_info"
@@ -26,7 +28,7 @@
 		"titletextinsetY"		"-20"
 		"titlebarfgcolor_override"		"200 187 161 255"
 		"titlebardisabledfgcolor_override"	"200 187 161 255"
-		"titlebarbgcolor_override"		"BackpackBGColor" //"66 63 62 255"
+		"titlebarbgcolor_override"		"BackpackBGColor"
 
 		"clientinsetx_override"		"0"
 		"sheetinset_bottom"		"40"
@@ -43,7 +45,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor_override"	"BackpackBorderColor" //"85 90 100 255"
+		"fillcolor_override"	"BackpackBorderColor"
 		"tileImage"		"1"
 	}
 	"BackgroundFooter"
@@ -71,7 +73,8 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		//"image"			"loadout_solid_line"
+		"fillcolor"	"BackpackPopupBGColor"
 		"scaleImage"	"1"
 	}
 
@@ -91,13 +94,14 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"	"HeaderLine"
 			"xpos"		"0"
-			"ypos"		"34"
+			"ypos"		"32"
 			"zpos"		"5"
 			"wide"		"f0"
 			"tall"		"2"
 			"visible"	"1"
 			"enabled"	"1"
-			"image"		"loadout_solid_line"
+			//"image"		"loadout_solid_line"
+			"fillcolor"	"BackpackPopupBGColor"
 			"scaleImage"	"1"
 		}
 
@@ -108,13 +112,13 @@
 			"font"				"HudFontMediumBold"
 			"selectedcolor"			"200 187 161 255"
 			"unselectedcolor"		"130 120 104 255"
-			"defaultBgColor_override"	"BackpackBGColor" //"46 43 42 255"
-			"armedBgColor_override"		"BackpackBorderColor" //"46 43 42 255"
+			"defaultBgColor_override"	"BackpackBGColor"
+			"armedBgColor_override"		"BackpackBorderColor"
 			"selectedBgColor_override"	"BackpackBGColor"
 			"paintbackground"		"2"
 			"paintborder"			"1"
-			"activeborder_override"		"OutlinedGreyBox"
-			"normalborder_override" 	"NoBorder" //"OutlinedDullGreyBox"
+			"activeborder_override"		"NoBorder"
+			"normalborder_override" 	"NoBorder"
 		}
 	}
 
@@ -132,7 +136,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"<< Back (&Q)" //"#TF_BackCarat"
+		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"		"center"
 		"dulltext"		"0"
@@ -142,13 +146,21 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	"backShortKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&q"
+		"command"	"back"
+	}
 
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
 		"xpos"			"r200"
-		"ypos"			"0" //"10"
+		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"200"
 		"tall"			"50"

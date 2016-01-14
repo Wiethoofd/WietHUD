@@ -485,7 +485,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"BackpackButton"
 		"xpos"			"c-209"
-		"ypos"			"279"
+		"ypos"			"r0"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"

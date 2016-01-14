@@ -1,13 +1,13 @@
 // Default Fonts
 // - Copied from clientscheme
-// - Original name with 'Outline' appended
-// - Only change is outline applied
+// - Original name with 'Blur' appended
+// - Only change is blur applied
 
 Scheme
 {
 	Fonts
 	{
-		"HudFontBigOutline"
+		"HudFontBigBlur"
 		{
 			"1"
 			{
@@ -16,23 +16,23 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"blur"	"1"
+
 			}
 		}
-		"SpectatorVerySmallOutline"
+		"SpectatorVerySmallBlur"
 		{
 			"1"
 			{
-
 				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"HudFontSmallOutline"
+		"HudFontSmallBlur"
 		{
 			"1"
 			{
@@ -42,11 +42,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-
-		"HudFontSmallestBoldOutline"
+		"HudFontSmallestBoldBlur"
 		{
 			"1"
 			{
@@ -55,10 +54,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"HudFontMediumOutline"
+		"HudFontMediumBlur"
 		{
 			"1"
 			{
@@ -68,10 +67,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"HudFontMediumBoldOutline"
+		"HudFontMediumBoldBlur"
 		{
 			"1"
 			{
@@ -80,10 +79,11 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"HudFontMediumSmallBoldOutline"
+		"HudFontMediumSmallBoldBlur"
+
 		{
 			"1"
 			{
@@ -91,11 +91,12 @@ Scheme
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
-				"outline"	"1"
 				"antialias"	"1"
+				"blur"	"1"
+
 			}
 		}
-		"HudFontGiantBoldOutline"
+		"HudFontGiantBoldBlur"
 		{
 			"1"
 			{
@@ -104,11 +105,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-
-		"ScoreboardVerySmallOutline"
+		"ScoreboardVerySmallBlur"
 		{
 			"1"
 			{
@@ -119,10 +119,10 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ScoreboardSmallOutline"
+		"ScoreboardSmallBlur"
 		{
 			"1"
 			{
@@ -133,10 +133,10 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ScoreboardMediumSmallOutline"
+		"ScoreboardMediumSmallBlur"
 		{
 			"1"
 			{
@@ -146,10 +146,10 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias"	"1"
 				"additive"	"0"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ScoreboardMediumOutline"
+		"ScoreboardMediumBlur"
 		{
 			"1"
 			{
@@ -159,10 +159,10 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias"	"1"
 				"additive"	"0"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"DefaultOutline"
+		"DefaultBlur"
 		{
 			"1"
 			{
@@ -171,8 +171,8 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x00FF"
 				"yres"		"480 599"
-				"antialias"	"0"
-				"outline"	"1"
+				"antialias"	"1"
+				"blur"	"1"
 			}
 			"2"
 			{
@@ -182,8 +182,8 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x00FF"
 				"yres"		"600 767"
-				"antialias"	"0"
-				"outline"	"1"
+				"antialias"	"1"
+				"blur"	"1"
 			}
 			"3"
 			{
@@ -192,8 +192,8 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x00FF"
 				"yres"		"768 1023"
-				"antialias"	"0"
-				"outline"	"1"
+				"antialias"	"1"
+				"blur"	"1"
 			}
 			"4"
 			{
@@ -202,8 +202,8 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x00FF"
 				"yres"		"1024 1199"
-				"antialias"	"0"
-				"outline"	"1"
+				"antialias"	"1"
+				"blur"	"1"
 			}
 			"5"
 			{
@@ -212,8 +212,8 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x00FF"
 				"yres"		"1200 6000"
-				"antialias"	"0"
-				"outline"	"1"
+				"antialias"	"1"
+				"blur"	"1"
 			}
 			"6"
 			{
@@ -221,8 +221,8 @@ Scheme
 				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
-				"antialias"	"0"
-				"outline"	"1"
+				"antialias"	"1"
+				"blur"	"1"
 			}
 			"7"
 			{
@@ -230,11 +230,11 @@ Scheme
 				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
-				"antialias"	"0"
-				"outline"	"1"
+				"antialias"	"1"
+				"blur"	"1"
 			}
 		}
-		"DefaultLargeOutline"
+		"DefaultLargeBlur"
 		{
 			"1"
 			{
@@ -243,7 +243,7 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
-				"outline"	"1"
+				"blur"	"1"
 			}
 			"2"
 			{
@@ -252,7 +252,7 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
-				"outline"	"1"
+				"blur"	"1"
 			}
 			"3"
 			{
@@ -262,7 +262,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 			"4"
 			{
@@ -272,7 +272,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 			"5"
 			{
@@ -282,7 +282,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 			"6"
 			{
@@ -290,7 +290,7 @@ Scheme
 				"tall"		"20"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
-				"outline"	"1"
+				"blur"	"1"
 			}
 			"7"
 			{
@@ -298,10 +298,10 @@ Scheme
 				"tall"		"20"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ItemFontNameSmallestOutline"
+		"ItemFontNameSmallestBlur"
 		{
 			"1"
 			{
@@ -310,10 +310,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ItemFontNameSmallOutline"
+		"ItemFontNameSmallBlur"
 		{
 			"1"
 			{
@@ -322,10 +322,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ItemFontNameLargeOutline"
+		"ItemFontNameLargeBlur"
 		{
 			"1"
 			{
@@ -334,10 +334,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ItemFontAttribSmallestOutline"
+		"ItemFontAttribSmallestBlur"
 		{
 			"1"
 			{
@@ -346,10 +346,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ItemFontAttribSmallOutline"
+		"ItemFontAttribSmallBlur"
 		{
 			"1"
 			{
@@ -358,10 +358,10 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
-		"ItemFontAttribLargeOutline"
+		"ItemFontAttribLargeBlur"
 		{
 			"1"
 			{
@@ -370,7 +370,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"outline"	"1"
+				"blur"	"1"
 			}
 		}
 	}

@@ -1,10 +1,8 @@
-//#base "transparent_viewmodels.res"
-//#base "../crosshairs/hudcrosshairs.res"
-
 // Default HudLayout.res include
 #base "../default_hudfiles/hudlayout.res"
 
-"Resource/HudLayout.res" {
+"Resource/HudLayout.res"
+{
 	HudWeaponAmmo // Ammo
 	{
 		"xpos"		"c117"
@@ -49,17 +47,15 @@
 	HudZoom		{ "zpos" "-1" }
 	HudScope	{ "zpos" "-1" }
 
-	"HudChat" // Chat Window
+	"HudChat" // Chat Window // Chat Window (Positioned inside BaseChat.res)
 	{
-		"xpos"		"5"
-		"ypos"		"c-100" // Positioned inside BaseChat.res
 		"wide"	 	"400"
 		"tall"	 	"150"
 	}
 
 	BuildingStatus_Spy // Spy sappers placed
 	{
-		"xpos"		"-10"
+		"xpos"		"-5"
 	}
 	"HudMenuSpyDisguise" // Disguise menu
 	{
@@ -230,8 +226,8 @@
 
 	BuildingStatus_Engineer // Engineer Building Status
 	{
-		"xpos"		"-10"
-		"ypos"		"-8"
+		"xpos"		"-5"
+		"ypos"		"-5"
 	}
 	
 	"HudAchievementTracker" // Achievement Tracker
@@ -295,8 +291,8 @@
 
 	"HudMenuTauntSelection"
 	{
-		"xpos"			"c260" //"c-235" (for left)
-		"ypos"			"c-65"
+		"xpos"			"c200" //"c-235" (for left)
+		"ypos"			"c-75"
 		"wide"			"100"
 		"tall"			"150"
 	}

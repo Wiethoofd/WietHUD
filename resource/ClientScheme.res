@@ -1,10 +1,30 @@
+#base "../themes/google_palette_colors.res"
+
+// Item Backgrounds
+#base "../alternatives/solid_item_backgrounds.res"
+#base "../alternatives/solid_skin_backgrounds.res"
+
+// Themes
+//#base "../themes/colorscheme_blue.res"
+//#base "../themes/colorscheme_lime.res"
+//#base "../themes/colorscheme_lightblue.res"
+//#base "../themes/colorscheme_orange.res"
+//#base "../themes/colorscheme_pink.res"
+//#base "../themes/colorscheme_purple.res"
+#base "../themes/colorscheme_red.res"
+#base "../themes/colorscheme_default.res" // Default color fallback if no theme is uncommented
+
+// Fonts
 //#base "../alternatives/notohud_fonts.res"
 #base "CrosshairFonts.res"
-#base "default_fonts_shadow.res"
+#base "default_fonts_blur.res"
 #base "default_fonts_outline.res"
-#base "../default_hudfiles/resource/clientscheme.res"
-// Customization of clientscheme.res
+#base "default_fonts_shadow.res"
 
+// Include default ClientScheme.res
+#base "../default_hudfiles/resource/clientscheme.res"
+
+// Customization of clientscheme.res
 Scheme
 {
 	Colors // Define Color Values
@@ -12,12 +32,14 @@ Scheme
 		"TransparentBGColor"	"42 40 42 120"
 		"MainMenuBGColor"	"36 34 36 180"
 		"BackpackBGColor"	"52 50 52 255"
-		"BackpackBorderColor"	"36 34 36 255"
-		"BackpackPopupBGColor"	"44 42 44 255"
+		//"BackpackBorderColor"	"36 34 36 255"
+		//"BackpackPopupBGColor"	"44 42 44 255"
 		
-		"ButtonColor"		"82 80 82 255"
-		"ButtonArmedColor"	"92 90 92 255"
-		"ButtonPressColor"	"102 100 102 255"
+		//"ButtonColor"		"82 80 82 255"
+		//"ButtonArmedColor"	"92 90 92 255"
+		//"ButtonPressColor"	"102 100 102 255"
+		
+		//"SelectedLoadout"	"36 34 36 255"
 
 		"LowAmmoColor"		"180 0 0 225"
 		"LowAmmoColor2"		"130 0 0 255"
@@ -47,10 +69,15 @@ Scheme
 		Button.BgColor			"ButtonColor"
 		Button.ArmedBgColor		"ButtonArmedColor"
 		Button.DepressedBgColor		"ButtonPressColor"
+		Button.SelectedBgColor		"ItemRarityMythical"
 		
 		Econ.Button.BgColor		"ButtonColor"
 		Econ.Button.ArmedBgColor	"ButtonArmedColor"
 		Econ.Button.DepressedBgColor	"ButtonPressColor"
+		
+		Econ.Button.PresetDefaultColorBg	"SelectedLoadout"	// Active Loadout
+		Econ.Button.PresetArmedColorBg		"ButtonPressColor"	// Hover Active Loadout
+		Econ.Button.PresetDepressedColorBg	"ButtonPressColor"	// Click Active Loadout
 		
 		DamageTextColor			"ItemRarityMythical" //"QualityColorCollectors"
 	}
@@ -272,8 +299,8 @@ Scheme
 		GrayDialogBorder { // Popup messages
 			"image"			"backpack_rect"
 			//"bgcolor_override"	"BackpackPopupBGColor"
-			"draw_corner_width"	"4"
-			"draw_corner_height"	"4"
+			"draw_corner_width"	"0" //4
+			"draw_corner_height"	"0" //4
 		}
 		
 		EconItemBorder { // Item Loadout Default border
@@ -312,8 +339,9 @@ Scheme
 
 		// Standard -----------------------------------------
 		BackpackItemBorder { // Default item border (backpack/items)
+			"image"			"backpack_rect_mouseover_color"
 			"image"			"backpack_rect_color"
-			"color"			"BackpackBorderColor"
+			"color"			"BackpackBorderColor" //"FooterBGBlack"
 			"draw_corner_width"	"3"
 			"draw_corner_height"	"3"
 		}
@@ -638,6 +666,7 @@ Scheme
 			"draw_corner_width"	"3"
 			"draw_corner_height"	"3"
 		}
+
 
 		//
 		BackpackItemBorder_RarityUncommon {

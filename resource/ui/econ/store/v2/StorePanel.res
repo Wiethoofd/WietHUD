@@ -23,8 +23,10 @@
 		
 		"HeaderLine"
 		{
-			"ypos"			"34"
+			"ypos"			"32"
 			"tall"			"2"
+			"image"			""
+			"fillcolor"		"BackpackPopupBGColor"
 		}				
 		
 		"tabskv"
@@ -38,6 +40,7 @@
 			"defaultBgColor_override"	"BackpackBGColor"
 			"armedBgColor_override"		"BackpackBorderColor"
 			"selectedBgColor_override"	"BackpackBGColor"
+			"activeborder_override"		"NoBorder"
 			"normalborder_override" 	"NoBorder"
 			"paintbackground"		"1"
 		}
@@ -56,8 +59,10 @@
 	}
 	"FooterLine"
 	{
-		"tall"		"2"
 		"ypos"		"435"
+		"tall"		"2"
+		"image"		""
+		"fillcolor"	"BackpackPopupBGColor"
 	}
 	
 	"CloseButton" // Back button
@@ -66,8 +71,16 @@
 		"zpos"		"250"
 		"wide"		"150"
 		"tall"		"24"
-		"labelText"	"<< Back (&Q)"
+		//"labelText"	"#TF_BackToMainMenu" //"<< Back (&Q)"
 		"default"	"1"
+	}
+	"closeShortKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&q"
+		"command"	"close"
 	}
 	
 	"SupportCommunityMapMakersCheckButton"

@@ -1,5 +1,5 @@
 #base "../../default_hudfiles/resource/ui/lobbypanel.res"
-// MvM Lobby panel contents
+// MvM/Competitive Lobby panel contents
 
 "Resource/UI/LobbyPanel.res"
 {
@@ -66,7 +66,7 @@
 
 			"GreyOutPanel"
 			{
-				"tall"			"240"
+				"tall"			"f0"
 			}
 
 			"TourList"
@@ -291,11 +291,9 @@
 	{
 		"Leaderboard6v6"
 		{
-			"xpos"			"350"
 		}
 		"Leaderboard9v9"
 		{
-			"xpos"			"350"
 		}
 		"StatLine"
 		{
@@ -303,7 +301,7 @@
 		}
 		"StatList"
 		{
-			"bgcolor_override"	"BackpackPopupBGColor"
+			"bgcolor_override"	"0 0 0 0"
 		}
 	}
 

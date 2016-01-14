@@ -19,7 +19,7 @@
 		"bgcolor_override"		"46 43 42 0"
 		"infocus_bgcolor_override"	"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"				"#Replay_Replay"
 		"title_font"			"HudFontMediumBold"
 		"titletextinsetX"		"0"
@@ -27,11 +27,11 @@
 		"titlebarfgcolor_override"		"200 187 161 255"
 		"titlebardisabledfgcolor_override"	"200 187 161 255"
 		"titlebarbgcolor_override"		"BackpackBGColor" //"46 43 42 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"			"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -45,7 +45,7 @@
 		"enabled"		"1"
 		"fillcolor_override"	"BackpackBorderColor"
 		"tileImage"		"1"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,7 +59,7 @@
 		"enabled"		"1"
 		"fillcolor_override"	"BackpackBorderColor"
 		"tileImage"		"1"
-	}				
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -71,10 +71,11 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/replaybrowser_solidline"
+		//"image"			"replay/replaybrowser_solidline"
+		"fillcolor"		"BackpackPopupBGColor"
 		"scaleImage"	"1"
-	}				
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -86,39 +87,40 @@
 		"tall"			"460"
 		"transition_time"	"0"
 		"bgcolor_override"	"BackpackBorderColor"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"34"
+			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/replaybrowser_solidline"
+			//"image"			"replay/replaybrowser_solidline"
+			"fillcolor"		"BackpackPopupBGColor"
 			"scaleImage"	"1"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"			"15"
 			"textAlignment"			"center"
 			"font"				"ReplayBrowserTab"
 			"selectedcolor"			"200 187 161 255"
-			"unselectedcolor"		"130 120 104 255"	
+			"unselectedcolor"		"130 120 104 255"
 			"defaultBgColor_override"	"BackpackBGColor"
 			"armedBgColor_override"		"BackpackBorderColor"
 			"selectedBgColor_override"	"BackpackBGColor"
 			"paintbackground"		"2"
 			"paintborder"			"1"
-			"activeborder_override"		"ReplayOutlinedGreyBox"
+			"activeborder_override"		"NoBorder"
 			"normalborder_override" 	"NoBorder"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -133,7 +135,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"<< Back (&Q)" //"#Replay_BackCarat"
+		"labelText"		"#Replay_BackCarat"
 		"font"			"ReplayMedium"
 		"textAlignment"		"center"
 		"dulltext"		"0"
@@ -146,5 +148,13 @@
 		"border_armed"		"ReplayGrayFillGrayBorder"
 		"armedBgColor_override"		"ReplayBrowser.Button.ArmedBgColor"
 		"depressedBgColor_override"	"ReplayBrowser.Button.DepressedBgColor"
-	}		
+	}
+	"backShortKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&q"
+		"command"	"back"
+	}
 }

@@ -76,7 +76,6 @@
 			"wide"			"427"
 			"tall"			"1"
 			"visible"		"0"
-			"scaleimage"		"1"
 			"bgcolor_override"	"tanlight"
 			"proportionalToParent"	"1"
 
@@ -360,7 +359,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"bgcolor_override"	"BackpackBorderColor"
+			"bgcolor_override"	"36 34 36 255"
 			"proportionalToParent"	"1"
 
 			"LevelProgressBarFGAnim"
@@ -389,7 +388,7 @@
 				"wide"			"20"
 				"tall"			"f0"
 				"visible"		"1"
-				"bgcolor_override"	"TanDark"
+				"bgcolor_override"	"ButtonArmedColor"
 				"proportionalToParent"	"1"
 			}
 		}
@@ -513,7 +512,7 @@
 		"labelText"		"%name%"
 		"textAlignment" 	"west"
 		"xpos"			"-50"
-		"ypos"			"-40"
+		"ypos"			"-38"
 		"wide"			"350"
 		"tall"			"32"
 		"fgcolor"		"TanLight"

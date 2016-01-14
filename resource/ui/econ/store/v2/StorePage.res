@@ -3,15 +3,35 @@
 
 "Resource/UI/StorePage.res"
 {
+	"ReloadSchemeButton"
+	{
+		"ypos"		"4"
+		"visible"	"0"
+		"textinsetx"	"0"
+	}
 	"StorePage"
 	{
 		"bgcolor_override"	"BackpackBGColor"
-		"max_cart_model_panels"	"14"
-		"item_panel_bgcolor"	"BackpackPopupBGColor"
-		"item_backdrop_color"	"36 34 36 255"
+		"max_cart_model_panels"	"12"
+		"item_panel_bgcolor"	"BackpackBorderColor"
+		"item_panel_bgcolor_mouseover"	"BackpackPopupBGColor"
+		"item_panel_bgcolor_selected"	"ButtonPressColor"
+		
+		"item_panels"		"24"
+		"item_columns"		"6"
+		"item_offcenter_x"	"-300"
+		
+		"item_xdelta"		"5"
+		"item_ydelta"		"5"
+		
+		"item_backdrop_color"	"46 44 46 255"
+		"item_backdrop_bottom_margin"	"50"
 		
 		"modelpanels_kv"
 		{
+			"wide"			"96"
+			"tall"			"62"
+			
 			"model_xpos"		""
 			"model_ypos"		""
 			"model_center_x"	"1"
@@ -32,146 +52,137 @@
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
 	}
-	"PrevPageButton"
+	"BackpackSpaceLabel"
 	{
-		"labelText"		"&A"
-	}	
-	"NextPageButton"
-	{
-		"labelText"		"&D"
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"16"
+		"fgcolor_override"	"TanLight"
+		"pin_to_sibling" 	"CartButton"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-
 	"CartButton"
 	{
+		"xpos"			"c-300"
+		"ypos"			"350"
 		"font"			"HudFontSmall"
 		"textinsetx"		"10"
 	}
 	"CartImage"
 	{
-		"xpos"			"c-298"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"pin_to_sibling" 	"CartButton"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-
+	
+	"PrevPageButton"
+	{
+		"xpos"			"2"
+		"ypos"			"0"
+		"labelText"		"&A"
+		"pin_to_sibling" 	"CurPageLabel"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	"CurPageLabel"
+	{
+		"wide"			"52"
+		"xpos"			"2"
+		"ypos"			"0"
+		"fgcolor_override"	"TanLight"
+		"pin_to_sibling" 	"NextPageButton"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	"NextPageButton"
+	{
+		"xpos"			"-11"
+		"ypos"			"-5"
+		"labelText"		"&D"
+		"pin_to_sibling" 	"ItemBackdrop"
+		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+	}
+	
 	"ClassFilterNavPanel"
 	{
 		"ButtonSettings"
 		{
-			"image_drawcolor"	"0 0 0 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"80 80 80 200"
+			"image_armedcolor"	"160 160 160 255"
 			"image_selectedcolor"	"255 255 255 255"
+			
+			"SubImage"
+			{
+				"wide"			"20"
+				"tall"			"20"
+			}
 		}
 		"Buttons"
 		{
 			"all"
 			{
-				"image_default"		"class_icons/filter_all_motd" // Unselected
-				"image_armed"		"class_icons/filter_all_motd" // Hover
-				"image_selected"	"class_icons/filter_all_on" // Active
-				"image_drawcolor"	"TanLight"
-				
-				"SubImage"
-				{
-					"image"			"class_icons/filter_all_motd"
-				}				
+				"image_default"		"replay/thumbnails/filter_all"
+				"image_armed"		"replay/thumbnails/filter_all"
+				"image_selected"	"replay/thumbnails/filter_all"
 			}
 			"scout"
 			{
-				"image_default"		"class_icons/filter_scout_motd"
-				"image_armed"		"class_icons/filter_scout_motd"
-				"image_selected"	"class_icons/filter_scout_on"
-				
-				"SubImage"
-				{
-					"image"			"class_icons/filter_scout_motd"
-				}				
+				"image_default"		"replay/thumbnails/filter_scout"
+				"image_armed"		"replay/thumbnails/filter_scout"
+				"image_selected"	"replay/thumbnails/filter_scout"
 			}
 			"soldier"
 			{
-				"image_default"		"class_icons/filter_soldier_motd"
-				"image_armed"		"class_icons/filter_soldier_motd"
-				"image_selected"	"class_icons/filter_soldier_on"
-
-				"SubImage"
-				{
-					"image"			"class_icons/filter_soldier_motd"
-				}				
+				"image_default"		"replay/thumbnails/filter_soldier"
+				"image_armed"		"replay/thumbnails/filter_soldier"
+				"image_selected"	"replay/thumbnails/filter_soldier"
 			}
 			"pyro"
 			{
-				"image_default"		"class_icons/filter_pyro_motd"
-				"image_armed"		"class_icons/filter_pyro_motd"
-				"image_selected"	"class_icons/filter_pyro_on"
-				
-				"SubImage"
-				{
-					"image"			"class_icons/filter_pyro_motd"
-				}				
+				"image_default"		"replay/thumbnails/filter_pyro"
+				"image_armed"		"replay/thumbnails/filter_pyro"
+				"image_selected"	"replay/thumbnails/filter_pyro"
 			}
 			"demo"
 			{
-				"image_default"		"class_icons/filter_demo_motd"
-				"image_armed"		"class_icons/filter_demo_motd"
-				"image_selected"	"class_icons/filter_demo_on"
-				
-				"SubImage"
-				{
-					"image"			"class_icons/filter_demo_motd"
-				}				
-			}	
+				"image_default"		"replay/thumbnails/filter_demo"
+				"image_armed"		"replay/thumbnails/filter_demo"
+				"image_selected"	"replay/thumbnails/filter_demo"
+			}
 			"heavy"
 			{
-				"image_default"		"class_icons/filter_heavy_motd"
-				"image_armed"		"class_icons/filter_heavy_motd"
-				"image_selected"	"class_icons/filter_heavy_on"
-				
-				"SubImage"
-				{
-					"image"			"class_icons/filter_heavy_motd"
-				}				
+				"image_default"		"replay/thumbnails/filter_heavy"
+				"image_armed"		"replay/thumbnails/filter_heavy"
+				"image_selected"	"replay/thumbnails/filter_heavy"
 			}
 			"engineer"
 			{
-				"image_default"		"class_icons/filter_engineer_motd"
-				"image_armed"		"class_icons/filter_engineer_motd"
-				"image_selected"	"class_icons/filter_engineer_on"
-				
-				"SubImage"
-				{
-					"image"			"class_icons/filter_engineer_motd"
-				}				
+				"image_default"		"replay/thumbnails/filter_engineer"
+				"image_armed"		"replay/thumbnails/filter_engineer"
+				"image_selected"	"replay/thumbnails/filter_engineer"
 			}
 			"medic"
 			{
-				"image_default"		"class_icons/filter_medic_motd"
-				"image_armed"		"class_icons/filter_medic_motd"
-				"image_selected"	"class_icons/filter_medic_on"
-				
-				"SubImage"
-				{
-					"image"			"class_icons/filter_medic_motd"
-				}				
+				"image_default"		"replay/thumbnails/filter_medic"
+				"image_armed"		"replay/thumbnails/filter_medic"
+				"image_selected"	"replay/thumbnails/filter_medic"
 			}
 			"sniper"
 			{
-				"image_default"		"class_icons/filter_sniper_motd"
-				"image_armed"		"class_icons/filter_sniper_motd"
-				"image_selected"	"class_icons/filter_sniper_on"
-				
-				"SubImage"
-				{
-					"image"			"class_icons/filter_sniper_motd"
-				}				
+				"image_default"		"replay/thumbnails/filter_sniper"
+				"image_armed"		"replay/thumbnails/filter_sniper"
+				"image_selected"	"replay/thumbnails/filter_sniper"
 			}
 			"spy"
 			{
-				"image_default"		"class_icons/filter_spy_motd"
-				"image_armed"		"class_icons/filter_spy_motd"
-				"image_selected"	"class_icons/filter_spy_on"
-
-				"SubImage"
-				{
-					"image"			"class_icons/filter_spy_motd"
-				}				
-			}	
+				"image_default"		"replay/thumbnails/filter_spy"
+				"image_armed"		"replay/thumbnails/filter_spy"
+				"image_selected"	"replay/thumbnails/filter_spy"
+			}
 		}
 	}
 }

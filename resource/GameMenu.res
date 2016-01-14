@@ -9,4 +9,14 @@
 		"command"	"OpenOptionsDialog"
 		"tooltip"	"#GameUI_GameMenu_Options"
 	}
+	
+	"PlayPVEButton"
+	{
+		"label"		"#Gametype_MVM"
+	}
+	"CharacterSetupButton"
+	{
+		"label"		"#BackpackTitle"
+		"command"	"engine open_charinfo_backpack"
+	}
 }

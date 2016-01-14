@@ -34,9 +34,11 @@
 				"inventory_image_type"	"1"
 				"antialias"		"1"
 			}
-			"namepanel"
+
+			"namelabel"
 			{
-				"tall"		"36"
+				"centerwrap"	"1"
+				"tall"		"38"
 			}
 		}
 		
@@ -45,6 +47,8 @@
 			"wide"			"15"
 			"tall"			"15"
 			"font"			"Default"
+			"paintbackground"	"1"
+			"DefaultBgColor_override"	"Black"
 			"border_default"	"QuickplayBorder"
 			"border_armed"		"QuickplayBorder"
 		}
@@ -87,7 +91,6 @@
 	
 	"CharacterLoadoutButton"
 	{
-		//"xpos"		"c-27"
 		"ypos"		"3"
 		"wide"		"25"
 		"tall"		"18"
@@ -102,7 +105,6 @@
 	}	
 	"TauntLoadoutButton"
 	{
-		//"xpos"		"c0"
 		"ypos"		"3"
 		"wide"		"25"
 		"tall"		"18"
@@ -122,14 +124,12 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		//"fov"			"60"
 		
 		"allow_manip"		"1"
 		"render_texture"	"0"
 		
 		"model"
 		{
-			//"origin_z" "-30"
 			"force_pos"	"1"
 			"modelname"	""
 			"spotlight"	"1"

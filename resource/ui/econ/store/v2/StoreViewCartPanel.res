@@ -89,6 +89,8 @@
 		"HeaderLine"
 		{
 			"tall"		"2"
+			"image"		""
+			"fillcolor"	"BackpackPopupBGColor"
 		}
 		"SeparatorLine"
 		{
@@ -113,8 +115,10 @@
 	}
 	"FooterLine"
 	{
-		"tall"		"2"
 		"ypos"		"435"
+		"tall"		"2"
+		"image"		""
+		"fillcolor"	"BackpackPopupBGColor"
 	}
 	
 	"CloseButton" // Continue Shopping
@@ -122,7 +126,15 @@
 		"ypos"		"445"
 		"zpos"		"250"
 		"tall"		"24"
-		"labelText"	"<< Continue Shopping (&Q)"
+		//"labelText"	"<< Continue Shopping (&Q)"
+	}
+	"closeShortKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&q"
+		"command"	"close"
 	}
 	
 	"CheckoutButton"

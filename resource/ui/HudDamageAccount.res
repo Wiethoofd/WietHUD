@@ -6,8 +6,9 @@
 		"text_x"		"0"
 		"text_y"		"0"
 		"delta_item_end_y"	"0"
-		"PositiveColor"		"0 255 0 255"
-		"NegativeColor"		"DamageTextColor"
+		"PositiveColor"		"0 255 0 255"		// Healing
+		"NegativeColor"		"DamageTextColor"	// Damage
+		"EventColor"		"0 255 255 180"		// Bonus
 		"delta_lifetime"	"3"
 		"delta_item_font"	"HudFontMediumOutline"
 		"delta_item_font_big"	"HudFontBigOutline"

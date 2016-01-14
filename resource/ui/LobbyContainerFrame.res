@@ -25,6 +25,8 @@
 	{
 		"ypos"			"435"
 		"tall"			"2"
+		"image"			""
+		"fillcolor_override"	"BackpackPopupBGColor"
 	}
 
 	"Sheet"
@@ -35,8 +37,10 @@
 
 		"HeaderLine"
 		{
-			"ypos"			"34"
+			"ypos"			"32"
 			"tall"			"2"
+			"image"			""
+			"fillcolor_override"	"BackpackPopupBGColor"
 		}
 
 		"tabskv"
@@ -47,6 +51,7 @@
 			"armedBgColor_override"		"37 37 37 255"
 			"selectedBgColor_override"	"BackpackBGColor"
 			"paintbackground"		"1"
+			"activeborder_override"		"NoBorder"
 			"normalborder_override"		"NoBorder"
 		}
 	}
