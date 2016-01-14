@@ -23,19 +23,23 @@
 	
 	"scores"
 	{
-		"name_width"		"136"	// 16:9
-		"name_width"		"124"	// 4:3
+		"avatar_width"		"57"
+		"spacer"		"2"
+		"name_width"		"144"	// 16:9
+		//"name_width"		"124"	// 4:3
+		"name_width_short"	"110"
+		"nemesis_width"		"20"
 		"score_width"		"25"
-		"score_width_lodef"	"25"
-		"ping_width"		"23"
-		"killstreak_width"	"20"
+		"class_width"		"20"
+		"killstreak_image_width" "10"
+		"ping_width"		"20"
 	}
 	BlueScoreBG
 	{
 		"ControlName"	"ScalableImagePanel"
 		"xpos"		"0"
 		"ypos"		"15"
-		"wide"		"320"
+		"wide"		"281"
 		"tall"		"46"
 		"border"	"QuickplayBorder"
 		"image"		"../hud/color_panel_blu"
@@ -49,13 +53,13 @@
 	RedScoreBG
 	{
 		"ControlName"	"ScalableImagePanel"
-		"xpos"		"320"
+		"xpos"		"360"
 		"ypos"		"15"
-		"wide"		"320"
+		"wide"		"280"
 		"tall"		"46"
 		"border"	"QuickplayBorder"
 		"image"		"../hud/color_panel_red"
-		"image_lodef"		"../hud/color_panel_red"
+		"image_lodef"	"../hud/color_panel_red"
 		"src_corner_width"	"24"
 		"src_corner_height"	"24"
 		"draw_corner_width"	"0"
@@ -63,6 +67,8 @@
 	}
 	MainBG
 	{
+		"ypos"			"15"
+		"tall"			"433"
 		"border"		"QuickplayBorder"
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
@@ -72,41 +78,92 @@
 			"visible"	"0"
 		}
 	}
+	
+	"TimerBG"
+	{
+		"ypos"		"15"
+		"tall"		"46"
+		"border"	"NoBorder"
+	}
+	"ServerTimeLeftLabel"
+	{
+		"xpos"		"0"
+		"ypos"		"-3"
+		"wide"		"80"
+		"pin_to_sibling" 	"TimerBG"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	"ServerTimeLeftValue"
+	{
+		"ypos"		"28"
+		"tall"		"30"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	"ServerTimeLeftInsetBG"
+	{
+		"visible"	"0"
+	}
 
+	"BlueTeamImage"
+	{
+		"xpos"		"2"
+		"ypos"		"8"
+	}
 	"BlueTeamLabel"
 	{
-		"font"		"ScoreboardTeamNameLarge"
-		"xpos"		"5"
-		"ypos"		"12"
-		"wide"		"315"
-	}
-	"RedTeamLabel"
-	{
-		"font"		"ScoreboardTeamNameLarge"
-		"xpos"		"320"
-		"ypos"		"12"
-		"wide"		"315"
-	}
-	
+		"font"		"ScoreboardMedium"
+		"xpos"		"-65"
+		"ypos"		"-2"
+		"wide"		"180"
+		"tall"		"19"
+		"textalignment"	"west"
+		"visible"	"1"
+		"pin_to_sibling" 	"BlueScoreBG"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}	
 	"BlueTeamPlayerCount"
 	{
 		"font"		"ScoreboardMedium"
-		"ypos"		"40"
-		"xpos"		"5"
-		"xpos_hidef"	"5"
-		"wide"		"135"
+		"xpos"		"-65"
+		"ypos"		"-2"
 		"tall"		"19"
+		"visible"	"1"
+		"textalignment"	"west"
+		"pin_to_sibling" 	"BlueScoreBG"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"RedTeamImage"
+	{
+		"xpos"		"575"
+	}
+	"RedTeamLabel"
+	{
+		"font"		"ScoreboardMedium"
+		"xpos"		"-60"
+		"ypos"		"-2"
+		"wide"		"180"
+		"tall"		"19"
+		"textalignment"	"east"
+		"visible"	"1"
+		"pin_to_sibling" 	"RedScoreBG"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"RedTeamPlayerCount"
 	{
 		"font"		"ScoreboardMedium"
-		"xpos"		"500"
-		"xpos_lodef"	"500"
-		"xpos_hidef"	"500"
-		"ypos"		"40"
-		"wide"		"135"
+		"xpos"		"-60"
+		"ypos"		"-2"
 		"tall"		"19"
 		"textAlignment" "east"
+		"visible"	"1"
+		"pin_to_sibling" 	"RedScoreBG"
+		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"ServerLabel"
@@ -136,23 +193,30 @@
 	
 	"BluePlayerList"
 	{
+		"ypos"			"60"
 		"linespacing"		"17"
+		"linegap"		"0"
 		"xpos"			"1"
 		"wide"			"317"
+		"show_columns"	"0"
 	}
 	"RedPlayerList"
 	{
+		"ypos"			"60"
 		"linespacing"		"17"
+		"linegap"		"0"
 		"xpos"			"322"
 		"wide"			"317"
+		"show_columns"	"0"
 	}
 
 	"HorizontalLine"
 	{
-		"wide"			"493"
+		"wide"			"520"
+		"visible"		"1"
 
 		if_mvm {
-			"wide"		"493"
+			"wide"		"520"
 		}
 	}
 	"VerticalLine"
@@ -161,10 +225,19 @@
 		"wide"		"2"
 		"fillcolor"	"33 33 33 150"
 	}
+	"ServerLabelNew"
+	{
+		"xpos"		"380"
+		"wide"		"255"
+	}
 	"MapName"
 	{
-		"xpos"		"350"
+		"xpos"		"380"
 		"wide"		"255"
+	}
+	"PlayerNameBG"
+	{
+		"visible"	"0"
 	}
 	"PlayerNameLabel"
 	{
