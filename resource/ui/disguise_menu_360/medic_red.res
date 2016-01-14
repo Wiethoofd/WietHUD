@@ -1,0 +1,1 @@
+#base "../disguise_menu/medic_red.res"

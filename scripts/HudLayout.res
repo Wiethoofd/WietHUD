@@ -37,17 +37,17 @@
 		"enabled" 		"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	HudPlayerStatus
 	{
 		"zpos"		"0"
 	}
-	
+
 	// Sniper Scope Transparent Viewmodel fix
 	HudZoom		{ "zpos" "-1" }
 	HudScope	{ "zpos" "-1" }
 
-	"HudChat" // Chat Window // Chat Window (Positioned inside BaseChat.res)
+	"HudChat" // Chat Window (Positioned inside BaseChat.res)
 	{
 		"wide"	 	"400"
 		"tall"	 	"150"
@@ -59,8 +59,9 @@
 	}
 	"HudMenuSpyDisguise" // Disguise menu
 	{
-		"xpos"		"r470"
-		"ypos"		"c-64"
+		"xpos"		"0"
+		"ypos"		"c-6"
+		"wide"		"f0"
 	}
 	DisguiseStatus // Spy disguise status
 	{
@@ -101,10 +102,10 @@
 		"ypos"			"r48"
 		"ypos_minmode"		"r36"
 		"tall"			"60"
-		
+
 		"blue_active_xpos"		"0"
 		"blue_active_xpos_minmode"	"47"
-		
+
 		"red_active_xpos"		"122"
 		"red_active_xpos_minmode"	"115"
 	}
@@ -128,14 +129,14 @@
 		"ypos"			"c-180"
 		"ypos_minmode"		"c-187"
 	}
-	
+
 	HudArenaNotification
 	{
 		"ypos"			"c-130"
 		"ypos_hidef"		"c-130"
 		"ypos_lodef"		"c-130"
 	}
-	
+
 	HudArenaPlayerCount // Arena Player count
 	{
 		"xpos"		"-62"
@@ -150,7 +151,7 @@
 	{
 		"ypos"		"c100"
 	}
-	
+
 	NotificationPanel // Notifications
 	{
 		"ypos"			"c-130"
@@ -159,7 +160,7 @@
 	{
 		"ypos"			"c-130"
 	}
-	
+
 	HudTeamSwitch // Autobalance message
 	{
 		"ypos"			"c-130"
@@ -174,17 +175,17 @@
 		"ypos"			"15"
 		"ypos_lodef"		"15"
 	}
-	
+
 	HudStalemate
 	{
 		"ypos"			"c-130"
 	}
-	
+
 	HudHintDisplay
 	{
 		"ypos"			"c-130"
 	}
-	
+
 	StatPanel
 	{
 		"ypos"			"c-130"
@@ -230,7 +231,7 @@
 		"xpos"			"-5"
 		"ypos"			"-5"
 	}
-	
+
 	"HudAchievementTracker" // Achievement Tracker
 	{
 		"xpos"			"-5"
@@ -325,7 +326,7 @@
 		"LocalBackgroundColor"	"245 229 196 160"
 		"BaseBackgroundColor"	"46 43 42 180"
 	}
-	
+
 	HudBossHealth // Halloween boss health bar
 	{
 		"ypos"		"20"
@@ -345,22 +346,22 @@
 		"xpos"			"r150" [$WIN32]
 		"item_tall"		"16"
 		"item_wide"		"150"
-		
+
 		"show_avatar"		"1"
 		"avatar_xpos"		"1"
 		"avatar_ypos"		"1"
 		"avatar_tall"		"14"
 		"avatar_wide"		"14"
-		
+
 		"show_voice_icon"	"1"
 		"icon_xpos"		"25"
 		"icon_ypos"		"1"
 		"icon_tall"		"14"
 		"icon_wide"		"14"
-		
+
 		"text_xpos"		"41"
 		"text_ypos"		"0"
-		
+
 		"dead_xpos"		"1"
 		"dead_ypos"		"4"
 		"dead_wide"		"9"

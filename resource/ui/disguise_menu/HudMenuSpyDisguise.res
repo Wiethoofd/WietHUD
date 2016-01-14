@@ -1,0 +1,401 @@
+"Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
+{	
+	"class_item_red_1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_1"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-128"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_1"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-128"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"class_item_red_2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_2"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-103"
+		"ypos"			"52"
+		"zpos"			"2"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_2"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-103"
+		"ypos"			"52"
+		"zpos"			"2"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"class_item_red_3"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_3"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-78"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_3"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_3"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-78"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"class_item_red_4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_4"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-49"
+		"ypos"			"58"
+		"zpos"			"3"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_4"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-49"
+		"ypos"			"58"
+		"zpos"			"3"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"class_item_red_5"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_5"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-24"
+		"ypos"			"6"
+		"zpos"			"2"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_5"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_5"
+		"proportionaltoparent"	"1"
+		"xpos"			"c-24"
+		"ypos"			"6"
+		"zpos"			"2"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"class_item_red_6"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_6"
+		"proportionaltoparent"	"1"
+		"xpos"			"c1"
+		"ypos"			"58"
+		"zpos"			"1"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_6"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_6"
+		"proportionaltoparent"	"1"
+		"xpos"			"c1"
+		"ypos"			"58"
+		"zpos"			"1"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"class_item_red_7"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_7"
+		"proportionaltoparent"	"1"
+		"xpos"			"c30"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_7"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_7"
+		"proportionaltoparent"	"1"
+		"xpos"			"c30"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"class_item_red_8"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_8"
+		"proportionaltoparent"	"1"
+		"xpos"			"c55"
+		"ypos"			"52"
+		"zpos"			"2"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_8"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_8"
+		"proportionaltoparent"	"1"
+		"xpos"			"c55"
+		"ypos"			"52"
+		"zpos"			"2"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"class_item_red_9"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_red_9"
+		"proportionaltoparent"	"1"
+		"xpos"			"c80"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}	
+	
+	"class_item_blue_9"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"class_item_blue_9"
+		"proportionaltoparent"	"1"
+		"xpos"			"c80"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"48"
+		"tall"			"50"
+		"visible"		"0"
+		"bgcolor_override"	"TransparentBlack"
+		"border"		"QuickplayBorder"
+	}
+	
+	"ToggleLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"	"ToggleLabel"
+		"font"		"DefaultShadow"
+		"xpos"		"c-128"
+		"ypos"		"106"
+		"zpos"		"1"
+		"wide"		"128"
+		"tall"		"11"
+		"labelText"	"Toggle Teams: Reload"
+		"textAlignment"	"Center"
+		"textinsetx"	"2"
+	}
+	
+	"CancelLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"	"CancelLabel"
+		"font"		"DefaultShadow"
+		"xpos"		"c0"
+		"ypos"		"106"
+		"zpos"		"1"
+		"wide"		"128"
+		"tall"		"11"
+		"labelText"	"Cancel: Last Weapon"
+		"textAlignment"	"Center"
+		"textinsetx"	"2"
+	}
+	
+	"NumberBg1"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"NumberBg"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"0"
+		"tall"		"0"
+		"visible"	"0"
+		"enabled"	"1"
+	}
+	
+	"NumberBg2"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"NumberBg"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"0"
+		"tall"		"0"
+		"visible"	"0"
+		"enabled"	"1"
+	}
+	
+	"NumberBg3"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"NumberBg"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"0"
+		"tall"		"0"
+		"visible"	"0"
+		"enabled"	"1"
+	}
+	
+	"NumberLabel1"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"HudFontBigShadow"
+		"fgcolor"		"TanLight"
+		"xpos"			"c-103"
+		"ypos"			"25"
+		"zpos"			"5"
+		"wide"			"48"
+		"tall"			"48"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"		"Center"
+		"dulltext"		"1"
+		"brighttext"		"0"
+	}
+	
+	"NumberLabel2"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"HudFontBigShadow"
+		"fgcolor"		"TanLight"
+		"xpos"			"c-24"
+		"ypos"			"36"
+		"zpos"			"5"
+		"wide"			"48"
+		"tall"			"48"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"2"
+		"textAlignment"		"Center"
+		"dulltext"		"1"
+		"brighttext"		"0"
+	}
+	
+	"NumberLabel3"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"HudFontBigShadow"
+		"fgcolor"		"TanLight"
+		"xpos"			"c55"
+		"ypos"			"25"
+		"zpos"			"5"
+		"wide"			"48"
+		"tall"			"48"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"3"
+		"textAlignment"		"Center"
+		"dulltext"		"1"
+		"brighttext"		"0"
+	}
+}

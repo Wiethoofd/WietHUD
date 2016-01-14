@@ -1,0 +1,1 @@
+#base "../disguise_menu/scout_red.res"

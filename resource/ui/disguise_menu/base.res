@@ -1,0 +1,88 @@
+"Resource/UI/disguise_menu/base.res"
+{
+	"NumberBg"
+	{
+		"visible"	"0"
+	}
+
+	"ClassImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ClassImage"
+		"xpos"			"0"
+		"ypos"			"r48"
+		"zpos"			"0"
+		"wide"			"48"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"
+		"proportionaltoparent"	"1"
+		"image"			"../vgui/class_portraits/all_class"
+		"image"			"../vgui/contracts/photo_play_any_class"
+	}
+	
+	"ItemNameLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemName"
+		"font"			"DefaultShadow"
+		"xpos"			"0"
+		"ypos"			"r20"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"12"
+		"proportionaltoparent"	"1"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+	}
+
+	"NewNumberLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"DefaultShadow"
+		"fgcolor"		"TanLight"
+		"xpos"			"0"
+		"ypos"			"r10"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"10"
+		"proportionaltoparent"	"1"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"		"Center"
+		"dulltext"		"1"
+		"brighttext"		"0"
+	}
+
+	"NumberLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"DefaultShadow"
+		"fgcolor"		"TanLight"
+		"xpos"			"0"
+		"ypos"			"r10"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"10"
+		"proportionaltoparent"	"1"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"		"Center"
+		"dulltext"		"1"
+		"brighttext"		"0"
+	}
+}

@@ -1,0 +1,1 @@
+#base "../disguise_menu/heavy_red.res"
