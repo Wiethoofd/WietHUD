@@ -365,6 +365,11 @@
 		{
 			"visible"	"0"
 		}
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"CaptureFlag"
@@ -389,6 +394,39 @@
 		{
 			"ypos"		"r65"
 		}
+	}
+
+	"PoisonIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PoisonIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"r50"
+		"zpos"			"12"
+		"wide"			"30"
+		"tall"			"o1"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"marked_for_death"
+		"scaleImage"		"1"
+		"drawcolor_override"	"200 200 200 120"
+	}
+
+	"PoisonTimeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PoisonTimeLabel"
+		"xpos"			"cs-0.5"
+		"ypos"			"r46"
+		"zpos"			"12"
+		"wide"			"40"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"		"center"	
+		"labelText"		"%redscore%"
+		"font"			"HudFontSmallBoldShadow"
+		"fgcolor"		"TanLight"
 	}
 
 	"SpecCarriedImage"

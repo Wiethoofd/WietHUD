@@ -93,21 +93,27 @@
 
 	HudStopWatch
 	{
-		"ypos"			"5"
-		"ypos_minmode"		"-5"
+		"xpos"			"0"
+		"ypos"			"0"
+		"ypos_minmode"		"0"
+		"zpos"			"0"
+		"wide"			"f0"
 	}
 	HudKothTimeStatus // KotH Timers
 	{
 		"xpos"			"c-100"
-		"ypos"			"r48"
+		"xpos_minmode"		"c-100"
+		"ypos"			"r36"
 		"ypos_minmode"		"r36"
 		"tall"			"60"
+		"wide"			"200"
+		"wide_minmode"		"200"
 
-		"blue_active_xpos"		"0"
-		"blue_active_xpos_minmode"	"47"
+		"blue_active_xpos"		"24"
+		"blue_active_xpos_minmode"	"24"
 
-		"red_active_xpos"		"122"
-		"red_active_xpos_minmode"	"115"
+		"red_active_xpos"		"124"
+		"red_active_xpos_minmode"	"124"
 	}
 
 	HudControlPointIcons // Control Points
@@ -144,7 +150,7 @@
 	}
 	HudArenaCapPointCountdown
 	{
-		"ypos"		"c100"
+		"ypos"		"r37"
 	}
 
 	HudCapturePanel // Flag Capture notification
@@ -167,13 +173,13 @@
 	}
 	HudTeamGoal
 	{
-		"ypos"			"45"
-		"ypos_lodef"		"45"
+		"ypos"			"20"
+		"ypos_lodef"		"20"
 	}
 	HudTeamGoalTournament
 	{
-		"ypos"			"15"
-		"ypos_lodef"		"15"
+		"ypos"			"0"
+		"ypos_lodef"		"0"
 	}
 
 	HudStalemate

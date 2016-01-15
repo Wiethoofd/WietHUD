@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CircularProgressBar"
 		"fieldName"	"ProgressBar"
-		"xpos"		"16"
+		"xpos"		"c-16"
 		"ypos"		"2"
 		"zpos"		"23"
 		"wide"		"32"
@@ -28,38 +28,41 @@
 		"enabled"	"1"
 		"fg_image"	"progress_bar_blu"
 		"bg_image"	"progress_bar_blu"
+		"proportionaltoparent"	"1"
 	}
 
 	"Teardrop"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"Teardrop"
-		"xpos"		"15"
+		"xpos"		"c-18"
 		"ypos"		"0"
 		"zpos"		"21"
-		"wide"		"35"
+		"wide"		"36"
 		"tall"		"42"
 		"visible"	"1"
 		"enabled"	"1"
 		"scaleImage"	"1"
 		"icon"		"cappoint_progressbar_teardrop"
 		"iconColor"	"255 255 255 255"
+		"proportionaltoparent"	"1"
 	}
 	
 	"TeardropSide"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"TeardropSide"
-		"xpos"		"14"
+		"xpos"		"c-18"
 		"ypos"		"0"
 		"zpos"		"21"
-		"wide"		"35"
-		"tall"		"35"
+		"wide"		"36"
+		"tall"		"36"
 		"visible"	"1"
 		"enabled"	"1"
 		"scaleImage"	"1"
 		"icon"		"cappoint_progressbar_teardrop"
 		"iconColor"	"255 255 255 255"
+		"proportionaltoparent"	"1"
 	}
 
 	"ProgressText"

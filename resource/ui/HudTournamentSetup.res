@@ -56,6 +56,7 @@
 		"border_override"	"QuickplayBorder"
 		"FgColor" 	"59 169 60 255"
 		"defaultFgColor_override" 	"59 169 60 255"
+		"defaultBgColor_override" 	"30 30 30 230"
 		"armedFgColor_override" 	"TanLight"
 		"armedBgColor_override"		"59 169 60 255"
 	}
@@ -69,6 +70,7 @@
 		"border_override"	"QuickplayBorder"
 		"FgColor" 	"169 59 60 255"
 		"defaultFgColor_override" 	"169 59 60 255"
+		"defaultBgColor_override" 	"30 30 30 230"
 		"armedFgColor_override"		"TanLight"
 		"armedBgColor_override"		"169 59 60 255"
 	}

@@ -1,0 +1,117 @@
+"Resource/UI/ControlPointIcon.res"
+{
+	"ControlPointIcon"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ControlPointIcon"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"32"
+		"tall"		"32"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"Countdown"
+	{
+		"ControlName"	"CControlPointCountdown"
+		"fieldName"	"Countdown"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"f0"
+		"tall"		"f0"
+		"visible"	"1"
+		"enabled"	"1"
+		"proportionaltoparent"	"1"
+	}	
+
+	"CapPlayerImage"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"	"CapPlayerImage"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"3"
+		"wide"		"10"
+		"tall"		"20"
+		"visible"	"0"
+		"enabled"	"1"
+		"image"		"capture_icon"
+		"scaleImage"	"1"
+	}
+
+	"CapNumPlayers"
+	{	
+		"ControlName"	"Label"
+		"fieldName"	"CapNumPlayers"
+		"font"		"CapPlayerFont"
+		"xpos"		"14"
+		"ypos"		"2"
+		"zpos"		"4"
+		"wide"		"22"
+		"tall"		"32"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"	"1"
+		"enabled"	"1"
+		"labelText"	"#ControlPointIconCappers"
+		"textAlignment"	"west"
+		"dulltext"	"0"
+		"brighttext"	"0"
+		"textinsetx"	"2"
+	}
+
+	"OverlayImage"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"	"OverlayImage"
+		"xpos"		"19"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"	"0"
+		"enabled"	"1"
+		"image"		"capture_icon"
+		"scaleImage"	"1"
+	}
+	
+	"CPTimerLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"CPTimerLabel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"0"
+		"wide"		"10"
+		"tall"		"28"
+		"visible"	"0"
+		"enabled"	"1"
+		"labelText"	"60"
+		"textAlignment"	"center"
+		"textinsetx"	"12"
+		"auto_wide_tocontents"	"1"
+		"dulltext"	"0"
+		"brighttext"	"0"
+		"wrap"		"0"
+		"font"		"DefaultSmall"
+		"bgcolor_override"	"TransparentBlack"
+	}
+				
+	"CPTimerBG"
+	{
+		"ControlName"	"Panel"
+		"fieldName"	"CPTimerBG"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"-1"
+		"wide"		"0"
+		"tall"		"32"
+		"visible"	"0"
+		"enabled"	"1"
+		"image"		"../sprites/obj_icons/icon_obj_timer"	
+		"scaleImage"	"1"	
+	}
+}

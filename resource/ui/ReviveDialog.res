@@ -1,5 +1,5 @@
 #base "../../default_hudfiles/resource/ui/revivedialog.res"
-// MvM Revive popup
+// MvM Revive Message
 
 "Resource/UI/ReviveDialog.res"
 {
@@ -23,7 +23,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"border"		"QuickplayBorder"
-			"bgcolor_override"	"BackpackPopupBGColor"
+			"bgcolor_override"	"BackpackBGColor"
 			"paintbackgroundtype"	"2"
 			"paintbackground"	"1"
 			"paintborder"		"1"
@@ -41,7 +41,7 @@
 			"visible"	"1"
 			"xpos"		"r0"
 			"labeltext"	"&q"
-			"Command"	"confirm"
+			"Command"	"continue"
 		}
 	}
 }
