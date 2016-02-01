@@ -34,7 +34,7 @@
 		"wide"		"120"
 		"tall"		"22"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"OkButton"
 	{
@@ -43,7 +43,7 @@
 		"wide"		"120"
 		"tall"		"22"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	
 	"TooltipPanel"

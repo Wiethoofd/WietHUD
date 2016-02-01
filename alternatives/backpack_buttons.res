@@ -78,7 +78,7 @@
 		"brighttext"		"0"
 		"Command"		"prevpage"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -123,7 +123,7 @@
 		"brighttext"		"0"
 		"Command"		"nextpage"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

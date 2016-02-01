@@ -77,7 +77,7 @@
 		"tall"			"19"
 		"font"			"HudFontSmall"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"TextEntryControl"
 	{

@@ -15,11 +15,12 @@
 	}
 	"DoneButton"
 	{
+		"ControlName"	"CExButton"
 		"xpos"		"0"
 		"ypos"		"0"
 		"border"	"QuickplayBorder"
 		"border_override"	"QuickplayBorder"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 }

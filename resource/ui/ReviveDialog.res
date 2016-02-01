@@ -32,7 +32,7 @@
 		"ConfirmButton"
 		{
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 		
 		"DeclineShortkey"

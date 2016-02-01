@@ -10,8 +10,9 @@
 	"reloadschemebutton" { xpos r20 ypos 5 }
 	
 	"ItemSelectionPanel" {
+		"zpos"				"560"
 		"tall"				"420"
-		"item_ypos"			"44"
+		"item_ypos"			"47"
 		"bgcolor_override"		"BackpackBGColor"
 		
 		"item_backpack_xdelta"		"3"
@@ -73,54 +74,47 @@
 	}
 	
 	"CancelButton" {
-		"ypos"			"360"
+		"ypos"			"368"
 		"wide"			"20"
 		"tall"			"20"
 		"labeltext"		"&x"
 		"visible"		"0"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	
 	"OnlyAllowUniqueQuality" {
-		"ypos"			"360"
+		"ypos"			"368"
 		"wide"			"250"
 		"tall"			"19"
 	}
 	
 	"ShowBackpack" {
 		"font"			"HudFontSmallestBold"
-		"xpos"			"c-95"
-		"ypos"			"360"
-		"wide"			"146"
+		"wide"			"143"
 		"tall"			"20"
 		"textinsetx"		"3"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"ShowSelection" {
 		"font"			"HudFontSmallestBold"
-		"xpos"			"c-95"
-		"ypos"			"360"
-		"wide"			"146"
+		"wide"			"143"
 		"tall"			"20"
 		"textinsetx"		"3"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	
 	"PrevPageButton" {
-		"ypos"			"360"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"CurPageLabel" {
-		"ypos"			"360"
 	}
 	"NextPageButton" {
-		"ypos"			"360"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	
 	"TopLine" {
@@ -131,12 +125,14 @@
 	}
 	
 	"mouseoveritempanel" {
+		"zpos"			"525"
 		"text_ypos"		"6"
 		"text_center_y"		"0"
 		"padding_height"	"6"
 		"bgcolor_override"	"BackpackBorderColor"
 		
 		"attriblabel" {
+			"zpos"		"516"
 			"ypos"		"5"
 			"wide"		"150"
 			"tall"		"30"

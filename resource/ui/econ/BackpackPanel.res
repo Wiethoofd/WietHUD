@@ -1,7 +1,7 @@
 //#base "../../../alternatives/reloadscheme_button.res"
 #base "../../../alternatives/backpack_widescreen.res"
 //#base "../../../alternatives/backpack_1610.res"
-//#base "../../../alternatives/backpack_54.res"
+#base "../../../alternatives/backpack_54.res"
 //#base "../../../alternatives/backpack_43.res"
 
 #base "../../../alternatives/backpack_buttons.res"
@@ -28,7 +28,7 @@
 			"Button" {
 				"tall"			"14"
 				"border_default"	"QuickplayBorder"
-				"border_armed"		"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
 			}
 			"New" {
 				"wide"			"f0"
@@ -68,6 +68,7 @@
 	}
 
 	"mouseoveritempanel" { // Hover item
+		"zpos"			"552"
 		"text_ypos"		"6"
 		"padding_height"	"6"
 		"bgcolor_override"	"BackpackBorderColor"
@@ -130,7 +131,7 @@
 		"wide"			"130"
 		"tall"			"20"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 
 	"SortByComboBox" // Sort items by

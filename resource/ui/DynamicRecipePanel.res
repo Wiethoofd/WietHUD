@@ -5,6 +5,7 @@
 	"dynamic_recipe_panel" {
 		"bgcolor_override"		"BackpackBGColor"
 		"tall"				"415"
+		"zpos"				"515"
 		"item_backpack_xdelta"		"3"
 		"item_backpack_ydelta"		"3"
 		
@@ -34,12 +35,12 @@
 		"PrevPageButton" {
 			"labelText"		"&F"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 		"NextPageButton" {
 			"labelText"		"&G"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 	}
 	"recipecontainer" {
@@ -49,12 +50,12 @@
 		"PrevInputPageButton" {
 			"labelText"		"&H"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 		"NextInputPageButton" {
 			"labelText"		"&J"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 	}
 	

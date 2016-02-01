@@ -50,14 +50,6 @@
 			"visible"		""
 		}
 
-		"InactiveSeparatorPanel"
-		{
-			"xpos"			"4"
-			"wide"			"492"
-			"tall"			"2"
-			"autoResize"		"1"
-		}
-
 		"InnerPanelRim"
 		{
 			"border"		"NoBorder"
@@ -86,6 +78,10 @@
 			"wide"			"50"
 			"tall"			"50"
 		}
+		"SentryIcon"
+		{
+			"zpos"		"-1"
+		}
 
 		"ActiveTabPanel"
 		{
@@ -94,10 +90,12 @@
 		"MouseOverTabPanel"
 		{
 			"ypos"		"3"
+			"wide"		"73"
 		}
 		"MouseOverUpgradePanel"
 		{
-			"border"	"QuickplayBorder" //"NoBorder"
+			"border"	"NoBorder"
+			"bgcolor_override"	"BackpackBorderColor"
 			"wide"		"158"
 			"tall"		"48"
 		}
@@ -105,49 +103,44 @@
 		"InactiveTabPanel1"
 		{
 			"ypos"		"6"
-			"border_default"	"NoBorder"
 		}
 		"InactiveTabPanel2"
 		{
 			"ypos"		"4"
-			"border_default"	"NoBorder"
 		}
 		"InactiveTabPanel3"
 		{
 			"ypos"		"4"
-			"border_default"	"NoBorder"
 		}
 		"InactiveTabPanel4"
 		{
 			"ypos"		"4"
-			"border_default"	"NoBorder"
 		}
 		"InactiveTabPanel5"
 		{
 			"ypos"		"4"
-			"border_default"	"NoBorder"
 		}
 		"InactiveTabPanel6"
 		{
 			"ypos"		"4"
-			"border_default"	"NoBorder"
+		}
+
+		"InactiveSeparatorPanel"
+		{
+			"xpos"			"4"
+			"wide"			"492"
+			"tall"			"2"
+			"autoResize"		"1"
 		}
 
 		"UpgradeItemsDescriptionBG"
 		{
 			"visible"		"0"
 		}
-		//"UpgradeItemsDescriptionLabel" // Upgrade Description tooltip (top left)
-		//{
-		//	"xpos"			"11"
-		//	"ypos"			"55"
-		//	"wide"			"156"
-		//	"tall"			"60"
-		//}
 		"UpgradeItemsDescriptionLabel" // Upgrade Description tooltip
 		{
 			"xpos"			"171"
-			"ypos"			"254" //"55"
+			"ypos"			"254"
 			"wide"			"320"
 			"tall"			"44"
 		}
@@ -155,7 +148,7 @@
 		"UpgradeItemsHeaderBG" // Item name background
 		{
 			"xpos"			"11"
-			"ypos"			"57" // "115"
+			"ypos"			"57"
 			"wide"			"158"
 			"tall"			"34"
 			"bgcolor_override"	"BackpackBorderColor"
@@ -164,7 +157,7 @@
 		{
 			"font"			"HudFontSmallest"
 			"xpos"			"13"
-			"ypos"			"57" //"115"
+			"ypos"			"57"
 			"wide"			"154"
 			"tall"			"34"
 			"centerwrap"		"1"
@@ -173,15 +166,15 @@
 		"UpgradeItemsBG" // Item stats background
 		{
 			"xpos"			"11"
-			"ypos"			"90" //"144"
+			"ypos"			"90"
 			"wide"			"158"
-			"tall"			"206"
+			"tall"			"207"
 			"bgcolor_override"	"BackpackBGColor"
 		}
 		"UpgradeItemStatsLabel" // Item stats
 		{
 			"xpos"			"13"
-			"ypos"			"92" //"145"
+			"ypos"			"92"
 			"wide"			"154"
 			"tall"			"203"
 		}
@@ -200,21 +193,21 @@
 			"ypos"		"308"
 			"wide"		"130"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 		"CancelButton"
 		{
 			"xpos"		"344"
 			"ypos"		"308"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 		"CloseButton"
 		{
 			"xpos"		"422"
 			"ypos"		"308"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 	}
 
@@ -222,7 +215,7 @@
 	{
 		"ypos"			"415"
 		//"tall"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		"TipPanelBG"
@@ -258,7 +251,7 @@
 			"tall"			"30"
 			"font"			"HudFontSmallestBold"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 	}
 }

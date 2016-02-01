@@ -2,7 +2,8 @@
 
 "Resource/UI/ItemSelectionPanel.res"
 {
-	"ItemSelectionPanel" {
+	"ItemSelectionPanel"
+	{
 		"modelpanels_selection_kv" {
 			"text_wide"		"93"
 		}
@@ -10,41 +11,50 @@
 			"wide"			"56"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"xpos"		"c-288"
 	}
-	
-	"ItemSlotLabel"	{
-		"xpos"			"c-288"
-	}	
-	"OnlyAllowUniqueQuality" {
-		"Font"			"HudFontSmallest"
-		"xpos"			"c-288"
+
+	"ClassLabel" {
+		"xpos"		"c-288"
 	}
-	
+
+	"ItemSlotLabel" {
+		"xpos"		"c-288"
+	}
+	"OnlyAllowUniqueQuality" {
+		"Font"		"HudFontSmallest"
+		"xpos"		"c-288"
+	}
+
 	"ShowBackpack" {
-		"xpos"			"c-95"
+		"xpos"		"c144"
+		"ypos"		"2"
 	}
 	"ShowSelection" {
-		"xpos"			"c-95"
+		"xpos"		"c144"
+		"ypos"		"2"
 	}
-	
+
 	"NameFilterTextEntry"
 	{
 		"xpos"		"c144"
-		"ypos"		"360"
+		"ypos"		"24"
 		"wide"		"143"
-	}	
-	
+	}
+
  	"PrevPageButton" {
-		"ypos"			"360"
+		"xpos"		"c204"
+		"ypos"		"366"
 	}
 	"CurPageLabel" {
-		"ypos"			"360"
+		"xpos"		"c226"
+		"ypos"		"366"
 	}
 	"NextPageButton" {
-		"ypos"			"360"
+		"xpos"		"c268"
+		"ypos"		"366"
 	}
 }

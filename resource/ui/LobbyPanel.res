@@ -6,6 +6,10 @@
 	"LobbyPanel"
 	{
 		"bgcolor_override"	"BackpackBGColor"
+		"player_name_width"	"110"
+		"has_ticket_width"	"14"
+		"squad_surplus_width"	"14"
+		"badge_level_width"	"24"
 	}
 
 	"MannVsMachineGroupBox" // Co-op main screen
@@ -24,7 +28,7 @@
 	{
 		"xpos"		"0"
 		"ypos"		"0"
-		
+
 		"pin_to_sibling" 	"MannVsMachineGroupBox"
 		"pin_corner_to_sibling" "5"
 		"pin_to_sibling_corner" "6"
@@ -109,7 +113,7 @@
 			"ypos"			"60"
 			"tall"			"24"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 
 		"MannUpTicketImage"
@@ -133,7 +137,7 @@
 			"wide"			"120"
 			"tall"			"24"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 
 		"SquadSurplusImage"
@@ -159,7 +163,7 @@
 			"wide"			"120"
 			"tall"			"24"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 
 		"SquadSurplusCheckButton" // Voucher
@@ -222,7 +226,7 @@
 			"tall"			"18"
 			"font"			"HudFontSmall"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 	}
 
@@ -286,7 +290,7 @@
 		"tall"			"375"
 		"bgcolor_override"	"0 0 0 180"
 	}
-	
+
 	"CompetitiveModeGroupBox"
 	{
 		"Leaderboard6v6"
@@ -307,19 +311,21 @@
 
 	"PartyActiveGroupBox"
 	{
+
 		"PartyGroupBox"
 		{
 			"bgcolor_override"	"0 0 0 180"
-			
+
 			"InviteButton"
 			{
 				"border_default"	"QuickplayBorder"
-				"border_armed"		"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
 			}
 			"PartyPlayerList"
 			{
 				"xpos"			"2"
 				"wide"			"197"
+				//"show_columns"	"1"
 			}
 		}
 

@@ -5,6 +5,7 @@
 {
 	"CollectionCraftingPanel"
 	{
+		"slide_in_time"		"0"
 		"ItemContainerKV"
 		{
 			"itempanel"
@@ -18,15 +19,38 @@
 	}
 	"Dimmer"
 	{
-		"bgcolor_override"	"30 25 25 245"
+		"bgcolor_override"	"BackpackBGColor"
 	}
 	"BG"
 	{
+		"zpos"		"-1"
+
 		"Border"
 		{
-			"border"		"QuickplayBorder"
-			"bgcolor_override"	"BackpackPopupBGColor"
+			//"border"		"QuickplayBorder"
+			"bgcolor_override"	"BackpackBGColor"
 		}
+	}
+	
+	"NewItemPanel"
+	{
+		"verbose"	"1"
+		
+		"CosmeticResultItemModelPanel"
+		{
+			"zpos"			"18"
+		}
+		"ModelInspectionPanel"
+		{
+			"max_pitch"			"36000"
+			"model_rotate_yaw_speed"	"20"
+			"zpos"				"18"
+		}
+	}
+	"DebugReload"
+	{
+		"labelText"	"R"
+		//"visible"	"1"
 	}
 	
 	"CloseButton"

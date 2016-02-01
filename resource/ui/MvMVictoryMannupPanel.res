@@ -1,5 +1,5 @@
 "Resource/UI/MvMVictoryMannUpPanel.res"
-{			
+{
 	//Mouse over panel
 	"mouseoveritempanel"
 	{
@@ -15,13 +15,13 @@
 		"noitem_textcolor"	"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
-		
+
 		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"8"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -43,7 +43,7 @@
 
 	"DoneButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"DoneButton"
 		"xpos"			"c175"
 		"ypos"			"372"
@@ -60,13 +60,13 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"default"		"1"
-		
+
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
-		
+		"border_armed"		"ComboBoxBorder"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
 	}
@@ -96,7 +96,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-			
+
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"BackpackBGColor"
 	}
@@ -117,9 +117,9 @@
 		"scaleImage"		"1"
 
 		"pin_to_sibling"               "OutterBackground"
-		"pin_corner_to_sibling"        "2"          
-		"pin_to_sibling_corner"        "0"   
-	}	
+		"pin_corner_to_sibling"        "2"
+		"pin_to_sibling_corner"        "0"
+	}
 
 	"FooterLine"
 	{
@@ -137,10 +137,10 @@
 		"scaleImage"		"1"
 
 		"pin_to_sibling"               "OutterBackground"
-		"pin_corner_to_sibling"        "0"          
-		"pin_to_sibling_corner"        "2" 
-	}	
-	
+		"pin_corner_to_sibling"        "0"
+		"pin_to_sibling_corner"        "2"
+	}
+
 
 	"TabContainer"
 	{
@@ -266,7 +266,7 @@
 			"proportionalToParent"	"1"
 		}
 	}
-		
+
 	"MainPanelContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -277,7 +277,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		
+
 		"NoItemServerContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -287,7 +287,7 @@
 			"wide"			"530"
 			"tall"			"480"
 			"visible"		"1"
-			
+
 			"NoItemServerHeader"
 			{
 				"ControlName"	"CExLabel"
@@ -300,7 +300,7 @@
 				"wide"			"530"
 				"fgcolor"		"tanlight"
 			}
-			
+
 			"NoItemServerMessage"
 			{
 				"ControlName"	"CExLabel"
