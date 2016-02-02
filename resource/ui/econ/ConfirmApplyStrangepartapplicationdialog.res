@@ -1,4 +1,5 @@
 #base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyStrangePartApplicationDialog.res"
+// Apply Strange Part
 
 "Resource/UI/ConfirmApplyStrangePartApplicationDialog.res"
 {
@@ -9,7 +10,7 @@
 		"paintbackgroundtype"	"2"
 		"paintborder"		"1"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"text_center_y"		"1"
@@ -26,18 +27,18 @@
 
 	"TitleLabel"
 	{
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"xpos"			"94"
 		"ypos"			"7"
 		"wide"			"212"
 		"tall"			"70"
 	}
-	
+
 	"tool_icon"
 	{
 		"visible"		"0"
 	}
-	
+
 	"SubjectBG"
 	{
 		"xpos"			"306"

@@ -26,7 +26,7 @@
 	
 	"TitleLabel"
 	{
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"tall"			"70"
 	}
 	

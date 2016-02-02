@@ -5,10 +5,11 @@
 {
 	"crafting_panel"
 	{
+		"zpos"			"510"
 		"bgcolor_override"	"BackpackBGColor"
 		"item_backpack_xdelta"		"3"
 		"item_backpack_ydelta"		"3"
-		
+
 		"modelpanels_kv"
 		{
 			"model_tall"		"40"
@@ -18,7 +19,7 @@
 			"text_center"		"1"
 			"text_center_y"		"1"
 			"text_ypos"		""
-			
+
 			"MainContentsContainer"
 			{
 				"itemmodelpanel"
@@ -64,7 +65,7 @@
 		"text_center_y"		"1"
 		"padding_height"	"8"
 		"resize_to_text"	"1"
-		
+
 		"attriblabel"
 		{
 			"ypos"		"5"

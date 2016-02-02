@@ -26,7 +26,7 @@
 	
 	"TitleLabel"
 	{
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"xpos"			"94"
 		"ypos"			"7"
 		"wide"			"212"

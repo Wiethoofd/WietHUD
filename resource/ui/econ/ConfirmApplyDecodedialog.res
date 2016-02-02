@@ -32,7 +32,7 @@
 	
 	"TitleLabel"
 	{
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"xpos"			"96"
 		"ypos"			"4"
 		"wide"			"210"

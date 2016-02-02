@@ -1,4 +1,5 @@
 #base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyPaintCanDialog.res"
+// Apply Paint to item
 
 "Resource/UI/ConfirmApplyPaintCanDialog.res"
 {
@@ -25,7 +26,7 @@
 
 	"TitleLabel"
 	{
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"tall"			"70"
 	}
 	"ConfirmLabel"

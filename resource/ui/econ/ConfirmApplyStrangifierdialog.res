@@ -23,18 +23,18 @@
 			"tall"		"30"
 		}
 	}
-	
+
 	"TitleLabel"
 	{
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallShadow"
 		"tall"			"70"
 	}
-	
+
 	"tool_icon"
 	{
 		"visible"		"0"
 	}
-	
+
 	"SubjectBG"
 	{
 		"xpos"			"306"
