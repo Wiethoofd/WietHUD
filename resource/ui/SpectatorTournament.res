@@ -16,7 +16,7 @@
 		"team1_player_base_y"		"221"
 		"team1_player_delta_x"		"0"
 		"team1_player_delta_y"		"-17"
-		
+
 		// 6v6 with scouts top
 		"team1_player_base_y_minmode"	"136"
 		"team1_player_delta_y_minmode"	"17"
@@ -34,13 +34,6 @@
 			"wide"			"152"
 			"tall"			"18"
 			"zpos"			"1"
-			"paintbackgroundtype"	"2"
-			"paintbackground"	"1"
-			"paintborder"		"1"
-			"src_corner_height"	"24"
-			"draw_corner_height"	"24"
-			"src_corner_width"	"0"
-			"draw_corner_width"	"0"
 
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
@@ -95,7 +88,7 @@
 				"textAlignment"		"north-west"
 				//"fgcolor"		"235 226 202 255"
 				"font_override"			"Default"
-				
+
 				//if_mvm
 				//{
 				//	"xpos"			"2"

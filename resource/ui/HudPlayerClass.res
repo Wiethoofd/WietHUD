@@ -7,12 +7,11 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_minmode"		"18"
-		"zpos"			"1"
+		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"		
+		"enabled"		"1"
 	}
 	"PlayerStatusClassImage"
 	{
@@ -26,7 +25,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -40,10 +39,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
-	}	
+		"teambg_3"		"../hud/class_spyblue"
+	}
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -56,21 +55,21 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9"		[$WIN32]
 		"ypos"			"r0"	[$WIN32]
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
+		"image"			"../hud/character_red_bg"
 		"teambg_2"		"../hud/character_red_bg"
 		"teambg_3"		"../hud/character_blue_bg"
 	}
@@ -81,13 +80,13 @@
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"-4"	[$WIN32]
 		"ypos"			"r38"	[$WIN32]
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"image"			"../hud/character_red_bg_clipped"	
+		"image"			"../hud/character_red_bg_clipped"
 		"teambg_2"		"../hud/character_red_bg_clipped"
 		"teambg_3"		"../hud/character_blue_bg_clipped"
 		"alpha"		"100"
@@ -97,7 +96,7 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"0"
 		"ypos"			"r200"
 		"zpos"			"2"
@@ -107,13 +106,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
-				
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -128,9 +127,9 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
-			
+
 			"animation"
 			{
 				"name"		"PRIMARY"
@@ -161,12 +160,12 @@
 			{
 				"name"		"ITEM1"
 				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
+			}
 			"animation"
 			{
 				"name"		"ITEM2"
 				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
+			}
 			"animation"
 			{
 				"name"		"MELEE_ALLCLASS"
@@ -281,17 +280,16 @@
 			}
 		}
 	}
-	
+
 	"CarryingWeapon"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"			"CarryingWeapon"
 		"xpos"				"8"
 		"ypos"				"r28"
-		"ypos_minmode"			"r46"
 		"zpos"				"100"
 		"wide"				"500"
-		"tall"	 			"24"
+		"tall"	 			"20"
 
 		"CarryingBackground"
 		{
@@ -312,17 +310,18 @@
 			"teambg_1"			"../hud/color_panel_brown"
 			"teambg_2"			"../hud/color_panel_red"
 			"teambg_3"			"../hud/color_panel_blu"
+			"border"			"QuickplayBorder"
 			"proportionaltoparent"		"1"
-		
+
 			"src_corner_height"		"22"		// pixels inside the image
 			"src_corner_width"		"22"
-			
-			"draw_corner_width"		"2"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 		"2"	
+
+			"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 		"0"
 		}
 
 		"CarryingLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CarryingLabel"
 			"font"			"TFFontMedium"
@@ -344,7 +343,7 @@
 		}
 
 		"CarryingLabelDropShadow"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CarryingLabelDropShadow"
 			"font"			"TFFontMedium"
@@ -367,15 +366,15 @@
 		}
 
 		"OwnerLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"OwnerLabel"
-			"font"			"SpectatorKeyHints" //"TFFontSmall"
+			"font"			"SpectatorKeyHints"
 			"xpos"			"5"
 			"ypos"			"10"
 			"zpos"			"0"
 			"wide"			"f0"
-			"tall"	 		"f0"
+			"tall"	 		"10"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"

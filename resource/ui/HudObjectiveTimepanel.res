@@ -36,7 +36,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
-		"teambg_1"		"../hud/tournament_panel_brown" //weapon_selection_unselected"
+		"teambg_1"		"../hud/tournament_panel_brown"
 		"teambg_2"		"../hud/objectives_timepanel_red_bg"
 		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
 		"proportionaltoparent"	"1"

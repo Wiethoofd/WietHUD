@@ -7,13 +7,14 @@
 	{
 		"wide"		"f0"
 		"xpos"		"0"
-		
+
 		"playerpanels_kv"
 		{
 			"draw_corner_height"	"0"
 			"draw_corner_width"	"0"
-			
-			panelborder {
+
+			panelborder
+			{
 				"controlName"	"EditablePanel"
 				"xpos"		"0"
 				"ypos"		"0"
@@ -21,26 +22,29 @@
 				"wide"		"55"
 				"tall"		"35"
 			}
-			
+
 			"playername"
 			{
+				"proportionaltoparent"	"1"
+				"textinsetx"		"4"
+
 				if_mvm
 				{
-					"xpos"	"2"
-					"wide"	"52"
+					"xpos"	"0"
+					"wide"	"f0"
 				}
 				if_competitive
 				{
-					"xpos"	"2"
-					"wide"	"52"
+					"xpos"	"0"
+					"wide"	"f0"
 				}
 				if_readymode
 				{
-					"xpos"	"2"
-					"wide"	"52"
+					"xpos"	"0"
+					"wide"	"f0"
 				}
 			}
-			
+
 			"HealthIcon"
 			{
 				"xpos"			"28"
@@ -49,7 +53,7 @@
 				"tall"			"20"
 				"TextColor"		"TanLight"
 			}
-			
+
 			"respawntime"
 			{
 				"xpos"			"3"
@@ -62,7 +66,7 @@
 				//"bgcolor_override"	"88 88 88 120"
 				//"fgcolor"		"235 226 202 255"
 			}
-			
+
 			"chargeamount"
 			{
 				"xpos"			"3"
@@ -72,9 +76,9 @@
 				"tall"			"15"
 				"textAlignment"		"east"
 				"font"			"HudFontSmallestBoldShadow"
-				
+
 				if_readymode
-				{	
+				{
 					"visible"		"1"
 				}
 			}
@@ -82,26 +86,23 @@
 			{
 				"visible"		"0"
 			}
-			
+
 			"ReadyBG"
 			{
 				"xpos"			"32"
-				"draw_corner_width"	"2"
-				"draw_corner_height" 	"2"
+				"draw_corner_width"	"0"
+				"draw_corner_height" 	"0"
+				"border"		"QuickplayBorder"
 			}
 			"ReadyImage"
 			{
 				"xpos"			"34"
 			}
 		}
-		
 
 		"team1_player_base_offset_x"		"c-55"
 		"team2_player_base_offset_x"		"c0"
-		
-		"team0_player_base_offset_x"		"c-160"
-		"team3_player_base_offset_x"		"c55"
-		
+
 		if_mvm
 		{
 			"xpos"					"0"
@@ -113,7 +114,7 @@
 			"team3_player_delta_y"			"33"
 			"team0_player_base_y"			"100"
 			"team3_player_base_y"			"200"
-			
+
 			"team1_player_base_y"			"67"
 			"team2_player_base_y"			"67"
 			"team2_player_delta_x"			"55"
@@ -146,10 +147,10 @@
 		"wide"		"f0"
 		"tall"		"50"
 		"xpos"		"0"
-		"ypos"		"25"
+		"ypos"		"27"
 		"font"		"SpectatorKeyHints"
 		"textAlignment"	"North"
-		
+
 		if_mvm
 		{
 			"wide"		"f0"
@@ -178,7 +179,7 @@
 		"tall"		"50"
 		"xpos"		"0"
 		"textAlignment"	"North"
-		
+
 		if_mvm
 		{
 			"wide"		"f1"
@@ -228,7 +229,7 @@
 		"ypos"			"35"
 		"wide"			"f0"
 		"brighttext"		"1"
-		
+
 		if_competitive
 		{
 			"xpos"			"0"
@@ -250,53 +251,74 @@
 	{
 		"visible"		"0"
 	}
-	
+
 	"HudTournamentBLUEBG"
 	{
-		"xpos"			"c-125"
+		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"125"
+		"wide"			"175"
 		"tall"			"14"
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"
+		"pin_to_sibling" 	"HudTournamentREDBG"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	"TournamentBLUELabel"
 	{
-		"xpos"			"c-123"
+		"xpos"			"-3"
 		"ypos"			"0"
-		"wide"			"123"
+		"wide"			"150"
 		"tall"			"14"
+		"textalignment"		"west"
+		"font"			"HudFontSmall"
+		"pin_to_sibling" 	"HudTournamentBLUEBG"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	"TournamentBLUEStateLabel"
 	{
-		"xpos"			"c-125"
+		"xpos"			"-3"
 		"ypos"			"0"
-		"wide"			"123"
+		"wide"			"150"
 		"tall"			"14"
+		"textalignment"		"east"
+		"pin_to_sibling" 	"HudTournamentBLUEBG"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
-	
+
 	"HudTournamentREDBG"
 	{
 		"xpos"			"c0"
 		"ypos"			"0"
-		"wide"			"125"
+		"wide"			"175"
 		"tall"			"14"
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"
 	}
 	"TournamentREDLabel"
 	{
-		"xpos"			"c0"
+		"xpos"			"-3"
 		"ypos"			"0"
-		"wide"			"123"
+		"wide"			"150"
 		"tall"			"14"
+		"textalignment"		"east"
+		"font"			"HudFontSmall"
+		"pin_to_sibling" 	"HudTournamentREDBG"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"TournamentREDStateLabel"
 	{
-		"xpos"			"c3"
+		"xpos"			"-3"
 		"ypos"			"0"
-		"wide"			"122"
+		"wide"			"150"
 		"tall"			"14"
+		"textalignment"		"west"
+		"pin_to_sibling" 	"HudTournamentREDBG"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"CountdownBG"
@@ -306,19 +328,20 @@
 		"ypos_minmode"		"r31"
 
 		"border"		"QuickplayBorder"
+		"scaleimage"		"1"
 		"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
-		
+
 		if_competitive
 		{
-			"image"			"../HUD/color_panel_brown"
+			"image"			"../hud/color_panel_brown"
 			"xpos"			"c-20"
 			"ypos"			"5"
 		}
 
 		if_readymode
 		{
-			"image"			"../HUD/color_panel_brown"
+			"image"			"../hud/color_panel_brown"
 			"xpos"			"c-20"
 			"ypos"			"5"
 		}
@@ -328,7 +351,7 @@
 		"xpos"			"c-20"
 		"ypos"			"r43"
 		"ypos_minmode"		"r31"
-		
+
 		if_competitive
 		{
 			"xpos"			"c-20"
@@ -346,7 +369,7 @@
 		"xpos"			"c-19"
 		"ypos"			"r42"
 		"ypos_minmode"		"r30"
-		
+
 		if_competitive
 		{
 			"xpos"			"c-19"

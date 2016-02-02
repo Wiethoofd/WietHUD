@@ -9,7 +9,7 @@
 	"DifficultyContainer"
 	{
 		"ypos"		"16"
-		
+
 		"DifficultyLabel"
 		{
 			"font"		"HudFontSmallestShadow"
@@ -21,7 +21,7 @@
 	}
 	"PopFileLabel"
 	{
-		"xpos"		"318"
+		"xpos"		"345"
 	}
 	"PlayerListBackground"
 	{
@@ -30,7 +30,7 @@
 		"wide"		"540"
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"33 33 33 150"
-		
+
 		"image"		""
 		"draw_corner_width"	"3"
 		"draw_corner_height" 	"3"
@@ -48,7 +48,7 @@
 			"ControlName"	"EditablePanel"
 			"border"		"QuickplayBorder"
 			"bgcolor_override"	"33 33 33 150"
-			
+
 			"image"		""
 			"draw_corner_width"	"3"
 			"draw_corner_height" 	"3"

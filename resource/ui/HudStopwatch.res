@@ -1,29 +1,5 @@
 "Resource/UI/HudStopWatch.res"
 {
-	"HudStopWatchBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"HudStopWatchBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"proportionaltoparent"	"1"
-		"autoResize"		"0"
-		"scaleImage"		"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-		"src_corner_height"	"25"		// pixels inside the image
-		"src_corner_width"	"25"
-
-		"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-	}
-
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"		"ImagePanel"
@@ -35,7 +11,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"0"
+		"xpos"				"c-140"
 		"ypos"				"0"
 		"zpos"				"4"
 		"wide"				"52"
@@ -43,10 +19,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"PaintBackgroundType"	"0"
-		
-		"pin_to_sibling" 	"StopWatchScoreToBeat"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"TimePanelBG"
 		{
@@ -80,10 +52,10 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
-		"xpos"			"c-140"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"70"
+		"wide"			"74"
 		"tall"			"21"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -91,6 +63,10 @@
 		"enabled"		"1"
 		"textinsetx"		"2"
 		"bgcolor_override"	"TransparentBlack"
+		
+		"pin_to_sibling" 	"ObjectiveStatusTimePanel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	"StopWatchPointsLabel"
 	{
@@ -102,7 +78,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"44"
+		"wide"			"40"
 		"tall"			"21"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -137,44 +113,51 @@
 		"bgcolor_override"	"TransparentBlack"
 	}
 
-	"HudStopWatchDescriptionBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"HudStopWatchDescriptionBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"125"
-		"tall"			"19"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"
-
-		"src_corner_height"	"25"				// pixels inside the image
-		"src_corner_width"	"25"
-
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-	}
-
 	"StopWatchDescriptionLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
-		"font"			"ClockSubTextTiny"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"center"
 		"xpos"			"0"
-		"ypos"			"23"
+		"ypos"			"-2"
 		"zpos"			"4"
-		"wide"			"125"
-		"tall"			"30"
+		"wide"			"100"
+		"tall"			"17"
+		"fgcolor_override"	"TanLight"
+		"auto_wide_tocontents"	"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
+		
+		"pin_to_sibling" 	"StopWatchScoreToBeat"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+	}
+	"HudStopWatchDescriptionBG"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"HudStopWatchDescriptionBG"
+		"font"			"ItemFontAttribLargeBlur"
+		"labelText"		"%descriptionlabel%"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"17"
+		"fgcolor_override"	"TransparentBlack"
+		"auto_wide_tocontents"	"1"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wrap"			"0"
+		
+		"pin_to_sibling" 	"StopWatchDescriptionLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

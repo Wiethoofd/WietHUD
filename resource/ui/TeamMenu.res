@@ -1,3 +1,5 @@
+//#base "../../alternatives/reloadscheme_button.res"
+
 "Resource/UI/TeamMenu.res"
 {
 	"team"
@@ -84,7 +86,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"3"
-		"labelText"		"&3. BLU"	[$WIN32]
+		"labelText"		"#TF_BlueTeam"	[$WIN32]
 		"labelText"		"BLU"	[$X360]
 		"textAlignment"		"north"
 		"dulltext"		"0"
@@ -120,7 +122,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"4"
-		"labelText"		"&4. RED"	[$WIN32]
+		"labelText"		"#TF_RedTeam"	[$WIN32]
 		"labelText"		"RED"	[$X360]
 		"textAlignment"		"north"
 		"dulltext"		"0"
@@ -157,8 +159,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"1"
-		"labelText"		"&1. Random"	[$WIN32]
-		"labelText"		""	[$X360]
+		"labelText"		"#TF_AutoAssign"	[$WIN32]
+		"labelText"		"#TF_Random"	[$X360]
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -187,7 +189,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"2"
-		"labelText"		"&2. Spectate"	[$WIN32]
+		"labelText"		"&2 Spectate"	[$WIN32]
 		"labelText"		""	[$X360]
 		"textAlignment"		"center"
 		"dulltext"		"0"

@@ -19,6 +19,7 @@
 		{
 			"wide"			"290"
 			"border"		"QuickplayBorder"
+			"fillcolor_override"	"MainMenuBGColor"
 			"bgcolor_override"	"MainMenuBGColor"
 		}
 		"ContributedLabel"
@@ -32,8 +33,8 @@
 	}
 	"MapLabel"
 	{
-		"xpos"		"c-50"
-		"wide"		"400"
+		"xpos"		"c-100"
+		"wide"		"500"
 	}
 	"StatData"
 	{
@@ -45,9 +46,11 @@
 			"border"		"QuickplayBorder"
 			"bgcolor_override"	"MainMenuBGColor"
 		}
-		
+
 		"RecordsBG"
 		{
+			"wide"			"195"
+			"wide_hidef"		"195"
 			"tall"			"235"
 			"tall_hidef"		"235"
 			"tall_lodef"		"235"

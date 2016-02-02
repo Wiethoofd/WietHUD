@@ -20,22 +20,22 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"xpos"			"0" //"c-170"
-		"ypos"			"c-175"
+		"xpos"			"0"
+		"ypos"			"c-176"
 		"zpos"			"2"
-		"wide"			"f0" //"500"
+		"wide"			"f0"
 		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
-		"textAlignment"		"center" //"west"
+		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"font"			"HudFontMediumBoldShadow"
 		"fgcolor"		"TanLight"
-	}	
+	}
 
 	"TextMessage"
 	{
@@ -50,11 +50,11 @@
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"ChalkboardText"
-		"xpos"			"c-172" //"c-210"
-		"ypos"			"c-155" //"c-160"
+		"xpos"			"c-205"
+		"ypos"			"c-154"
 		"zpos"			"1"
-		"wide"			"372"
-		"tall"			"300"
+		"wide"			"410"
+		"tall"			"320"
 		"autoResize"		"3"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -63,15 +63,14 @@
 		"textAlignment"		"northwest"
 		"fgcolor"		"TanLight"
 		"paintbackground"	"1"
-		"fillcolor"		"33 33 33 80"
 	}
 
 	"HTMLMessage"
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"c-192" //"c-210"
-		"ypos"			"c-175" //"c-190"
+		"xpos"			"c-200"
+		"ypos"			"c-175"
 		"zpos"			"1"
 		"wide"			"400"
 		"tall"			"330"
@@ -82,9 +81,8 @@
 		"tabPosition"		"0"
 		"paintborder"		"0"
 		"paintbackground"	"1"
-		"fillcolor"		"33 33 33 80"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"		"CExButton"
@@ -94,7 +92,7 @@
 		"zpos"			"6"
 		"wide"			"140"
 		"tall"			"20"
-		"autoResize"	"0"
+		"autoResize"		"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -103,12 +101,11 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"wrap"		"0"
+		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
 	}
-	
 	"continueShortKey"
 	{
 		"ControlName"	"CExButton"
@@ -117,7 +114,7 @@
 		"labelText"	"&E"
 		"command"	"okay"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
@@ -125,7 +122,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -140,13 +137,13 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"40 32 32 120"
-	}					
-	
+	}
+
 	"MessageTitle"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
+	}
 }

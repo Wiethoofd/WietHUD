@@ -8,7 +8,7 @@
 		"delta_item_end_y"	"0"
 		"PositiveColor"		"0 255 0 255"		// Healing
 		"NegativeColor"		"DamageTextColor"	// Damage
-		"EventColor"		"0 255 255 180"		// Bonus
+		//"EventColor"		"0 255 255 180"		// Bonus
 		"delta_lifetime"	"3"
 		"delta_item_font"	"HudFontMediumOutline"
 		"delta_item_font_big"	"HudFontBigOutline"
@@ -27,7 +27,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"		"east"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"font"			"HudFontMedium"
 		"delta_lifetime"	"10.0"
 	}

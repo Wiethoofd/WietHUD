@@ -14,7 +14,7 @@
 	"specgui"
 	{
 	}
-	
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -54,7 +54,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"HudFontSmallBoldShadow"
-		
+
 		if_mvm
 		{
 			"ypos"			"85"
@@ -77,7 +77,7 @@
 		"font"			"HudFontSmallShadow"
 		"wrap"			"1"
 		"centerwrap"		"1"
-		
+
 		if_mvm
 		{
 			"visible"		"1"
@@ -94,11 +94,11 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"map: cp_bridge"
+		"labelText"		""
 		"textAlignment"		"west"
-		
+
 		if_mvm
 		{
 			"visible"		"0"

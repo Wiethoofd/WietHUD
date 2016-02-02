@@ -2,11 +2,6 @@
 
 "Resource/UI/HudPasstimeBallStatus.res"
 {
-	"ProgressLevelBar"
-	{
-		"ypos"		"r75"
-	}
-
 	"TextBox"
 	{
 		"border" 	"NoBorder"
@@ -37,28 +32,7 @@
 	"ProgressBallCarrierName"
 	{
 		"wide"		"250"
-		"ypos"		"-11"
 		"font"		"DefaultShadow"
-	}
-
-	"ProgressLeftGoalLabel"
-	{
-		"wide"		"0"
-		"visible"	"0"
-	}
-	"ProgressRightGoalLabel"
-	{
-		"wide"		"0"
-		"visible"	"0"
-	}
-	
-	"BaseIconBlue"
-	{
-		"ypos"		"r59"
-	}
-	"BaseIconRed"
-	{
-		"ypos"		"r59"
 	}
 	
 	"playericon0" {

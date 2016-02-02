@@ -1,34 +1,10 @@
+#base "../../alternatives/reloadscheme_button.res"
 #base "../../default_hudfiles/resource/ui/classselection.res"
 // Class selection screen
 
 "Resource/UI/ClassSelection.res"
 {
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"5"
-		"ypos"			"5"
-		"zpos"			"25"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"RS"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"		"center"
-		"textinsetx"		"10"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
-		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
+	"ReloadSchemeButton" { "visible"	"0" }
 
 	"Background" // Transparent BG replacement
 	{
@@ -36,7 +12,7 @@
 		"fieldName"		"TransparentBlackBackground"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-100"
+		"zpos"			"-10"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -47,14 +23,14 @@
 		"draw_corner_height" 	"0"
 	}
 
-	"ResetButton" [$WIN32] 
+	"ResetButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
-		"xpos"		"c-250" //"c-50"
-		"ypos"		"c83" //"c140"
+		"xpos"			"c-250"
+		"ypos"			"c83"
 		"zpos"			"6"
-		"wide"			"60" //"100"
+		"wide"			"60"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"2"
@@ -66,7 +42,7 @@
 		"Command"		"resetclass"
 		"font"			"HudFontSmallestBold"
 		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 
 	"CancelButton"
@@ -101,7 +77,7 @@
 		"visible"	"0"
 		"enabled"	"0"
 	}
-	
+
 	"ClassMenuSelect"
 	{
 		"xpos"			"c-250"
@@ -113,7 +89,7 @@
 		"textAlignment"		"center"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"ShadedBar"
 	{
 		"visible"	"0"
@@ -122,17 +98,64 @@
 
 	"TFPlayerModel"
 	{
-		"wide"		"300" // 500
+		"wide"		"300"
 		"tall"		"480"
 		"fov"		"25"
 		"allow_manip"	"1"
 		"zpos"		"1"
-		
+
 		"model" {
-			"origin_x" "200"
+			"origin_x"	"200"
+			"force_pos"	"1"
+			"spotlight"	"1"
+
+			"modelname"	""
+			"vcd"		"class_select.vcd"
+
+			"animation"
+			{
+				"name"		"PRIMARY"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+				"default"	"1"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY"
+				"activity"	"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"		"MELEE"
+				"activity"	"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"		"BUILDING"
+				"activity"	"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"		"PDA"
+				"activity"	"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"		"ITEM1"
+				"activity"	"ACT_MP_STAND_ITEM1"
+			}
+			"animation"
+			{
+				"name"		"ITEM2"
+				"activity"	"ACT_MP_STAND_ITEM2"
+			}
+			"animation"
+			{
+				"name"		"MELEE_ALLCLASS"
+				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
+			}
 		}
 	}
-	
+
 	"localPlayerBG"
 	{
 		"wide"	"60"
@@ -146,19 +169,19 @@
 		"teambg_2"	"../hud/color_panel_red"
 		"teambg_3"	"../hud/color_panel_blu"
 	}
-	
+
 	"localPlayerImage"
 	{
 		"wide"	"50"
 		"tall"	"100"
-		"xpos"	"-5" //"c-245"
-		"ypos"	"36" //"c38"
-		
+		"xpos"	"-5"
+		"ypos"	"36"
+
 		"pin_to_sibling" 	"localPlayerBG"
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "7"
 	}
-	
+
 	// Other players in our team
 	"CountLabel" {
 		"xpos"	"c-187"
@@ -238,7 +261,7 @@
 		"image"			""
 		"scaleImage"		"1"
 	}
-	
+
 	"classSelectionBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -256,11 +279,11 @@
 
 	"ClassTipsPanel"
 	{
-		"xpos"		"c100" //"r240" //"c256"
-		"ypos"		"c-16" //"r168" //"c-119"
+		"xpos"		"c80"
+		"ypos"		"c-16"
 		//"visible"	"0"
 	}
-	
+
 	"Offense"
 	{
 		"xpos"	"c-248"
@@ -269,7 +292,7 @@
 		"textAlignment"		"center"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"Defense"
 	{
 		"xpos"	"c-88"
@@ -278,7 +301,7 @@
 		"textAlignment"		"center"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"Support"
 	{
 		"xpos"	"c83"
@@ -287,7 +310,7 @@
 		"textAlignment"		"center"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"random"
 	{
 		"xpos"	"c250" //"c115"
@@ -295,7 +318,7 @@
 		"wide"	"100"
 		"labelText"	"&Random"
 		"textAlignment"	"south"
-		
+
 		"SubImage"
 		{
 			"wide"	"100"
@@ -303,7 +326,7 @@
 			"ypos"	"-54"
 		}
 	}
-	
+
 	"scout"
 	{
 		"xpos"		"c-245"
@@ -311,7 +334,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -327,7 +350,7 @@
 		"xpos"	"c-245"
 		"ypos"	"c-105"
 	}
-	
+
 	"soldier"
 	{
 		"xpos"		"c-190"
@@ -335,7 +358,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -359,7 +382,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -375,7 +398,7 @@
 		"xpos"	"c-135"
 		"ypos"	"c-105"
 	}
-	
+
 	"demoman"
 	{
 		"xpos"		"c-80"
@@ -383,7 +406,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -399,7 +422,7 @@
 		"xpos"	"c-80"
 		"ypos"	"c-105"
 	}
-	
+
 	"heavyweapons"
 	{
 		"xpos"		"c-25"
@@ -407,7 +430,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -423,7 +446,7 @@
 		"xpos"	"c-25"
 		"ypos"	"c-105"
 	}
-	
+
 	"engineer"
 	{
 		"xpos"		"c30"
@@ -431,7 +454,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -447,7 +470,7 @@
 		"xpos"	"c30"
 		"ypos"	"c-105"
 	}
-	
+
 	"medic"
 	{
 		"xpos"		"c85"
@@ -455,7 +478,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -471,7 +494,7 @@
 		"xpos"	"c85"
 		"ypos"	"c-105"
 	}
-	
+
 	"sniper"
 	{
 		"xpos"		"c140"
@@ -479,7 +502,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -495,7 +518,7 @@
 		"xpos"	"c140"
 		"ypos"	"c-105"
 	}
-	
+
 	"spy"
 	{
 		"xpos"		"c195"
@@ -503,7 +526,7 @@
 		"zpos"		"3"
 		"tall"		"80"
 		"selectedFgColor_override" ""
-		
+
 		"SubImage"
 		{
 			"ypos"	"-20"
@@ -518,5 +541,5 @@
 	{
 		"xpos"	"c195"
 		"ypos"	"c-105"
-	}	
+	}
 }
