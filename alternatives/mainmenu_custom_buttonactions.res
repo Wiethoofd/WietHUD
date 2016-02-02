@@ -55,7 +55,14 @@
 	{
 		"label"		""
 		"command"	"engine snd_restart"
-		"tooltip"	"Fix Sounds"
+		"tooltip"	"snd_restart"
 		"OnlyInGame"	"1"
+	}
+
+	"ConsoleButton"
+	{
+		"label"		""
+		"command"	"engine toggleconsole"
+		"tooltip"	"Toggle Console"
 	}
 }
