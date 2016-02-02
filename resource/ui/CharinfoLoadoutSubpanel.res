@@ -1,16 +1,22 @@
+//#base "../../alternatives/reloadscheme_button.res"
+
+// Class selection buttons at the bottom of backpack
+// Comment out when not using widescreen resolutions
+#base "../../alternatives/classloadout_buttons.res"
+
 #base "../../default_hudfiles/resource/ui/CharInfoLoadoutSubPanel.res"
 // Inventory Class selection | Backpack/Crafting/Catalog/Trading
 
 "Resource/UI/CharInfoLoadoutSubPanel.res" {
 	"CharInfoLoadoutSubPanel" {
 		"zpos"			"0"
-		"bgcolor_override"		"BackpackBGColor"
+		"bgcolor_override"	"BackpackBGColor"
 	}
 	"mouseoveritempanel"
 	{
 		"text_ypos"		"8"
 		"padding_height"	"8"
-		
+
 		"attriblabel"
 		{
 			"ypos"		"10"
@@ -18,7 +24,7 @@
 			"tall"		"40"
 		}
 	}
-	
+
 	"scout" 	{ "labelText"	"&1"	"textAlignment" "south" }
 	"soldier"	{ "labelText"	"&2"	"textAlignment" "south" }
 	"pyro"		{ "labelText"	"&3"	"textAlignment" "south" }

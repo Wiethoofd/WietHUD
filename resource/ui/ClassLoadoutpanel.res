@@ -1,4 +1,4 @@
-//#base "../../alternatives/reloadscheme_button.res"
+#base "../../alternatives/reloadscheme_button.res"
 //#base "../../alternatives/loadout_verywidescreen.res"
 #base "../../alternatives/loadout_widescreen.res"
 //#base "../../alternatives/loadout_54.res"
@@ -9,25 +9,27 @@
 
 "Resource/UI/FullLoadoutPanel.res"
 {
-	"reloadschemebutton" { xpos c-10 ypos 54 }
-	
+	"reloadschemebutton" { visible 0 xpos c-10 ypos 54 }
+
 	"class_loadout_panel"
 	{
+		"zpos"				"501"
+
 		"item_ypos"			"23"
 		"item_ydelta"			"92"
 		"button_ypos"			"23"
 		"bgcolor_override"		"BackpackBGColor"
-		
+
 		"modelpanels_kv"
 		{
 			"tall"			"88"
-			
+
 			"text_wide"		""
-			
+
 			"model_ypos"		""
 			"model_center_x"	"1"
 			"model_center_y"	"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -41,7 +43,7 @@
 				"tall"		"38"
 			}
 		}
-		
+
 		"itemoptionpanels_kv" // Adjust unusual / Change style
 		{
 			"wide"			"15"
@@ -50,15 +52,15 @@
 			"paintbackground"	"1"
 			"DefaultBgColor_override"	"Black"
 			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
 		}
 	}
-	
+
 	"TopLine"
 	{
 		"visible"		"0"
 	}
-	
+
 	"CaratLabel"
 	{
 		"xpos"			"r0"
@@ -67,7 +69,7 @@
 	{
 		"xpos"			"r0"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ypos"			"0"
@@ -78,7 +80,7 @@
 		"ypos"			"0"
 		"tall"			"24"
 	}
-	
+
 	"TauntHintLabel"
 	{
 		"font"			"ItemFontAttribLargeShadow"
@@ -88,7 +90,7 @@
 		"tall"			"20"
 		"textAlignment"		"center"
 	}
-	
+
 	"CharacterLoadoutButton"
 	{
 		"ypos"		"3"
@@ -100,9 +102,9 @@
 			"ypos"			"1"
 			"xpos"			"5"
 			"wide"			"15"
-			"tall"			"16"			
+			"tall"			"16"
 		}
-	}	
+	}
 	"TauntLoadoutButton"
 	{
 		"ypos"		"3"
@@ -114,26 +116,26 @@
 			"ypos"			"2"
 			"xpos"			"5"
 			"wide"			"15"
-			"tall"			"15"			
+			"tall"			"15"
 		}
 	}
-	
+
 	"classmodelpanel"
 	{
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		
+
 		"allow_manip"		"1"
 		"render_texture"	"0"
-		
+
 		"model"
 		{
 			"force_pos"	"1"
 			"modelname"	""
 			"spotlight"	"1"
-			
+
 			"animation"
 			{
 				"name"		"PRIMARY"
@@ -164,12 +166,12 @@
 			{
 				"name"		"ITEM1"
 				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
+			}
 			"animation"
 			{
 				"name"		"ITEM2"
 				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
+			}
 			"animation"
 			{
 				"name"		"MELEE_ALLCLASS"
@@ -192,21 +194,21 @@
 	{
 		"bgcolor_override"	"BackpackPopupBGColor"
 	}
-	
+
 	"PassiveAttribsLabel"
 	{
 		"font"			"ItemFontAttribLargeShadow"
 		"xpos"			"c-175"
-		"ypos"			"135"
+		"ypos"			"125"
 		"wide"			"350"
 		"visible"		"1"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"text_ypos"		"5"
 		"padding_height"	"8"
-		
+
 		"attriblabel"
 		{
 			"wide"			"150"
