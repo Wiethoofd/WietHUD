@@ -9,9 +9,9 @@ Scheme
 		ButtonColor		R800
 		ButtonArmedColor	R900
 		ButtonPressColor	R900
-		BackpackBGColor		R700
-		BackpackBorderColor	R600
-		BackpackPopupBGColor	R500
+		BackpackBGColor		R600
+		BackpackBorderColor	R500
+		BackpackPopupBGColor	R400
 		
 		SelectedLoadout		TFOrange
 	}

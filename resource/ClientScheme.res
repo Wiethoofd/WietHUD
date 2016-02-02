@@ -11,7 +11,7 @@
 //#base "../themes/colorscheme_orange.res"
 //#base "../themes/colorscheme_pink.res"
 //#base "../themes/colorscheme_purple.res"
-#base "../themes/colorscheme_red.res"
+//#base "../themes/colorscheme_red.res"
 #base "../themes/colorscheme_default.res" // Default color fallback if no theme is uncommented
 
 // Fonts
@@ -341,7 +341,7 @@ Scheme
 		BackpackItemBorder { // Default item border (backpack/items)
 			"image"			"backpack_rect_mouseover_color"
 			"image"			"backpack_rect_color"
-			"color"			"BackpackBorderColor" //"FooterBGBlack"
+			"color"			"FooterBGBlack"
 			"draw_corner_width"	"3"
 			"draw_corner_height"	"3"
 		}
