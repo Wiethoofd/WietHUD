@@ -17,11 +17,22 @@
 		"item_panel_bgcolor_mouseover"	"BackpackPopupBGColor"
 		"item_panel_bgcolor_selected"	"ButtonPressColor"
 		
+		"item_ypos"		"60"
+		"item_offcenter_x"	"-50"
+
+		"item_panels"		"12"
+
+		"item_backdrop_left_margin"	"8"
+		"item_backdrop_right_margin"	"8"
+		"item_backdrop_top_margin"	"8"
+		
 		"item_xdelta"		"5"
 		"item_ydelta"		"5"
 		
 		"item_backdrop_color"	"46 44 46 255"
 		"item_backdrop_bottom_margin"	"30"
+		
+		"classicon_xdelta"	"2"
 		
 		"modelpanels_kv"
 		{
@@ -36,6 +47,12 @@
 
 	"ItemCategoryTabs"
 	{
+		"xpos"			"-8"
+		"ypos"			"-6"
+		"pin_to_sibling" 	"ItemBackDrop"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
 		"ButtonSettings"
 		{
 			"defaultBgColor_override"	"BackpackBorderColor"
@@ -51,18 +68,20 @@
 	}
 	"BackpackSpaceLabel"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-6"
+		"ypos"			"-2"
+		"zpos"			"2"
 		"tall"			"16"
 		"fgcolor_override"	"TanLight"
-		"pin_to_sibling" 	"CartButton"
+		"pin_to_sibling" 	"ItemBackdrop"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 	"CartButton"
 	{
 		"font"			"HudFontSmall"
 		"textinsetx"		"10"
+		"ypos"			"355"
 	}
 	"CartImage"
 	{
@@ -94,7 +113,7 @@
 	}
 	"NextPageButton"
 	{
-		"xpos"			"-11"
+		"xpos"			"-8"
 		"ypos"			"-5"
 		"labelText"		"&D"
 		"pin_to_sibling" 	"ItemBackdrop"

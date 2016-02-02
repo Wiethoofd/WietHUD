@@ -16,22 +16,26 @@
 		"item_panel_bgcolor"	"BackpackBorderColor"
 		"item_panel_bgcolor_mouseover"	"BackpackPopupBGColor"
 		"item_panel_bgcolor_selected"	"ButtonPressColor"
-		
+
 		"item_panels"		"24"
 		"item_columns"		"6"
-		"item_offcenter_x"	"-300"
-		
+		"item_offcenter_x"	"-299"
+
+		"item_backdrop_left_margin"	"8"
+		"item_backdrop_right_margin"	"8"
+		"item_backdrop_top_margin"	"8"
+
 		"item_xdelta"		"5"
 		"item_ydelta"		"5"
-		
+
 		"item_backdrop_color"	"46 44 46 255"
 		"item_backdrop_bottom_margin"	"50"
-		
+
 		"modelpanels_kv"
 		{
 			"wide"			"96"
 			"tall"			"62"
-			
+
 			"model_xpos"		""
 			"model_ypos"		""
 			"model_center_x"	"1"
@@ -40,7 +44,7 @@
 			"model_tall"		"56"
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"text_ypos"		"6"
@@ -77,7 +81,7 @@
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	
+
 	"PrevPageButton"
 	{
 		"xpos"			"2"
@@ -99,14 +103,14 @@
 	}
 	"NextPageButton"
 	{
-		"xpos"			"-11"
-		"ypos"			"-5"
+		"xpos"			"-8"
+		"ypos"			"-6"
 		"labelText"		"&D"
 		"pin_to_sibling" 	"ItemBackdrop"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
-	
+
 	"ClassFilterNavPanel"
 	{
 		"ButtonSettings"
@@ -114,7 +118,7 @@
 			"image_drawcolor"	"80 80 80 200"
 			"image_armedcolor"	"160 160 160 255"
 			"image_selectedcolor"	"255 255 255 255"
-			
+
 			"SubImage"
 			{
 				"wide"			"20"

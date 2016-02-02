@@ -4,6 +4,20 @@
 
 "Resource/UI/StorePage_Maps.res"
 {
+	"reloadschemebutton" { visible 0 }
+	"StorePage"
+	{
+		"modelpanels_kv"
+		{
+			"model_wide"	"84"
+			"model_tall"	"56"
+
+			"itemmodelpanel"
+			{
+				"force_square_image"	"0"
+			}
+		}
+	}
 	"ClassFilterLabel"	{ "visible"	"0" }
 	"ClassFilterNavPanel"	{ "visible"	"0" }
 	"ClassFilterLabel"	{ "visible"	"0" }

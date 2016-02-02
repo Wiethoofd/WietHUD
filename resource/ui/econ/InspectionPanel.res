@@ -1,16 +1,16 @@
-"Resource/UI/econ/QuestEditorPanel.res"
+"Resource/UI/econ/InspectionPanel.res"
 {
 	"InspectionPanel"
 	{
 		"fieldName"		"InspectionPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"zpos"			"200"
+		"zpos"			"510"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 245"
+		"bgcolor_override"	"BackpackBGColor"
 
 		"BGImage"
 		{
@@ -26,11 +26,11 @@
 			"image"			"item_carousel_bg"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
-		}	
+		}
 	}
-	
+
 	"ItemName"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
@@ -39,8 +39,8 @@
 		"wide"			"o2"
 		"tall"			"p0.5"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"	"0 0 0 0"
+		"noitem_textcolor"	"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"0"
 		"mouseinputenabled"	"0"
@@ -53,6 +53,9 @@
 		"model_tall"		"0"
 		"text_forcesize"	"4"
 
+		"name_only"		"1"
+		"attrib_only"		"0"
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -64,9 +67,9 @@
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
-		"xpos"			"0" //"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"cs-0.5"
-		"zpos"			"5"
+		"zpos"			"7"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
@@ -76,7 +79,7 @@
 		"use_item_rendertarget" 	"0"
 		"allow_rot"			"1"
 		"allow_pitch"			"1"
-		"max_pitch"			"360"
+		"max_pitch"			"360000"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
 		"fov"				"85"
@@ -87,17 +90,17 @@
 		{
 			"force_pos"	"1"
 
-			"angles_x" "7"
-			"angles_y" "130"
-			"angles_z" "0"
-			"origin_x" "175"
-			"origin_y" "0"
-			"origin_z" "0"
+			"angles_x"		"7"
+			"angles_y"		"130"
+			"angles_z"		"0"
+			"origin_x"		"175"
+			"origin_y"		"0"
+			"origin_z"		"0"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
-		
+			"spotlight"		"1"
+
 			"modelname"		""
 		}
 
@@ -136,7 +139,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"r60" //"c366"
+		"xpos"			"r60"
 		"ypos"			"3"
 		"zpos"			"100"
 		"wide"			"19"
@@ -157,17 +160,17 @@
 		"Command"		"close"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
-			
+
 		"paintbackground"	"0"
 
 		"pin_to_sibling"	"MainContainer"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 		"defaultFgColor_override"	"0 0 0 0"
 		"armedFgColor_override"		"0 0 0 0"
 		"depressedFgColor_override"	"0 0 0 0"
-			
+
 		"image_drawcolor"	"150 60 45 255"
 		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
@@ -184,8 +187,8 @@
 			"image"			"close_button"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
-		}				
-	}	
+		}
+	}
 
 	"TeamNavPanel"
 	{
@@ -201,14 +204,14 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"proportionaltoparent"	"1"
-		
+
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"0"
 		"align"				"west"
-		
+
 		"ButtonSettings"
 		{
 			"wide"				"19"
@@ -221,29 +224,29 @@
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
-			
+
 			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
-			
+			"defaultFgColor_override"	"TanDark"
+			"armedFgColor_override"		"TanDark"
+			"depressedFgColor_override"	"TanDark"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
-			
+
 			"paintborder"		"0"
-			
-			"image_drawcolor"		"255 255 255 77"
-			"image_armedcolor"		"255 255 255 128"
+
+			"image_drawcolor"	"255 255 255 77"
+			"image_armedcolor"	"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -256,9 +259,9 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
@@ -267,11 +270,11 @@
 				"image_default"		"store/store_redteam"
 				"image_armed"		"store/store_redteam"
 				"image_selected"	"store/store_redteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_redteam"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -279,11 +282,11 @@
 				"image_default"		"store/store_blueteam"
 				"image_armed"		"store/store_blueteam"
 				"image_selected"	"store/store_blueteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_blueteam"
-				}				
+				}
 			}
 		}
 	}
