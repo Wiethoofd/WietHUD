@@ -7,122 +7,29 @@
 	{
 		"wide"		"f0"
 		"xpos"		"0"
-
-		"playerpanels_kv"
-		{
-			"draw_corner_height"	"0"
-			"draw_corner_width"	"0"
-
-			panelborder
-			{
-				"controlName"	"EditablePanel"
-				"xpos"		"0"
-				"ypos"		"0"
-				"border"	"QuickplayBorder"
-				"wide"		"55"
-				"tall"		"35"
-			}
-
-			"playername"
-			{
-				"proportionaltoparent"	"1"
-				"textinsetx"		"4"
-
-				if_mvm
-				{
-					"xpos"	"0"
-					"wide"	"f0"
-				}
-				if_competitive
-				{
-					"xpos"	"0"
-					"wide"	"f0"
-				}
-				if_readymode
-				{
-					"xpos"	"0"
-					"wide"	"f0"
-				}
-			}
-
-			"HealthIcon"
-			{
-				"xpos"			"28"
-				"ypos"			"4"
-				"wide"			"23"
-				"tall"			"20"
-				"TextColor"		"TanLight"
-			}
-
-			"respawntime"
-			{
-				"xpos"			"3"
-				"ypos"			"4"
-				"zpos"			"5"
-				"wide"			"24"
-				"tall"			"20"
-				"textAlignment"		"center"
-				"font"			"HudFontSmallestBoldShadow"
-				//"bgcolor_override"	"88 88 88 120"
-				//"fgcolor"		"235 226 202 255"
-			}
-
-			"chargeamount"
-			{
-				"xpos"			"3"
-				"ypos"			"16"
-				"zpos"			"6"
-				"wide"			"25"
-				"tall"			"15"
-				"textAlignment"		"east"
-				"font"			"HudFontSmallestBoldShadow"
-
-				if_readymode
-				{
-					"visible"		"1"
-				}
-			}
-			"specindex"
-			{
-				"visible"		"0"
-			}
-
-			"ReadyBG"
-			{
-				"xpos"			"32"
-				"draw_corner_width"	"0"
-				"draw_corner_height" 	"0"
-				"border"		"QuickplayBorder"
-			}
-			"ReadyImage"
-			{
-				"xpos"			"34"
-			}
-		}
+		"name_width"	"67"
+		"spacer"	"2"
+		"horiz_inset"	"0"
 
 		"team1_player_base_offset_x"		"c-55"
 		"team2_player_base_offset_x"		"c0"
+		"teams_player_delta_x_comp"		"45"
+		"teams_player_delta_x_comp"		"20"
 
 		if_mvm
 		{
 			"xpos"					"0"
-			"ypos_minmode"				"-12"
 			"wide"					"f0"
-			"tall"					"492"
-
-			"team0_player_delta_y"			"33"
-			"team3_player_delta_y"			"33"
-			"team0_player_base_y"			"100"
-			"team3_player_base_y"			"200"
 
 			"team1_player_base_y"			"67"
 			"team2_player_base_y"			"67"
+			"team1_player_base_y_minmode"		"55"
+			"team2_player_base_y_minmode"		"55"
 			"team2_player_delta_x"			"55"
 		}
 		if_competitive
 		{
 			"xpos"					"0"
-			"ypos_minmode"				"0"
 			"wide"					"f0"
 			"tall"					"480"
 
@@ -133,13 +40,303 @@
 		if_readymode
 		{
 			"xpos"					"0"
-			"ypos_minmode"				"0"
 			"wide"					"f0"
 			"tall"					"480"
 
 			"team1_player_base_y"			"0"
 			"team2_player_base_y"			"0"
-			"team2_player_delta_x"			"55"
+			"team1_player_delta_x"			"50"
+			"team2_player_delta_x"			"50"
+		}
+
+		"ModeImage"
+		{
+			"ypos"	"0"
+			"zpos"	"-2"
+			"wide"	"35"
+			"tall"	"35"
+			"alpha"	"150"
+		}
+
+		"playerpanels_kv"
+		{
+			"draw_corner_height"	"0"
+			"draw_corner_width"	"0"
+
+			if_competitive
+			{
+				"wide"		"45"
+				"tall"		"34"
+			}
+			if_readymode
+			{
+				"wide"		"51"
+				"tall"		"34"
+			}
+
+			panelborder
+			{
+				"controlName"	"EditablePanel"
+				"fieldName"	"panelborder"
+				"xpos"		"0"
+				"ypos"		"0"
+				"border"	"QuickplayBorder"
+				"wide"		"f0"
+				"tall"		"f0"
+				"proportionaltoparent" "1"
+			}
+
+			"playername"
+			{
+				"xpos"		"0"
+				"ypos"		"0"
+				"wide"		"f0"
+				"tall"		"9"
+				"textinsetx"	"4"
+				"proportionaltoparent"	"1"
+
+				"pin_to_sibling" 	"panelborder"
+				"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+				"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+
+				if_mvm
+				{
+					"xpos"	"0"
+					"ypos"	"0"
+					"wide"	"f0"
+					"tall"	"9"
+					"proportionaltoparent"	"1"
+				}
+				if_competitive
+				{
+					"xpos"	"0"
+					"ypos"	"0"
+					"wide"	"f0"
+					"tall"	"9"
+					"proportionaltoparent"	"1"
+				}
+				if_readymode
+				{
+					"xpos"	"0"
+					"ypos"	"0"
+					"wide"	"f0"
+					"tall"	"9"
+					"proportionaltoparent"	"1"
+				}
+			}
+
+			"HealthIcon"
+			{
+				"xpos"			"1"
+				"ypos"			"0"
+				"wide"			"23"
+				"tall"			"20"
+				"TextColor"		"TanLight"
+				"HealthBonusPosAdj"	"0"
+				"HealthDeathWarning"	"0.35"
+
+				"pin_to_sibling" 	"classimagebg"
+				"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+				"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+
+				if_competitive
+				{
+					"wide"			"23"
+					"tall"			"20"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+				}
+			}
+
+			"respawntime"
+			{
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"5"
+				"wide"			"24"
+				"tall"			"20"
+				"textAlignment"		"center"
+				"font"			"HudFontSmallestBoldShadow"
+				//"bgcolor_override"	"88 88 88 120"
+				//"fgcolor"		"235 226 202 255"
+
+				"pin_to_sibling" 	"classimagebg"
+				"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+				"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+
+				if_competitive
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"24"
+					"tall"			"20"
+					"proportionaltoparent"	"1"
+				}
+			}
+
+			"chargeamount"
+			{
+				"xpos"			"3"
+				"ypos"			"14"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"15"
+				"textAlignment"		"east"
+				"font"			"HudFontSmallestBoldShadow"
+
+				if_competitive
+				{
+				}
+				if_readymode
+				{
+					"visible"		"1"
+				}
+			}
+			"specindex"
+			{
+				"visible"		"0"
+			}
+			"classimage"
+			{
+				"xpos"		"3"
+				"ypos"		"0"
+				"wide"		"20"
+				"tall"		"20"
+				
+				"pin_to_sibling" 	"ReadyBG"
+				"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
+				"pin_to_sibling_corner" "PIN_CENTER_LEFT"
+
+				if_competitive
+				{
+					"xpos"		"3"
+					"ypos"		"0"
+					"wide"		"20"
+					"tall"		"20"
+				}
+				if_mvm
+				{
+					"xpos"		"3"
+					"ypos"		"0"
+					"wide"		"20"
+					"tall"		"20"
+				}
+				if_readymode
+				{
+					"xpos"		"3"
+					"ypos"		"0"
+					"wide"		"20"
+					"tall"		"20"
+				}
+			}
+			"classimagebg"
+			{
+				"pin_to_sibling" 	"classimage"
+				"pin_corner_to_sibling" "PIN_TOPLEFT"
+				"pin_to_sibling_corner" "PIN_TOPLEFT"
+
+				if_competitive
+				{
+					"xpos"		"0"
+					"ypos"		"0"
+					"wide"		"20"
+					"tall"		"20"
+				}
+				if_mvm
+				{
+					"xpos"		"0"
+					"ypos"		"0"
+					"wide"		"20"
+					"tall"		"20"
+				}
+				if_readymode
+				{
+					"xpos"		"0"
+					"ypos"		"0"
+					"wide"		"20"
+					"tall"		"20"
+				}
+			}
+
+			"ReadyBG"
+			{
+				"xpos"			"c3"
+				"ypos"			"c-11"
+				"wide"			"16"
+				"tall"			"16"
+				"draw_corner_width"	"0"
+				"draw_corner_height" 	"0"
+				"border"		"QuickplayBorder"
+				"proportionaltoparent"	"1"
+
+				if_competitive
+				{
+					"xpos"			"c3"
+					"ypos"			"c-11"
+					"wide"			"16"
+					"tall"			"16"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+				}
+				if_mvm
+				{
+					"xpos"			"c3"
+					"ypos"			"c-11"
+					"wide"			"16"
+					"tall"			"16"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+				}
+				if_readymode
+				{
+					"xpos"			"c3"
+					"ypos"			"c-11"
+					"wide"			"16"
+					"tall"			"16"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+				}
+			}
+			"ReadyImage"
+			{
+				"xpos"			"0"
+				"ypos"			"-1"
+				"wide"			"14"
+				"tall"			"14"
+
+				"pin_to_sibling" 	"ReadyBG"
+				"pin_corner_to_sibling" "PIN_CENTER_TOP"
+				"pin_to_sibling_corner" "PIN_CENTER_TOP"
+
+				if_competitive
+				{
+					"xpos"			"0"
+					"ypos"			"-1"
+					"wide"			"14"
+					"tall"			"14"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+				}
+				if_mvm
+				{
+					"xpos"			"0"
+					"ypos"			"-1"
+					"wide"			"14"
+					"tall"			"14"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+				}
+				if_readymode
+				{
+					"xpos"			"0"
+					"ypos"			"-1"
+
+					"wide"			"14"
+					"tall"			"14"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+				}
+			}
 		}
 	}
 	"TournamentInstructionsLabel"
@@ -157,6 +354,7 @@
 			"tall"		"50"
 			"xpos"		"0"
 			"ypos"		"100"
+			"ypos_minmode"	"88"
 		}
 		if_competitive
 		{
@@ -175,31 +373,36 @@
 	}
 	"TournamentInstructionsLabelShadow"
 	{
-		"wide"		"f1"
+		"wide"		"f0"
 		"tall"		"50"
-		"xpos"		"0"
+		"xpos"		"-1"
+		"ypos"		"-1"
 		"textAlignment"	"North"
+
+		"pin_to_sibling" 	"TournamentInstructionsLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		if_mvm
 		{
-			"wide"		"f1"
+			"xpos"		"-1"
+			"ypos"		"-1"
+			"wide"		"f0"
 			"tall"		"50"
-			"xpos"		"0"
-			"ypos"		"101"
 		}
 		if_competitive
 		{
-			"wide"		"f1"
+			"xpos"		"-1"
+			"ypos"		"-1"
+			"wide"		"f0"
 			"tall"		"50"
-			"xpos"		"0"
-			"ypos"		"35"
 		}
 		if_readymode
 		{
-			"wide"		"f1"
+			"xpos"		"-1"
+			"ypos"		"-1"
+			"wide"		"f0"
 			"tall"		"50"
-			"xpos"		"0"
-			"ypos"		"35"
 		}
 	}
 
@@ -210,6 +413,17 @@
 		"bgcolor_override"	"0 0 0 0"
 		"image"			""
 		"visible"		"0"
+
+		if_competitive
+		{
+			"tall"		"0"
+			"visible"	"0"
+		}
+		if_readymode
+		{
+			"tall"		"0"
+			"visible"	"0"
+		}
 	}
 
 	"TournamentLabel"
@@ -325,7 +539,6 @@
 	{
 		"xpos"			"c-20"
 		"ypos"			"r43"
-		"ypos_minmode"		"r31"
 
 		"border"		"QuickplayBorder"
 		"scaleimage"		"1"
@@ -334,9 +547,10 @@
 
 		if_competitive
 		{
-			"image"			"../hud/color_panel_brown"
 			"xpos"			"c-20"
-			"ypos"			"5"
+			"ypos"			"-4"
+			"visible"		"0"
+			"image"			"../hud/color_panel_brown"
 		}
 
 		if_readymode
@@ -348,38 +562,150 @@
 	}
 	"CountdownLabel"
 	{
-		"xpos"			"c-20"
-		"ypos"			"r43"
-		"ypos_minmode"		"r31"
+		"xpos"		"0"
+		"ypos"		"0"
+
+		"pin_to_sibling" 	"CountdownBG"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		if_competitive
 		{
-			"xpos"			"c-20"
-			"ypos"			"5"
+			"xpos"		"0"
+			"ypos"		"0"
+			//"visible"	"1"
+			"font"		"HudFontSmallishBold"
 		}
 
 		if_readymode
 		{
-			"xpos"			"c-20"
-			"ypos"			"5"
+			"xpos"		"0"
+			"ypos"		"0"
 		}
 	}
 	"CountdownLabelShadow"
 	{
-		"xpos"			"c-19"
-		"ypos"			"r42"
-		"ypos_minmode"		"r30"
+		"xpos"		"-1"
+		"ypos"		"-1"
+
+		"pin_to_sibling" 	"CountdownLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		if_competitive
 		{
-			"xpos"			"c-19"
-			"ypos"			"6"
+			"xpos"		"-1"
+			"ypos"		"-1"
+			//"visible"	"1"
+			"font"		"HudFontSmallishBold"
 		}
 
 		if_readymode
 		{
-			"xpos"			"c-19"
-			"ypos"			"6"
+			"xpos"		"-1"
+			"ypos"		"-1"
+		}
+	}
+
+	BlueTeamPanel
+	{
+		//"xpos"		"c-300" // Debug
+		"xpos"		"-160"
+		"ypos"		"c-100"
+		"wide"		"160"
+		"tall"		"330"
+
+		BlueTeamImage
+		{
+			"xpos"		"0"
+			"ypos"		"-1"
+			"wide"		"54"
+			"tall"		"54"
+			"image"		"store/store_blueteam"
+			"pin_to_sibling" 	"BlueTeamBG"
+			"pin_corner_to_sibling" "PIN_CENTER_TOP"
+			"pin_to_sibling_corner" "PIN_CENTER_TOP"
+		}
+		BlueTeamBG
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"f0"
+			"border"		"ComboBoxBorder"
+			"bgcolor_override"	"HUDBlueTeam"
+			"proportionaltoparent"	"1"
+		}
+		BluePlayerListBG
+		{
+			"tall"		"0"
+			"visible"	"0"
+		}
+		BluePlayerList
+		{
+			"xpos"		"0"
+			"ypos"		"-6"
+			"wide"		"f0"
+			"tall"		"330"
+			"linespacing"	"24"
+			"linegap"	"0"
+			//"show_columns"	"1"
+			"paintbackground"	"0"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling" 	"BlueTeamBG"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+	}
+
+	"RedTeamPanel"
+	{
+		//"xpos"		c140 // Debug
+		"xpos"		"r-5"
+		"ypos"		"c-100"
+		"wide"		"160"
+		"tall"		"330"
+
+		RedTeamImage
+		{
+			"xpos"		"0"
+			"ypos"		"-1"
+			"wide"		"54"
+			"tall"		"54"
+			"image"		"store/store_redteam"
+			"pin_to_sibling" 	"RedTeamBG"
+			"pin_corner_to_sibling" "PIN_CENTER_TOP"
+			"pin_to_sibling_corner" "PIN_CENTER_TOP"
+		}
+		RedTeamBG
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"f0"
+			"border"		"ComboBoxBorder"
+			"bgcolor_override"	"HUDRedTeam"
+			"proportionaltoparent"	"1"
+		}
+		RedPlayerListBG
+		{
+			"tall"		"0"
+			"visible"	"0"
+		}
+		RedPlayerList
+		{
+			"xpos"		"0"
+			"ypos"		"-6"
+			"wide"		"f0"
+			"tall"		"300"
+			"linespacing"	"24"
+			"linegap"	"0"
+			//"show_columns"	"1"
+			"paintbackground"	"0"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling" 	"RedTeamBG"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 	}
 }

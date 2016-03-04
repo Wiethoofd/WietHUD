@@ -1,0 +1,63 @@
+// MatchMaking Start Player List + Doorslam
+event HudTournament_DoorsClose
+{
+	StopEvent HudTournament_ResetTimer 0
+
+	SetVisible CountdownBG		0 0
+	SetVisible CountdownLabel	1 0
+	SetVisible CountdownLabelShadow 1 0
+
+	Animate CountdownBG	ypos	c-3 Gain 0.75 0 0.4
+
+	SetVisible MatchStartingBG	1	0
+	SetVisible BlueTeamPanel	1	0
+	SetVisible RedTeamPanel		1	0
+
+	SetVisible HudTournamentBG 		0	2
+	SetVisible TournamentConditionLabel	0	2
+	RunEventChild MatchStartingBG		PlayDoorCloseAnim 0
+	RunEventChild FrontParticlePanel 	PlayDoorSlamParticles 0.45
+	RunEventChild MatchStartingBG		PlayDoorOpenAnim 7
+
+	RunEvent HudTournament_AnimateTeams_In	0.25
+	RunEvent HudTournament_AnimateTeams_Out 7.70
+
+	SetVisible CountdownBG		0	9.9
+	SetVisible CountdownLabel	0	9.9
+	SetVisible CountdownLabelShadow	0	9.9
+
+	SetVisible MatchStartingBG	0	10
+	SetVisible BlueTeamPanel	0	10
+	SetVisible RedTeamPanel		0	10
+	StopEvent HudTournament_ResetTimer	10
+}
+
+// Moving Team Player Lists in/out of frame
+event HudTournament_AnimateTeams_In
+{
+	Animate RedTeamPanel	xpos c140	Accel 0 0.25
+	Animate BlueTeamPanel	xpos c-300	Accel 0 0.25
+}
+event HudTournament_AnimateTeams_Out
+{
+	Animate RedTeamPanel	xpos r5		Accel 0 0.68
+	Animate BlueTeamPanel	xpos -190	Accel 0 0.68
+}
+
+// HudTournament Readymode & Competitive Countdown timer
+event HudTournament_ShowTimerCompetitive
+{
+	SetVisible CountdownBG		0 0
+	SetVisible CountdownLabel	1 0
+	SetVisible CountdownLabelShadow	1 0
+}
+event HudTournament_ShowTimerDefault
+{
+	SetVisible CountdownBG		1 0
+	SetVisible CountdownLabel	1 0
+	SetVisible CountdownLabelShadow	1 0
+}
+event HudTournament_ResetTimer
+{
+	Animate CountdownBG	ypos	-4 Linear 0 0
+}

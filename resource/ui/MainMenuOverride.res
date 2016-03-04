@@ -304,7 +304,7 @@
 	{
 		"end_y"			"150"
 		"callout_inparents_y"	"225"
-	}	
+	}
 	"PracticeHighlight"
 	{
 		"end_y"			"150"

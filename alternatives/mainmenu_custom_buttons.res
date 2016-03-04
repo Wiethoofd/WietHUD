@@ -53,20 +53,29 @@
 	"MainMenuBGPanel"
 	{
 		"tall"		"150" // if_competitive
+
+		if_competitive { tall 150 }
 	}
 	"TrainingButton"
 	{
 		"ypos"		"210" // if_competitive
+
+		if_competitive { ypos 210 }
 	}
 	"ServerBrowserButton"
 	{
 		"ypos"		"210" // if_competitive
+
+		if_competitive { ypos 210 }
 	}
 	"CreateServerButton"
 	{
 		"ypos"		"210" // if_competitive
 		"wide"			"25"
 		"tall"			"25"
+
+		if_competitive { ypos 210 }
+
 		"SubButton"
 		{
 			"wide"			"25"
@@ -479,7 +488,7 @@
 			}
 		}
 	}
-	
+
 	"BackpackButton"
 	{
 		"ControlName"	"EditablePanel"

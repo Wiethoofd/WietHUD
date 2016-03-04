@@ -13,7 +13,7 @@
 	{
 		"xpos"		"c-322"
 	}
-	
+
 	"TFLogoImage"
 	{
 		"xpos"		"c-330"
@@ -33,6 +33,12 @@
 	"PlayCompetitiveLobbyButton"
 	{
 		"xpos"		"c-325"
+	}
+	CompetitiveBetaImage
+	{
+		"xpos"		"c-325+218"
+
+		if_competitive_stress_event { xpos "c-325+205" }
 	}
 	"TrainingButton"
 	{
@@ -140,7 +146,7 @@
 	{
 		"xpos"		"c-226"
 	}
-	
+
 	"RecordDemoButton"
 	{
 		"xpos"		"c-325"
@@ -185,7 +191,7 @@
 			}
 		}
 	}
-	
+
 	// Customize Panel
 	"StoreBGPanel"
 	{
@@ -207,7 +213,7 @@
 	{
 		"xpos"		"c-325"
 	}
-	
+
 	"BackpackButton"
 	{
 		"xpos"		"c-249"
@@ -216,7 +222,7 @@
 	{
 		"xpos"		"c-226"
 	}
-	
+
 	// Create Panel
 	"CreateBGPanel"
 	{
@@ -234,7 +240,7 @@
 	{
 		"xpos"		"c-200"
 	}
-	
+
 	"VRBGPanel"
 	{
 		"xpos"		"c-330"
@@ -243,7 +249,7 @@
 	{
 		"xpos"		"c-325"
 	}
-	
+
 	"ShowPromoCodesButton"
 	{
 		"xpos"		"c-325"
@@ -267,7 +273,7 @@
 	}
 	"DisconnectButton"
 	{
-		"xpos"		"c-330"	
+		"xpos"		"c-330"
 	}
 	"BackToReplaysButton"
 	{
