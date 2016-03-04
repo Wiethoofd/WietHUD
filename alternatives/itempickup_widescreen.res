@@ -42,7 +42,6 @@
 	}
 	"DiscardButtonTooltip"
 	{
-		"xpos"			"c240"
 		"wide"			"130"
 		
 		"TipLabel"

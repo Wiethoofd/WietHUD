@@ -273,6 +273,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"proportionaltoparent"	"1"
+				"textinsetx"		"4"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"1"

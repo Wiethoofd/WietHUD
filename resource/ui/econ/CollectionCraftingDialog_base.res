@@ -10,6 +10,8 @@
 		{
 			"itempanel"
 			{
+				"model_wide"	"56"
+				"model_tall"	"40"
 				"itemmodelpanel"
 				{
 					"inventory_image_type"	"1"
@@ -51,6 +53,16 @@
 	{
 		"labelText"	"R"
 		//"visible"	"1"
+	}
+	
+	"SendEnvelopeButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboBoxBorder"
+		"border_depressed"		"ComboBoxBorder"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override"	"TanLight"
 	}
 	
 	"CloseButton"

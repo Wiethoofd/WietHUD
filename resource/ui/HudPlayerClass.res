@@ -1,3 +1,4 @@
+
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
@@ -347,8 +348,8 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"CarryingLabelDropShadow"
 			"font"			"TFFontMedium"
-			"xpos"			"5"
-			"ypos"			"3"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"	 		"f0"
@@ -363,6 +364,9 @@
 			"auto_wide_tocontents"	"1"
 			"fgcolor_override"	"Black"
 			"labelText"		"%carrying%"
+			"pin_to_sibling" 	"CarryingLabel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
 
 		"OwnerLabel"

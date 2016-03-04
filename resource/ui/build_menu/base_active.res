@@ -26,8 +26,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
-		"xpos"			"c-25"
-		"ypos"			"c-26"
+		"xpos"			"cs-0.5" //"c-25"
+		"ypos"			"cs-0.5" //"c-26"
 		"zpos"			"2"
 		"wide"			"51"
 		"tall"			"51"
@@ -43,8 +43,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
+		"xpos"			"cs-0.5" //"c-25"
+		"ypos"			"cs-0.5" //"c-25"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"

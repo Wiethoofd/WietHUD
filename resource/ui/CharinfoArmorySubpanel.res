@@ -11,13 +11,13 @@
 		"thumbnail_bgcolor"	"BackpackBorderColor"
 		"thumbnail_bgcolor_mouseover"	"BackpackPopupBGColor"
 		"thumbnail_bgcolor_selected"	"ButtonPressColor"
-		
+
 		"thumbnails_rows"	"6"
 		"thumbnails_columns"	"4"
-		
+
 		"thumbnails_x"		"c-282"
 		"thumbnails_y"		"30"
-		
+
 		"thumbnails_delta_x"	"6"
 		"thumbnails_delta_y"	"6"
 
@@ -25,7 +25,7 @@
 		{
 			"wide"		"70"
 			"tall"		"46"
-		
+
 			"model_xpos"		""
 			"model_ypos"		""
 			"model_center_x"	"1"
@@ -55,7 +55,7 @@
 		"model_center_x"	"1"
 		"model_center_y"	"1"
 	}
-	
+
 	"PrevPageButton"
 	{
 		"xpos"			"2"
@@ -82,7 +82,7 @@
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	
+
 	"WikiButton"
 	{
 		"xpos"		"0"
@@ -90,31 +90,32 @@
 		"pin_to_sibling" 	"DataPanel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
-	}	
-	"ViewSetButton"
-	{
-		"xpos"		"0"
-		"ypos"		"4"
-		"pin_to_sibling" 	"DataPanel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"StoreButton"
+	"ViewSetButton"
 	{
 		"xpos"		"4"
 		"ypos"		"0"
 		"wide"		"100"
-		"tall"		"20"
-		"font"		"HudFontSmallestBold"
 		"pin_to_sibling" 	"PrevPageButton"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+	"StoreButton"
+	{
+		"xpos"		"0"
+		"ypos"		"4"
+		"wide"		"106"
+		"tall"		"20"
+		"font"		"HudFontSmallestBold"
+		"pin_to_sibling" 	"DataPanel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+
 	"FiltersLabel"
 	{
 		"tall"		"0"
-	}	
+	}
 	"FilterComboBox"
 	{
 		"xpos"			"5"
@@ -126,11 +127,10 @@
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
-	
 	"SelectedItemModelPanel"
 	{
 		"xpos"		"-3"
-		"ypos"		"-4"
+		"ypos"		"-6"
 		"wide"		"264"
 
 		"pin_to_sibling" 	"DataPanel"
@@ -141,7 +141,7 @@
 	{
 		"ypos"		"4"
 		"tall"		"330"
-		
+
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
 
@@ -151,7 +151,7 @@
 			"wide"			"268"
 		}
 	}
-	
+
 	"prevShortKey"
 	{
 		"ControlName"	"CExButton"

@@ -192,6 +192,7 @@
 
 	"ItemOptionsPanel"
 	{
+		"paintbackgroundtype"	"0"
 		"bgcolor_override"	"BackpackPopupBGColor"
 	}
 

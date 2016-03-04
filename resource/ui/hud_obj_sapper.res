@@ -75,7 +75,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"c-27"
 		"wide"			"160"
 		"tall"			"27"
 		"visible"		"0"

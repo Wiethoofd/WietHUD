@@ -173,10 +173,15 @@
 	}	
 	"DiscardButtonTooltip"
 	{
-		"ypos"			"135"
+		"xpos"			"0"
+		"ypos"			"4"
 		"tall"			"30"
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
+		
+		"pin_to_sibling"	"DiscardButton"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 		
 		"TipLabel"
 		{

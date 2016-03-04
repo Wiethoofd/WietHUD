@@ -10,17 +10,27 @@
 			"wide"			"536"
 			"border"		"QuickplayBorder"
 			"draw_corner_width"	"0"	// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 	}
 	"DoneButton"
 	{
 		"ControlName"	"CExButton"
 		"xpos"		"0"
-		"ypos"		"0"
-		"border"	"QuickplayBorder"
-		"border_override"	"QuickplayBorder"
+		"ypos"		"4"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
+
+		"pin_to_sibling"               "StatsContainer"
+		"pin_corner_to_sibling"        "PIN_CENTER_TOP"
+		"pin_to_sibling_corner"        "PIN_CENTER_BOTTOM"
+	}
+	"doneShortKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&e"
+		"command"	"done"
 	}
 }

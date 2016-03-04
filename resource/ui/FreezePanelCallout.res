@@ -5,7 +5,7 @@
 {
 	"CalloutBG"
 	{
-		"border"		"QuickplayBorder"
+		"border"		"ComboBoxBorder"
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"		
 	}
