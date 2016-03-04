@@ -47,11 +47,12 @@
 				"zpos"			"2"
 				"wide"			"18"
 				"tall"			"f0"
-				"autoResize"	"0"
+				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"fillcolor"		"30 30 30 255"
+				"proportionaltoparent"	"1"
 			}
 
 			"PanelBorder"
@@ -76,18 +77,23 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"Default"
-				"xpos"			"19"
-				"ypos"			"1"
+				"xpos"			"0"
+				"ypos"			"-1"
 				"zpos"			"5"
-				"wide"			"110"
-				"tall"			"10"
+				"wide"			"111"
+				"tall"			"f0"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"		"north-west"
 				//"fgcolor"		"235 226 202 255"
-				"font_override"			"Default"
+				"proportionaltoparent"	"1"
+				"textinsetx"		"2"
+
+				"pin_to_sibling" 	"PanelCoverLeft"
+				"pin_corner_to_sibling" "PIN_TOPLEFT"
+				"pin_to_sibling_corner" "PIN_TOPRIGHT"
 
 				//if_mvm
 				//{
@@ -116,11 +122,7 @@
 
 				if_mvm
 				{
-				//	"xpos"			"4"
-				//	"ypos"			"4"
-				//	"wide"			"20"
-				//	"tall"			"20"
-					"image"			"../vgui/hud_connecting"
+					"image"		"../vgui/hud_connecting"
 				}
 			}
 
@@ -143,21 +145,10 @@
 				"visible"			"1"
 				"enabled"			"1"
 				"HealthBonusPosAdj"		"10"
-				"HealthDeathWarning"		"0.49"
-				"TFFont"			"HudFontSmallest"
+				"HealthDeathWarning"		"0.40"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"			"TanLight"
-
-				//if_mvm
-				//{
-				//	"xpos"				"28"
-				//	"ypos"				"4"
-				//}
-				if_competitive
-				{
-					"xpos"				"28"
-					"ypos"				"4"
-				}
+				"bgcolor_override"		"TanDark"
 			}
 
 			"ReadyBG"
@@ -216,18 +207,20 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultShadow"
-				"xpos"			"20"
-				"ypos"			"8"
+				"font"			"Default"
+				"xpos"			"129"
+				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"108"
-				"tall"			"10"
-				"autoResize"	"0"
+				"wide"			"23"
+				"tall"			"f0"
+				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"		"east"
-				//"fgcolor"		"235 226 202 255"
+				"textAlignment"		"center"
+				"fgcolor"		"TanLight"
+				"proportionaltoparent"	"1"
+				"textinsetx"		"0"
 
 				//if_mvm
 				//{
@@ -239,32 +232,74 @@
 				//	"font"			"HudFontSmallestBold"
 				//}
 			}
+			"respawntimeshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntimeshadow"
+				"font"			"Default"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"zpos"			"5"
+				"wide"			"23"
+				"tall"			"f0"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"		"center"
+				"fgcolor"		"Black"
+				"proportionaltoparent"	"1"
+				"textinsetx"		"0"
+
+				"pin_to_sibling" 	"respawntime"
+				"pin_corner_to_sibling" "PIN_TOPLEFT"
+				"pin_to_sibling_corner" "PIN_TOPLEFT"
+			}
+			"respawntimecover"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntimecover"
+				"font"			"Blocks40"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"5"
+				"wide"			"23"
+				"tall"			"f0"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"		"center"
+				"fgcolor"		"85 83 87 255"
+				"proportionaltoparent"	"1"
+				"textinsetx"		"5"
+
+				"pin_to_sibling" 	"respawntime"
+				"pin_corner_to_sibling" "PIN_TOPLEFT"
+				"pin_to_sibling_corner" "PIN_TOPLEFT"
+			}
 
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"DefaultShadow"
-				"xpos"			"20"
-				"ypos"			"8"
-				"zpos"			"5"
-				"wide"			"108"
-				"tall"			"10"
+				"xpos"			"0"
+				"ypos"			"-1"
+				"zpos"			"6"
+				"wide"			"128"
+				"tall"			"9"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"		"east"
-				"fgcolor"		"0 255 0 255"
+				"textAlignment"		"west"
+				"fgcolor"		"0 225 0 255"
+				"textinsetx"		"0"
 
-				//if_mvm
-				//{
-				//	"xpos"			"1"
-				//	"ypos"			"16"
-				//	"wide"			"27"
-				//	"tall"			"10"
-				//	"textAlignment"		"east"
-				//}
+				"pin_to_sibling" 	"PanelCoverLeft"
+				"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+				"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 			}
 
 			"specindex"
@@ -285,12 +320,6 @@
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
 			}
-
-			//if_mvm
-			//{
-			//	"wide"		"55"
-			//	"tall"		"33"
-			//}
 		}
 
 		if_mvm

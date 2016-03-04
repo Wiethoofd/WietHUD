@@ -1,3 +1,6 @@
+// Hide player names in killfeed with minmode 1
+//#base "../alternatives/icon_only_killfeed_minmode.res"
+
 // Default HudLayout.res include
 #base "../default_hudfiles/hudlayout.res"
 
@@ -43,6 +46,13 @@
 		"zpos"		"0"
 	}
 
+	// Floating Player names
+	HudSpectatorExtras
+	{
+		"tall"			"f0"
+		//"player_name_font"	""
+	}
+
 	// Sniper Scope Transparent Viewmodel fix
 	HudZoom		{ "zpos" "-1" }
 	HudScope	{ "zpos" "-1" }
@@ -86,7 +96,7 @@
 	}
 	CSpectatorTargetID
 	{
-		"ypos"		"c120"
+		"ypos"		"c101"
 		"tall"	 	"30"
 		"tall_minmode"	"30"
 	}
@@ -142,7 +152,10 @@
 		"ypos_hidef"		"c-130"
 		"ypos_lodef"		"c-130"
 	}
-
+	HudArenaClassLayout
+	{
+		"zpos"		"40"
+	}
 	HudArenaPlayerCount // Arena Player count
 	{
 		"xpos"		"-62"
@@ -167,19 +180,32 @@
 		"ypos"			"c-130"
 	}
 
+	"HudAchievementTracker" // Achievement Tracker
+	{
+		"xpos"			"0"
+		"NormalY"		"5"
+		"EngineerY"		"160"
+		"wide"			"f0"
+		"tall"			"f0"
+
+		"ItemPadding"		"3"
+	}
+
 	HudTeamSwitch // Autobalance message
 	{
 		"ypos"			"c-130"
 	}
 	HudTeamGoal
 	{
-		"ypos"			"20"
-		"ypos_lodef"		"20"
+		"ypos"			"25"
+		"ypos_lodef"		"25"
 	}
 	HudTeamGoalTournament
 	{
+		"xpos"			"c-180"
 		"ypos"			"0"
 		"ypos_lodef"		"0"
+		"wide"			"360"
 	}
 
 	HudStalemate
@@ -189,7 +215,21 @@
 
 	HudHintDisplay
 	{
-		"ypos"			"c-130"
+		"ypos"			"r180"
+		"text_xpos"		"5"
+		"text_ypos"		"5"
+		"text_xgap"		"5"
+		"text_ygap"		"5"
+	}
+
+	HudHintKeyDisplay
+	{
+		"xpos"			"r110"
+		"ypos"			"r340"
+		"text_xpos"		"5"
+		"text_ypos"		"5"
+		"text_xgap"		"5"
+		"text_ygap"		"5"
 	}
 
 	StatPanel
@@ -236,15 +276,6 @@
 	{
 		"xpos"			"-5"
 		"ypos"			"-5"
-	}
-
-	"HudAchievementTracker" // Achievement Tracker
-	{
-		"xpos"			"-5"
-		"NormalY"		"3"
-		"EngineerY"		"185"
-		"zpos"			"2"
-		"wide"			"250"
 	}
 
 	HudBowCharge // Bow charge uses democharge (screen wide)
@@ -335,7 +366,9 @@
 
 	HudBossHealth // Halloween boss health bar
 	{
-		"ypos"		"20"
+		"ypos"		"40"
+		"health_alive_pos_y"	"40"
+		"health_dead_pos_y"	"40"
 	}
 
 	HudCloseCaption // Subtitles/Closed Captions
@@ -353,6 +386,10 @@
 		"item_tall"		"16"
 		"item_wide"		"150"
 
+		"fade_in_time"		"0.05"
+		"fade_out_time"		"0.05"
+
+		"show_friend"		"1"
 		"show_avatar"		"1"
 		"avatar_xpos"		"1"
 		"avatar_ypos"		"1"
@@ -368,6 +405,7 @@
 		"text_xpos"		"41"
 		"text_ypos"		"0"
 
+		"show_dead_icon"	"1"
 		"dead_xpos"		"1"
 		"dead_ypos"		"4"
 		"dead_wide"		"9"

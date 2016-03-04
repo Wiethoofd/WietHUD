@@ -23,7 +23,7 @@
 		"draw_corner_height"	"0"
 		"draw_corner_width"	"0"
 	}
-		
+
 	"TimeBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -79,7 +79,6 @@
 		"font"			"HudFontSmallBlur"
 		"labelText"		"#game_WaitingForPlayers"
 		"textAlignment"		"center"
-		"image"			""
 		"pin_to_sibling" 	"WaitingForPlayersLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -116,7 +115,6 @@
 		"font"			"HudFontSmallBlur"
 		"labelText"		"#game_Overtime"
 		"textAlignment"		"center"
-		"image"			""
 		"pin_to_sibling" 	"OvertimeLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -153,7 +151,6 @@
 		"font"			"HudFontSmallBlur"
 		"labelText"		"#game_Setup"
 		"textAlignment"		"center"
-		"image"			""
 		"pin_to_sibling" 	"SetupLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -190,7 +187,7 @@
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0" //"TransparentBlack"
+		"bgcolor_override"	"0 0 0 0"
 	}
 	"ServerTimeLimitLabelBG"
 	{
@@ -208,7 +205,6 @@
 		"font"			"HudFontMediumSmall"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
-		"image"			""
 		"pin_to_sibling" 	"ServerTimeLimitLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
