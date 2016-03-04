@@ -32,53 +32,53 @@ Scheme
 		"TransparentBGColor"	"42 40 42 120"
 		"MainMenuBGColor"	"36 34 36 180"
 		"BackpackBGColor"	"52 50 52 255"
-		//"BackpackBorderColor"	"36 34 36 255"
-		//"BackpackPopupBGColor"	"44 42 44 255"
-		
-		//"ButtonColor"		"82 80 82 255"
-		//"ButtonArmedColor"	"92 90 92 255"
-		//"ButtonPressColor"	"102 100 102 255"
-		
-		//"SelectedLoadout"	"36 34 36 255"
 
-		"LowAmmoColor"		"180 0 0 225"
-		"LowAmmoColor2"		"130 0 0 255"
-				
-		"HealthBgGrey"		"72 71 69 240"
-		"HealthNormalColor"	"117 107 94 255"
+		"AmmoLowColor"		"255 165 0 255"
+		"LowAmmoShadowColor"	"180 0 0 225"
+		"LowAmmoShadowColor2"	"130 0 0 255"
+
+		"HealthNormalColor"	"235 226 202 255"
 		"HealthOverhealColor"	"100 149 237 255"
 		"HealthLowColor"	"255 165 0 255"
-		
+
 		"UberChargePulse"	"100 200 150 255"
 		"UberChargePulse2"	"120 220 130 255"
 
-		"CustomHealthBorder"	"62 60 62 225"
-		"CustomHealthBG"	"0 0 0 220"
 		"HealthShadow"		"60 60 60 220"
 	}
-	
+
 	BaseSettings // Define Color Names for Elements/Borders
 	{
 		//StickiesOutColor		"ItemRarityMythical" // Purple
 		StickiesOutColor		"ItemRarityLegendary" // Pink
-		
+
 		ReplayBrowser.BgColor		"BackpackBGColor"
 		ReplayBrowser.Search.BgColor	"BackpackPopupBGColor"
 		Econ.Dialog.BgColor		"BackpackPopupBGColor"
-		
+
 		Button.BgColor			"ButtonColor"
 		Button.ArmedBgColor		"ButtonArmedColor"
 		Button.DepressedBgColor		"ButtonPressColor"
 		Button.SelectedBgColor		"ItemRarityMythical"
-		
+
 		Econ.Button.BgColor		"ButtonColor"
 		Econ.Button.ArmedBgColor	"ButtonArmedColor"
 		Econ.Button.DepressedBgColor	"ButtonPressColor"
-		
+
 		Econ.Button.PresetDefaultColorBg	"SelectedLoadout"	// Active Loadout
 		Econ.Button.PresetArmedColorBg		"ButtonPressColor"	// Hover Active Loadout
 		Econ.Button.PresetDepressedColorBg	"ButtonPressColor"	// Click Active Loadout
-		
+
+		// Player Health Colors for animations
+		PlayerHealthDefault		"TanLight"
+		SpecHealthDefault		"TanLight"
+
+		// Ammo Colors for animations
+		AmmoClipDefault			"TanLight"
+		AmmoReserveDefault		"TanLight"
+		AmmoClipLowColor		"AmmoLowColor"
+		AmmoReserveLowColor		"TanLight"
+
 		DamageTextColor			"ItemRarityMythical" //"QualityColorCollectors"
 	}
 
@@ -91,6 +91,17 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+
+		// Floating Names above players Font
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"tall"		"9"
+				"dropshadow"	"1"
+			}
+		}
+
 		"HudClassHealth"
 		{
 			"1"
@@ -156,6 +167,17 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"dropshadow"	"1"
+				"antialias" 	"1"
+			}
+		}
+		"Blocks40"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"40"
+				"weight"	"500"
+				"additive"	"0"
 				"antialias" 	"1"
 			}
 		}
@@ -302,7 +324,7 @@ Scheme
 			"draw_corner_width"	"0" //4
 			"draw_corner_height"	"0" //4
 		}
-		
+
 		EconItemBorder { // Item Loadout Default border
 			"color"		"MainmenuBGColor"
 			"image"		"backpack_rect_color"
@@ -824,9 +846,10 @@ Scheme
 			"draw_corner_height"	"3"
 		}
 	}
-	
+
 	CustomFontFiles
 	{
 		"7" "resource/ocra.ttf" // Contracts Font
+		"8" "resource/blocks.ttf" // Block Font
 	}
 }

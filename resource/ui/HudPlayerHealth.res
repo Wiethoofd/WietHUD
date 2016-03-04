@@ -1,3 +1,4 @@
+//#base "../../alternatives/big_health_cross.res"
 #base "../../alternatives/big_health_numbers.res"
 #base "../../default_hudfiles/resource/ui/hudplayerhealth.res"
 
