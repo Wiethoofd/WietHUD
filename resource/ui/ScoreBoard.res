@@ -111,6 +111,11 @@
 	{
 		"xpos"		"2"
 		"ypos"		"8"
+
+		if_mvm
+		{
+			"tall"	"0"
+		}
 	}
 	"BlueTeamLabel"
 	{
@@ -145,6 +150,11 @@
 	"RedTeamImage"
 	{
 		"xpos"		"575"
+
+		if_mvm
+		{
+			"tall"	"0"
+		}
 	}
 	"RedTeamLabel"
 	{
