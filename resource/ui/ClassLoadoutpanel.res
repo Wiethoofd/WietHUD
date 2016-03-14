@@ -105,6 +105,14 @@
 			"tall"			"16"
 		}
 	}
+	"CharacterLoadoutKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&r"
+		"command"	"characterloadout"
+	}
 	"TauntLoadoutButton"
 	{
 		"ypos"		"3"
@@ -118,6 +126,14 @@
 			"wide"			"15"
 			"tall"			"15"
 		}
+	}
+	"TauntLoadoutKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&t"
+		"command"	"tauntloadout"
 	}
 
 	"classmodelpanel"
