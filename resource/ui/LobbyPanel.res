@@ -328,6 +328,20 @@
 
 		"LadderInfoPanel"
 		{
+			"RankNumber"
+			{
+				"textinsetx"		"4"
+				"textAlignment"		"center"
+				"auto_wide_tocontents"	"1"
+			}
+			"RankTitle"
+			{
+				"xpos"			"1"
+				"ypos"			"0"
+				"pin_to_sibling" 	"RankNumber"
+				"pin_corner_to_sibling" "PIN_TOPLEFT"
+				"pin_to_sibling_corner" "PIN_TOPRIGHT"
+			}
 			"StatList"
 			{
 				"bgcolor_override"	"0 0 0 0"
@@ -353,13 +367,21 @@
 
 		"LeaderboardPanel"
 		{
-			"Leaderboard6v6"
+			"Leaderboard"
 			{
-				"entry_step"	"22"
+				"wide"		"f0"
+				"entry_step"	"21"
+				"proportionaltoparent"	"1"
 			}
-			"Leaderboard9v9"
+			"FriendsLeaderboardButton"
 			{
-				"entry_step"	"22"
+				"border_default"	"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
+			}
+			"GlobalLeaderboardButton"
+			{
+				"border_default"	"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
 			}
 		}
 	}
