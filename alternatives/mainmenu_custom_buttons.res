@@ -21,7 +21,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"TopLeftDataPanel"
 		"xpos"		"c-282"
-		"ypos"		"99" //"72"
+		"ypos"		"99"
 		"zpos"		"10"
 		"tall"		"16"
 		"visible"	"1"
@@ -95,12 +95,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SpectateButton"
-		"xpos"			"c-125"
-		"ypos"			"123"
+		"xpos"			"-6"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"
 		"visible"		"0"
+
+		"pin_to_sibling"	"ReportPlayerButton"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 		"navToRelay"	"SubButton"
 
@@ -627,7 +631,7 @@
 		"fieldname"		"ConsoleButton"
 		"xpos"			"-5"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"24"
 		"visible"		"1"
@@ -652,12 +656,15 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"textinsetx"		"0"
+			"labelText"		""
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
 			"default"		"1"
+
+			"border_default"	"MainMenuSubButtonBorder"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

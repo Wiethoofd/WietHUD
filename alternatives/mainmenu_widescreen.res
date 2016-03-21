@@ -63,8 +63,7 @@
 	// Ingame Buttons
 	"SpectateButton"
 	{
-		"xpos"		"c-170"
-		"ypos"		"120"
+		"xpos"		"-3"
 		"SubButton"
 		{
 			"wide"			"25"
@@ -76,6 +75,24 @@
 				"ypos"			"3"
 				"wide"			"20"
 				"tall"			"20"
+			}
+		}
+	}
+	"ReportPlayerButton"
+	{
+		"xpos"			"c-169"
+		"ypos"			"120"
+		"SubButton"
+		{
+			"wide"			"25"
+			"tall"			"25"
+
+			"SubImage"
+			{
+				"xpos"			"4"
+				"ypos"			"4"
+				"wide"			"18"
+				"tall"			"18"
 			}
 		}
 	}
@@ -189,6 +206,13 @@
 				"wide"			"18"
 				"tall"			"18"
 			}
+		}
+	}
+	"ConsoleButton"
+	{
+		"SubButton"
+		{
+			"border_default"	"MainMenuButtonBorder"
 		}
 	}
 

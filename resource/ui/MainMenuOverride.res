@@ -1,16 +1,19 @@
+// Widescreen version of main menu, moving buttons to the left
 #base "../../alternatives/mainmenu_widescreen.res"
+
+// - (Un)Comment mainmenu_custom_buttonactions.res in ui/GameMenu.res to toggle custom buttons
 #base "../../alternatives/mainmenu_custom_buttons.res"
-#base "../../default_hudfiles/resource/ui/MainMenuOverride.res"
 
 // Main Menu
 // - Change the value of mat_antialias to see changes made without restarting TF2
-// - (Un)Comment mainmenu_custom_buttonactions.res in ui/GameMenu.res to toggle custom buttons
+#base "../../default_hudfiles/resource/ui/MainMenuOverride.res"
+
 
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
 	{
-		"button_x_offset"	"-285"
+		"button_x_offset"	"0" //"-285"
 		// xpos-40 for buttons in panels
 	}
 	"mouseoveritempanel"
@@ -43,19 +46,33 @@
 	"MainMenuBGPanel"
 	{
 		"border"		"QuickplayBorder"
-		"bgcolor_override"	"MainMenuBGColor"
+		"bgcolor_override"	"TransparentBlack"
+
+		if_competitive { tall 150 }
+	}
+	"TrainingButton"
+	{
+		if_competitive { ypos 210 }
+	}
+	"ServerBrowserButton"
+	{
+		if_competitive { ypos 210 }
+	}
+	"CreateServerButton"
+	{
+		if_competitive { ypos 210 }
 	}
 	"TooltipPanel"
 	{
 		"border"		"QuickplayBorder"
-		"bgcolor_override"	"BackpackPopupBGColor"
+		"bgcolor_override"	"Black"
 	}
 
 	"StoreBGPanel"
 	{
 		"ypos"		"251" // if_competitive
 		"border"		"QuickplayBorder"
-		"bgcolor_override"	"MainMenuBGColor"
+		"bgcolor_override"	"TransparentBlack"
 	}
 	"CustomizeLabel"
 	{
@@ -79,7 +96,7 @@
 	{
 		"ypos"		"313" // if_competitive
 		"border"		"QuickplayBorder"
-		"bgcolor_override"	"MainMenuBGColor"
+		"bgcolor_override"	"TransparentBlack"
 	}
 	"CreateLabel"
 	{
@@ -99,7 +116,7 @@
 	{
 		"ypos"		"378" // if_competitive
 		"border"		"QuickplayBorder"
-		"bgcolor_override"	"MainMenuBGColor"
+		"bgcolor_override"	"TransparentBlack"
 	}
 	"VRModeButton"
 	{
@@ -114,7 +131,7 @@
 	{
 		"ypos"			"435"
 		"image"			""
-		"fillcolor_override"	"MainMenuBGColor"
+		"fillcolor_override"	"TransparentBlack"
 	}
 	"FooterLine"
 	{
@@ -195,6 +212,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"textinsetx"		"0"
+			"labelText"		""
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"		"west"
@@ -325,11 +343,11 @@
 		"Background"
 		{
 			"border"		"QuickplayBorder"
-			"bgcolor_override"	"MainMenuBGColor"
+			"bgcolor_override"	"TransparentBlack"
 
 			"CyclingAd"
 			{
-				"bgcolor_override"	"MainMenuBGColor"
+				"bgcolor_override"	"TransparentBlack"
 			}
 		}
 	}
