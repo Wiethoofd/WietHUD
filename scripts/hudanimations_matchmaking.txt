@@ -27,10 +27,6 @@ event HudTournament_DoorsClose
 	SetVisible CountdownLabel	0	9.9
 	SetVisible CountdownLabelShadow	0	9.9
 
-	SetVisible MatchStartingBG	0	10
-	SetVisible BlueTeamPanel	0	10
-	SetVisible RedTeamPanel		0	10
-	StopEvent HudTournament_ResetTimer	10
 	RunEvent HudTournament_DoorsCleanup	10
 	RunEvent HudTournament_ResetTimer	10
 

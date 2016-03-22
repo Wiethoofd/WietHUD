@@ -1,8 +1,8 @@
-#base "../../../default_hudfiles/resource/ui/econ/TradingStartDialog.res"
+#base "../../default_hudfiles/Resource/UI/SelectPlayerDialog.res"
 
-"Resource/UI/TradingStartDialog.res"
+"Resource/UI/SelectPlayerDialog.res"
 {
-	"TradingStartDialog"
+	"SelectPlayerDialog"
 	{
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
@@ -24,6 +24,15 @@
 		{
 			"tall"		"170"
 		}
+	}
+	"StatePanel0"
+	{
+	}
+	"StatePanel1"
+	{
+	}
+	"StatePanel2"
+	{
 	}
 	"CancelButton"
 	{

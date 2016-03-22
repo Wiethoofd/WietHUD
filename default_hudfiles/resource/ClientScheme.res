@@ -1639,7 +1639,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"24"
+				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1736,6 +1736,17 @@ Scheme
 			}
 		}
 		"MatchSummaryStatsAndMedals"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CompMatchStartTeamNames"
 		{
 			"1"
 			{
@@ -5148,6 +5159,30 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional

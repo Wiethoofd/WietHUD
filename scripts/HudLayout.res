@@ -96,7 +96,7 @@
 	}
 	CSpectatorTargetID
 	{
-		"ypos"		"c101"
+		"ypos"		"c121"
 		"tall"	 	"30"
 		"tall_minmode"	"30"
 	}
@@ -135,6 +135,7 @@
 	WinPanel // End of round Win panel
 	{
 		"ypos"		"r250"
+		"zpos"		"4"
 	}
 	ArenaWinPanel
 	{

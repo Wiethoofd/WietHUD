@@ -36,7 +36,8 @@ tf/
 
 Updating WietHUD
 ----------------
-* Use the `extract_base_hudfiles.bat` in the WietHUD directory to extract the default HUD files after updates to Team Fortress 2
+* Use the `extract_base_hudfiles.bat` in the WietHUD directory to extract the default HUD files after updates to Team Fortress 2.
+
 This uses [HLExtract](https://developer.valvesoftware.com/wiki/HLLib#HLExtract) to extract the hud resource files from _tf_misc_dir.vpk_ to the _default_hudfiles_ folder.
 
 Technical explanation of HUD setup
@@ -56,11 +57,12 @@ Customization
 =================
 ### Themes
 `ClientScheme.res` offers the possibility to include separate files for fonts & themes (re)defining colors used throughout the hud, besides the #base setup to allow easy for updating.
-Currently available themes are: _Red, Orange, Pink, Purple, Blue, Light Blue, Gray, Lime_
+
+Currently available themes are: _Red, Orange, Pink, Purple, Blue, Light Blue, Gray, Lime_ & color are taken from the [Google Palette](http://www.google.com/design/spec/style/color.html#color-color-palette)
 
 ### 4:3 & 5:4 Aspect Ratio support
 Widescreen is supported by default with #base include in the following HUD elements:
-* Comment or uncomment lines by adding or removing `//` before the *#base* include line of the self explanatory filenames containing __widescreen_.
+* Comment or uncomment lines by adding or removing `//` before the *#base* include line of the self explanatory filenames containing _widescreen.
 
 | HUD Section | File |
 |:-:|:-:|

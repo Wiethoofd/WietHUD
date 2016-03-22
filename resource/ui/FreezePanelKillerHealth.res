@@ -18,10 +18,14 @@
 	}
 	"PlayerStatusHealthValue"
 	{
+		"wide"			"f0"
+		"proportionaltoparent"	"1"
 		"textAlignment"		"center"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
+		"wide"			"f0"
+		"proportionaltoparent"	"1"
 		"textAlignment"		"center"
 	}
 }

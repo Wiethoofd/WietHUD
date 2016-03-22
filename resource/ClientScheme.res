@@ -74,10 +74,12 @@ Scheme
 		SpecHealthDefault		"TanLight"
 
 		// Ammo Colors for animations
+		AmmoNoClipDefault		"TanLight"
 		AmmoClipDefault			"TanLight"
 		AmmoReserveDefault		"TanLight"
+		AmmoNoClipLowColor		"AmmoLowColor"
 		AmmoClipLowColor		"AmmoLowColor"
-		AmmoReserveLowColor		"TanLight"
+		AmmoReserveLowColor		"AmmoLowColor"
 
 		DamageTextColor			"ItemRarityMythical" //"QualityColorCollectors"
 	}
@@ -293,11 +295,11 @@ Scheme
 			"draw_corner_width"	"3"
 			"draw_corner_height"	"3"
 		}
-		TFFatLineBorderOpaque { // Ingame notifications / Dead Player
+		TFFatLineBorderOpaque { // Ingame notifications
 			"draw_corner_width"	"3"
 			"draw_corner_height"	"3"
 		}
-		TFFatLineBorder { // Spectator?
+		TFFatLineBorder { // Dead Player/Spec
 			"draw_corner_width"	"0"
 			"draw_corner_height"	"0"
 		}

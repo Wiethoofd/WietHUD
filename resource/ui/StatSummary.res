@@ -15,6 +15,11 @@
 
 	"MapInfo"
 	{
+	
+		"Background"
+		{
+			"zpos"		"-1"
+		}
 		"InfoBG"
 		{
 			"wide"			"290"

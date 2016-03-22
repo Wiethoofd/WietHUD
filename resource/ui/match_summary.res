@@ -23,13 +23,13 @@
 		"AnimRedPlayerListBGWide"		"0"
 		"AnimRedPlayerListBGXPos"		"0"
 	}
-	
+
 	DisconnectButton
 	{
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
 	}
-	
+
 	"TeamScoresPanel"
 	{
 		BlueTeamScoreBG
@@ -37,7 +37,19 @@
 			"ypos"		"95"
 			"wide"		"p.215"
 			"border"		"ComboBoxBorder"
-			"bgcolor_override"	"HUDBlueTeam"
+			"bgcolor_override"	"79 111 134 255"
+		}
+		"BlueTeamLabel"
+		{
+			"xpos"		"-147"
+			"ypos"		"0"
+			"wide"		"p.275"
+			"tall"		"36"
+			"textAlignment"	"center"
+
+			"pin_to_sibling" 	"BlueTeamScoreBG"
+			"pin_corner_to_sibling" "PIN_TOPRIGHT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		BlueTeamImage
 		{
@@ -75,6 +87,24 @@
 			"pin_to_sibling" 	"BlueTeamScore"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
+		}
+		"BlueLeaderAvatar"
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"21"
+			"wide"		"36"
+			"tall"		"36"
+			"border"	"ComboboxBorder"
+			"bgcolor_override"	"TransparentBlack"
+			"pin_to_sibling" 	"BlueTeamScoreBG"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"tall"		"0"
+			"visible"	"0"
 		}
 		BluePlayerListBG
 		{
@@ -114,7 +144,19 @@
 			"ypos"		"95"
 			"wide"		"p.215"
 			"border"		"ComboBoxBorder"
-			"bgcolor_override"	"HUDRedTeam"
+			"bgcolor_override"	"174 60 59 255"
+		}
+		"RedTeamLabel"
+		{
+			"xpos"		"-147"
+			"ypos"		"0"
+			"wide"		"p.275"
+			"tall"		"36"
+			"textAlignment"	"center"
+
+			"pin_to_sibling" 	"RedTeamScoreBG"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
 		RedTeamImage
 		{
@@ -152,6 +194,23 @@
 			"pin_to_sibling" 	"RedTeamScore"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
+		}
+		"RedLeaderAvatar"
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"36"
+			"tall"		"36"
+			"border"	"ComboboxBorder"
+			"bgcolor_override"	"TransparentBlack"
+			"pin_to_sibling" 	"RedTeamScoreBG"
+			"pin_corner_to_sibling" "PIN_TOPRIGHT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"tall"		"0"
+			"visible"	"0"
 		}
 		RedPlayerListBG
 		{

@@ -68,17 +68,41 @@ event HudReplayReminderIn2	// Puts the panel below the snapshot panel
 	Animate ReplayReminder		Position	"c-83 53"	Spline 0.001 0.2
 }
 
-// Reduced Alpha on Koth Active Timer Indicator
+//===========================================
+
+// Active Timer BG Pulse
 event ActiveTimerBGPulse
 {
-	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.1 0.1
-	Animate	ActiveTimerBG 	Alpha		"220"		Linear 0.3 0.1
+	Animate	ActiveTimerBG 	Alpha		0		Linear 0.1 0.1
+	Animate	ActiveTimerBG 	Alpha		255		Linear 0.3 0.1
+}
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue	Alpha		0		Linear 0.1 0.1
+	Animate TimePanelValue	Alpha		255		Linear 0.3 0.1
+	
+}
+event ActiveTimerDim
+{
+	// Slow fade out
+	Animate TimePanelValue	Alpha		150		Linear 0.0 0.2
+}
 
-	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.5 0.1
-	Animate	ActiveTimerBG 	Alpha		"220"		Linear 0.7 0.1
+//===========================================
 
-	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.9 0.1
-	Animate	ActiveTimerBG 	Alpha		"220"		Linear 1.1 0.1
+event OvertimeLabelPulseRed
+{
+	Animate	OvertimeLabel 		FgColor		White		Linear 0.0 0.4
+	Animate	OvertimeLabel 		FgColor		TanLight	Linear 0.4 0.4
+
+	RunEvent OvertimeLabelPulseRed 0.8
+}
+event SuddenDeathLabelPulseRed
+{
+	Animate	SuddenDeathLabel 	FgColor		White		Linear 0.0 0.4
+	Animate	SuddenDeathLabel 	FgColor		TanLight	Linear 0.4 0.4
+
+	RunEvent SuddenDeathLabelPulseRed 0.8
 }
 
 // Animate TeamMenu.res full arrow

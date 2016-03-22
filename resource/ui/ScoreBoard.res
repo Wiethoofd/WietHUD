@@ -117,6 +117,23 @@
 			"tall"	"0"
 		}
 	}
+	"BlueLeaderAvatar"
+	{
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"46"
+		"tall"		"46"
+		"border"	"ComboboxBorder"
+		"bgcolor_override"	"TransparentBlack"
+		"pin_to_sibling" 	"BlueScoreBG"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	"BlueLeaderAvatarBG"
+	{
+		"tall"		"0"
+		"visible"	"0"
+	}
 	"BlueTeamLabel"
 	{
 		"font"		"ScoreboardMedium"
@@ -155,6 +172,23 @@
 		{
 			"tall"	"0"
 		}
+	}
+	"RedLeaderAvatar"
+	{
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"46"
+		"tall"		"46"
+		"border"	"ComboboxBorder"
+		"bgcolor_override"	"TransparentBlack"
+		"pin_to_sibling" 	"RedScoreBG"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+	}
+	"RedLeaderAvatarBG"
+	{
+		"tall"		"0"
+		"visible"	"0"
 	}
 	"RedTeamLabel"
 	{
