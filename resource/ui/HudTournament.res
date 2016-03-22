@@ -51,10 +51,10 @@
 
 		"ModeImage"
 		{
-			"ypos"	"0"
+			"ypos"	"11"
 			"zpos"	"-2"
-			"wide"	"35"
-			"tall"	"35"
+			"wide"	"30"
+			"tall"	"30"
 			"alpha"	"150"
 		}
 
@@ -159,8 +159,6 @@
 				"textAlignment"		"center"
 				"auto_wide_tocontents"	"1"
 				"font"			"HudFontSmallestBoldShadow"
-				//"bgcolor_override"	"88 88 88 120"
-				//"fgcolor"		"235 226 202 255"
 
 				"pin_to_sibling" 	"classimagebg"
 				"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
@@ -178,16 +176,24 @@
 
 			"chargeamount"
 			{
-				"xpos"			"3"
-				"ypos"			"14"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
-				"textAlignment"		"east"
+				"textinsetx"		"2"
+				"textAlignment"		"center"
+				"auto_wide_tocontents"	"1"
 				"font"			"HudFontSmallestBoldShadow"
+
+				"pin_to_sibling" 	"classimagebg"
+				"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+				"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 
 				if_competitive
 				{
+					"xpos"			"0"
+					"ypos"			"0"
 				}
 				if_readymode
 				{
@@ -363,7 +369,7 @@
 			"wide"		"f0"
 			"tall"		"50"
 			"xpos"		"0"
-			"ypos"		"34"
+			"ypos"		"36"
 		}
 		if_readymode
 		{
@@ -449,7 +455,7 @@
 		if_competitive
 		{
 			"xpos"			"0"
-			"ypos"			"48"
+			"ypos"			"50"
 			"visible"		"1"
 			"textAlignment"		"north"
 			"font"			"SpectatorKeyHints"
@@ -550,7 +556,7 @@
 		if_competitive
 		{
 			"xpos"			"c-20"
-			"ypos"			"-4"
+			"ypos"			"5"
 			"visible"		"0"
 			"image"			"../hud/color_panel_brown"
 		}
@@ -576,6 +582,7 @@
 			"xpos"		"0"
 			"ypos"		"0"
 			//"visible"	"1"
+			"fgcolor"	"White"
 			"font"		"HudFontSmallishBold"
 		}
 
@@ -637,6 +644,34 @@
 			"bgcolor_override"	"HUDBlueTeam"
 			"proportionaltoparent"	"1"
 		}
+		"BlueTeamLabel"
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"125"
+			"tall"		"36"
+			"font"		"HudFontSmall"
+			"pin_to_sibling" 	"BlueTeamBG"
+			"pin_corner_to_sibling" "PIN_TOPRIGHT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		}
+		"BlueLeaderAvatar"
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"36"
+			"tall"		"36"
+			"border"	"ComboboxBorder"
+			"bgcolor_override"	"TransparentBlack"
+			"pin_to_sibling" 	"BlueTeamBG"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"tall"		"0"
+			"visible"	"0"
+		}
 		BluePlayerListBG
 		{
 			"tall"		"0"
@@ -687,6 +722,34 @@
 			"border"		"ComboBoxBorder"
 			"bgcolor_override"	"HUDRedTeam"
 			"proportionaltoparent"	"1"
+		}
+		"RedTeamLabel"
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"125"
+			"tall"		"36"
+			"font"		"HudFontSmall"
+			"pin_to_sibling" 	"RedTeamBG"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
+		}
+		"RedLeaderAvatar"
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"36"
+			"tall"		"36"
+			"border"	"ComboboxBorder"
+			"bgcolor_override"	"TransparentBlack"
+			"pin_to_sibling" 	"RedTeamBG"
+			"pin_corner_to_sibling" "PIN_TOPRIGHT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"tall"		"0"
+			"visible"	"0"
 		}
 		RedPlayerListBG
 		{

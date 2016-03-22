@@ -2,6 +2,7 @@
 event HudTournament_DoorsClose
 {
 	StopEvent HudTournament_ResetTimer 0
+	RunEvent HudTournament_ShowTimerCompetitive 0
 
 	SetVisible CountdownBG		0 0
 	SetVisible CountdownLabel	1 0
@@ -30,6 +31,10 @@ event HudTournament_DoorsClose
 	SetVisible BlueTeamPanel	0	10
 	SetVisible RedTeamPanel		0	10
 	StopEvent HudTournament_ResetTimer	10
+	RunEvent HudTournament_DoorsCleanup	10
+	RunEvent HudTournament_ResetTimer	10
+
+	SetVisible CountdownBG		1	11
 }
 
 // Moving Team Player Lists in/out of frame
@@ -47,17 +52,32 @@ event HudTournament_AnimateTeams_Out
 // HudTournament Readymode & Competitive Countdown timer
 event HudTournament_ShowTimerCompetitive
 {
+	Animate CountdownBG	ypos 5		Linear 0 0
+
 	SetVisible CountdownBG		0 0
 	SetVisible CountdownLabel	1 0
 	SetVisible CountdownLabelShadow	1 0
 }
 event HudTournament_ShowTimerDefault
 {
+	Animate CountdownBG	ypos r43	Linear 0 0
+
 	SetVisible CountdownBG		1 0
 	SetVisible CountdownLabel	1 0
 	SetVisible CountdownLabelShadow	1 0
 }
 event HudTournament_ResetTimer
 {
-	Animate CountdownBG	ypos	-4 Linear 0 0
+	Animate CountdownBG	ypos	5	Linear 0 0
+}
+
+// End of game stats
+event Hud_StatsAndMedals_Show
+{
+	SetVisible	DrawingPanel	0	0
+	SetVisible	StatsBgPanel	1	0
+	SetVisible	StatsLabelPanel	1	0
+	Animate StatsLabelPanel	ypos 75		Accel 0 0.1
+	Animate BlueMedals	ypos 75		Accel 0 0.1
+	Animate RedMedals	ypos 75		Accel 0 0.1
 }

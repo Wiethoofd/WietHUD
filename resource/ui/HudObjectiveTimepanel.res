@@ -28,7 +28,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimeBG"
-		"xpos"			"c-26"
+		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"52"
@@ -46,6 +46,12 @@
 		"src_corner_width"	"20"
 		"draw_corner_height"	"0"
 		"draw_corner_width"	"0"
+			
+		if_comp
+		{
+			"ypos"		"13"
+			"visible"	"0"
+		}
 	}
 	"WaitingForPlayersLabel"
 	{
