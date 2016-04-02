@@ -48,6 +48,8 @@
 			"tall"			"30"
 		}
 		
+		"BuiltBg" { "wide" "100" }
+		
 		"RunningPanel"
 		{
 			"KillIcon"

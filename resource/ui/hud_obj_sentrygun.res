@@ -77,6 +77,8 @@
 			"tall"		"p1.14"
 		}
 		
+		"BuiltBg" { "wide" "100" }
+		
 		"RunningPanel"
 		{
 			"KillIcon"

@@ -51,6 +51,7 @@
 	{
 		"tall"			"f0"
 		//"player_name_font"	""
+		"zpos"			"-1"
 	}
 
 	// Sniper Scope Transparent Viewmodel fix

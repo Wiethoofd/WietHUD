@@ -121,9 +121,10 @@
 	{
 		"xpos"		"0"
 		"ypos"		"0"
+		"zpos"		"5"
 		"wide"		"46"
 		"tall"		"46"
-		"border"	"ComboboxBorder"
+		"border"	"QuickplayBorder"
 		"bgcolor_override"	"TransparentBlack"
 		"pin_to_sibling" 	"BlueScoreBG"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -177,9 +178,10 @@
 	{
 		"xpos"		"0"
 		"ypos"		"0"
+		"zpos"		"5"
 		"wide"		"46"
 		"tall"		"46"
-		"border"	"ComboboxBorder"
+		"border"	"QuickplayBorder"
 		"bgcolor_override"	"TransparentBlack"
 		"pin_to_sibling" 	"RedScoreBG"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"

@@ -20,6 +20,8 @@
 
 	"BuiltPanel"
 	{
+		"BuiltBg" { "wide" "100" }
+
 		"RunningPanel"
 		{
 			"AmmoIcon"
