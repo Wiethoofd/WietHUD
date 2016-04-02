@@ -39,6 +39,13 @@
 		"xpos"			"c10"
 		"ypos"			"32"
 	}
+	"StreamListPanel"
+	{
+		"tall"			"210"
+		"border"		"NoBorder"
+		"bgcolor_override"	"Black"
+		"paintbackground"	"1"
+	}
 	"TFLogoImage"
 	{
 		"ypos"			"20"
