@@ -15,4 +15,9 @@
 		"xpos"		"p0.03"
 		"wide"		"p0.97"
 	}
+	"TooltipPanel"
+	{
+		"border"		"QuickplayBorder"
+		"bgcolor_override"	"Black"
+	}
 }

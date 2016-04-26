@@ -11,30 +11,32 @@
 		"Position"
 		{
 			"font"		"HudFontSmallest"
+			"textAlignment"	"center"
 		}
 		"Background"
 		{
-			"border"	"NoBorder"
-			"bgcolor_override"	"TanLight"
+			"visible"	"0"
 		}
 		"AvatarImage"
 		{
-			"xpos"		"15"
+			"xpos"		"38"
 			"ypos"		"1"
 			"wide"		"18"
 			"tall"		"18"
+			"border"	"QuickplayBorder"
 		}
 		"UserName"
 		{
-			"xpos"		"36"
-			"wide"		"160"
+			"xpos"		"59"
+			"wide"		"220"
 			"font"		"HudFontSmallest"
 		}
-		"LadderRank"
+		"RankImage"
 		{
-			"xpos"		"160"
-			"font"		"HudFontSmallest"
-			"textAlignment"	"east"
+			"xpos"		"16"
+			"ypos"		"0"
+			"wide"		"20"
+			"tall"		"20"
 		}
 	}
 }
