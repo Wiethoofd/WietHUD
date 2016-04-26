@@ -66,23 +66,6 @@
 		"proportionaltoparent"	"1"
 	}
 	
-	"SolidBGColor"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SolidBGColor"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"f0"
-		"fillcolor"		"Black"
-		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling" 	"PreviewImage"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-	}
-	
 	"TwitchTVLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -125,30 +108,6 @@
 		"pin_to_sibling" 	"TwitchTVLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-	}
-
-	"TextDescriptionLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TextDescriptionLabel"
-		"font"			"HudFontSmallest"
-		"labelText"		"%text_description%"
-		"textAlignment"		"north-west"
-		"xpos"			"3"
-		"ypos"			"2"
-		"zpos"			"4"
-		"wide"			"240"
-		"tall"			"22"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor"		"TanLight"
-		
-		"pin_to_sibling" 	"PreviewImage"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 
 	"ViewerCountLabel"
@@ -222,6 +181,32 @@
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 
+	"TextDescriptionLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TextDescriptionLabel"
+		"font"			"HudFontSmallest"
+		"labelText"		"%text_description%"
+		"textAlignment"		"north-west"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"5"
+		"wide"			"244"
+		"tall"			"22"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"textinsetx"		"6"
+		"fgcolor"		"TanLight"
+		"bgcolor_override"	"Black"
+		
+		"pin_to_sibling" 	"PreviewImage"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+	}
+
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
@@ -229,8 +214,8 @@
 		"xpos"			"1"
 		"ypos"			"1"
 		"zpos"			"100"
-		"wide"			"298" //"p1"
-		"tall"			"32" //"p1"
+		"wide"			"298"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"labelText"		""
