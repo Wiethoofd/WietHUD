@@ -319,6 +319,15 @@ Scheme
 			"draw_corner_width"	"0"
 			"draw_corner_height"	"0"
 		}
+		// MM WinPanel Borders
+		TFFatLineBorderRedBGMoreOpaque {
+			"draw_corner_width"	"0"
+			"draw_corner_height"	"0"
+		}
+		TFFatLineBorderBlueBGMoreOpaque {
+			"draw_corner_width"	"0"
+			"draw_corner_height"	"0"
+		}
 
 		GrayDialogBorder { // Popup messages
 			"image"			"backpack_rect"

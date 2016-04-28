@@ -210,7 +210,7 @@
 				"ypos"		"0"
 				"wide"		"20"
 				"tall"		"20"
-				
+
 				"pin_to_sibling" 	"ReadyBG"
 				"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
 				"pin_to_sibling_corner" "PIN_CENTER_LEFT"
@@ -419,6 +419,7 @@
 		"ControlName"	"EditablePanel"
 		"border_override"	"NoBorder"
 		"bgcolor_override"	"0 0 0 0"
+		"tall"			"0"
 		"image"			""
 		"visible"		"0"
 
@@ -613,164 +614,6 @@
 		{
 			"xpos"		"-1"
 			"ypos"		"-1"
-		}
-	}
-
-	BlueTeamPanel
-	{
-		//"xpos"		"c-300" // Debug
-		"xpos"		"-160"
-		"ypos"		"c-100"
-		"wide"		"160"
-		"tall"		"330"
-
-		BlueTeamImage
-		{
-			"xpos"		"0"
-			"ypos"		"-1"
-			"wide"		"54"
-			"tall"		"54"
-			"image"		"store/store_blueteam"
-			"pin_to_sibling" 	"BlueTeamBG"
-			"pin_corner_to_sibling" "PIN_CENTER_TOP"
-			"pin_to_sibling_corner" "PIN_CENTER_TOP"
-		}
-		BlueTeamBG
-		{
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"f0"
-			"border"		"ComboBoxBorder"
-			"bgcolor_override"	"HUDBlueTeam"
-			"proportionaltoparent"	"1"
-		}
-		"BlueTeamLabel"
-		{
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"125"
-			"tall"		"36"
-			"font"		"HudFontSmall"
-			"pin_to_sibling" 	"BlueTeamBG"
-			"pin_corner_to_sibling" "PIN_TOPRIGHT"
-			"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		}
-		"BlueLeaderAvatar"
-		{
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"36"
-			"tall"		"36"
-			"border"	"ComboboxBorder"
-			"bgcolor_override"	"TransparentBlack"
-			"pin_to_sibling" 	"BlueTeamBG"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPLEFT"
-		}
-		"BlueLeaderAvatarBG"
-		{
-			"tall"		"0"
-			"visible"	"0"
-		}
-		BluePlayerListBG
-		{
-			"tall"		"0"
-			"visible"	"0"
-		}
-		BluePlayerList
-		{
-			"xpos"		"0"
-			"ypos"		"-6"
-			"wide"		"f0"
-			"tall"		"330"
-			"linespacing"	"24"
-			"linegap"	"0"
-			//"show_columns"	"1"
-			"paintbackground"	"0"
-			"proportionaltoparent"	"1"
-
-			"pin_to_sibling" 	"BlueTeamBG"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		}
-	}
-
-	"RedTeamPanel"
-	{
-		//"xpos"		c140 // Debug
-		"xpos"		"r-5"
-		"ypos"		"c-100"
-		"wide"		"160"
-		"tall"		"330"
-
-		RedTeamImage
-		{
-			"xpos"		"0"
-			"ypos"		"-1"
-			"wide"		"54"
-			"tall"		"54"
-			"image"		"store/store_redteam"
-			"pin_to_sibling" 	"RedTeamBG"
-			"pin_corner_to_sibling" "PIN_CENTER_TOP"
-			"pin_to_sibling_corner" "PIN_CENTER_TOP"
-		}
-		RedTeamBG
-		{
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"f0"
-			"border"		"ComboBoxBorder"
-			"bgcolor_override"	"HUDRedTeam"
-			"proportionaltoparent"	"1"
-		}
-		"RedTeamLabel"
-		{
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"125"
-			"tall"		"36"
-			"font"		"HudFontSmall"
-			"pin_to_sibling" 	"RedTeamBG"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPLEFT"
-		}
-		"RedLeaderAvatar"
-		{
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"36"
-			"tall"		"36"
-			"border"	"ComboboxBorder"
-			"bgcolor_override"	"TransparentBlack"
-			"pin_to_sibling" 	"RedTeamBG"
-			"pin_corner_to_sibling" "PIN_TOPRIGHT"
-			"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		}
-		"RedLeaderAvatarBG"
-		{
-			"tall"		"0"
-			"visible"	"0"
-		}
-		RedPlayerListBG
-		{
-			"tall"		"0"
-			"visible"	"0"
-		}
-		RedPlayerList
-		{
-			"xpos"		"0"
-			"ypos"		"-6"
-			"wide"		"f0"
-			"tall"		"300"
-			"linespacing"	"24"
-			"linegap"	"0"
-			//"show_columns"	"1"
-			"paintbackground"	"0"
-			"proportionaltoparent"	"1"
-
-			"pin_to_sibling" 	"RedTeamBG"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 	}
 }
