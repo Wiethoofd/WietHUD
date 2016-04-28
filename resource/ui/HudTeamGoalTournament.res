@@ -88,6 +88,11 @@
 		"enabled"			"1"
 		"proportionaltoparent"		"1"
 
+		if_comp
+		{
+			"ypos"	"48"
+		}
+
 		"HudStopWatchObjectiveBG"
 		{
 			"ControlName"		"ScalableImagePanel"

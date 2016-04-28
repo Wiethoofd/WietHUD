@@ -46,7 +46,7 @@
 		"src_corner_width"	"20"
 		"draw_corner_height"	"0"
 		"draw_corner_width"	"0"
-			
+
 		if_comp
 		{
 			"ypos"		"13"
@@ -58,7 +58,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"14"
@@ -68,6 +68,9 @@
 		"labelText"		"#game_WaitingForPlayers"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
+		"pin_to_sibling" 	"TimePanelValue"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 	}
 	"WaitingForPlayersBG"
 	{
@@ -94,8 +97,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"1"
+		"ypos"			"0"
+		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"14"
 		"visible"		"0"
@@ -104,6 +107,10 @@
 		"labelText"		"#game_Overtime"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
+		"bgcolor_override"	"0 0 0 0"
+		"pin_to_sibling" 	"TimePanelValue"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 	}
 	"OvertimeBG"
 	{
@@ -130,7 +137,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"14"
@@ -140,6 +147,9 @@
 		"labelText"		"#game_Setup"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
+		"pin_to_sibling" 	"TimePanelValue"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 	}
 	"SetupBG"
 	{
@@ -166,7 +176,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"14"
@@ -176,6 +186,9 @@
 		"labelText"		"#game_SuddenDeath"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
+		"pin_to_sibling" 	"TimePanelValue"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -191,7 +204,9 @@
 		"fgcolor"		"TanLight"
 		"font"			"HudFontMediumSmall"
 		"labelText"		"%servertimeleft%"
+		"textinsetx"		"10"
 		"textAlignment"		"center"
+		"auto_wide_tocontents"	"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
 	}
@@ -210,7 +225,9 @@
 		"fgcolor"		"Black"
 		"font"			"HudFontMediumSmall"
 		"labelText"		"%servertimeleft%"
+		"textinsetx"		"10"
 		"textAlignment"		"center"
+		"auto_wide_tocontents"	"1"
 		"pin_to_sibling" 	"ServerTimeLimitLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"

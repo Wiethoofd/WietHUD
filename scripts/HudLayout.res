@@ -205,8 +205,8 @@
 	HudTeamGoalTournament
 	{
 		"xpos"			"c-180"
-		"ypos"			"0"
-		"ypos_lodef"		"0"
+		"ypos"			"20"
+		"ypos_lodef"		"20"
 		"wide"			"360"
 	}
 
