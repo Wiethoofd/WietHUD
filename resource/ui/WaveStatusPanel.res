@@ -7,12 +7,12 @@
 	{
 		"src_corner_height"	"20"		// pixels inside the image
 		"src_corner_width"	"20"
-	
+
 		"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
-		
+
 		"border"	"QuickplayBorder"
-		
+
 		if_verbose // Scoreboard
 		{
 			"visible"	"0"
@@ -30,10 +30,11 @@
 		"wide_minmode"		"200"
 		"textAlignment_minmode"	"center"
 		"tall"			"12"
+
 		if_verbose // Scoreboard
 		{
 			"ypos"		"17"
-			"ypos_minmode"	"6"
+			"ypos_minmode"	"5"
 		}
 	}
 	"WaveCountLabelShadow"
@@ -42,9 +43,8 @@
 		"fieldName"		"WaveCountLabelShadow"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"65 85 105 255"
-		"xpos"			"201"
-		"ypos"			"13"
-		"ypos_minmode"		"6"
+		"xpos"			"-1"
+		"ypos"			"-1"
 
 		"zpos"			"4"
 		"wide"			"200"
@@ -56,29 +56,27 @@
 		"textAlignment"		"center"
 
 		"labelText"		"%wave_count%"
-		
-		if_verbose // Scoreboard
-		{
-			"ypos"		"18"
-			"ypos_minmode"	"7"
-		}
+
+		"pin_to_sibling" 	"WaveCountLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"SupportLabel"
 	{
 		"font"			"HudFontSmallestBoldShadow"
 		"textAlignment"		"center"
 	}
-	
+
 	"ProgressBar"
 	{
 		"ypos"			"13"
 		"ypos_minmode"		"6"
 		"tall"			"11"
-		
+
 		"src_corner_height"	"20"		// pixels inside the image
 		"src_corner_width"	"20"
-	
+
 		"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 
@@ -93,10 +91,10 @@
 		"ypos"			"12"
 		"ypos_minmode"		"5"
 		"tall"			"13"
-		
+
 		"src_corner_height"	"20"		// pixels inside the image
 		"src_corner_width"	"20"
-	
+
 		"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 

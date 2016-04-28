@@ -45,7 +45,7 @@
 		{
 			"fieldName"	"ImagePanel"
 			"font"		"HudFontSmallShadow"
-			"ypos"		"r100"
+			"ypos"		"c80"
 			"border"		"QuickplayBorder"
 			"bgcolor_override"	"MainMenuBGColor"
 		}
