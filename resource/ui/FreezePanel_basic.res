@@ -10,10 +10,6 @@
 		"wide"			"200"
 		"tall"			"120"
 
-		"pin_to_sibling" 	"FreezePanelBase"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT"
-		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
-
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"42 40 42 180"
 		"PaintBackgroundType"	"2"
@@ -43,29 +39,31 @@
 
 	"FreezePanelBase"
 	{
-		"xpos"		"c100"
-		"ypos"		"c-100"
-		"wide"		"250"
+		"xpos"		"cs-0.25"
+		"ypos"		"c40"
+		"wide"		"300"
 		"tall"		"75"
+		"proportionaltoparent"	"1"
 
 		"FreezePanelBG"
 		{
 			"xpos"			"0"
 			"ypos"			"0"
-			"tall"			"2"
+			"wide"			"3"
+			"tall"			"25"
 			"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"
 
 			"pin_to_sibling" 	"FreezePanelHealth"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 
 		"FreezePanelHealth"
 		{
-			"xpos"			"3"
+			"xpos"			"6"
 			"ypos"			"3"
-			"wide"			"72"
+			"wide"			"74"
 			"tall"			"25"
 			"HealthBonusPosAdj"	"0"
 			"HealthDeathWarning"	"0.40"
@@ -77,7 +75,7 @@
 		}
 		"FreezeLabel"
 		{
-			"xpos"			"2"
+			"xpos"			"0"
 			"ypos"			"3"
 			"tall"			"14"
 			"zpos"			"2"
@@ -114,14 +112,14 @@
 		}
 		"AvatarImage"
 		{
-			"xpos"		"75"
+			"xpos"		"80"
 			"ypos"		"15"
 			"wide"		"18"
 			"tall"		"18"
 		}
 		"FreezeLabelKiller"
 		{
-			"xpos"		"96"
+			"xpos"		"100"
 			"ypos"		"15"
 			"tall"		"18"
 			"textinsetx"	"6"
@@ -152,9 +150,9 @@
 		}
 		"NemesisSubPanel"
 		{
-			"xpos"		"20"
+			"xpos"		"30"
 			"ypos"		"2"
-			"pin_to_sibling" 	"FreezePanelBG"
+			"pin_to_sibling" 	"FreezePanelHealth"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
