@@ -16,7 +16,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"PreviewImage"
-			"xpos"			"20"
+			"xpos"			"10"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"30"
@@ -35,21 +35,22 @@
 			"fieldName"		"DescriptionLabel"
 			"font"			"HudFontSmallestBold"
 			"labelText"		"#MMenu_Stream_Loading"
-			"textAlignment"		"west"
-			"xpos"			"90"
+			"textAlignment"		"center"
+			"xpos"			"50"
 			"ypos"			"0"
-			"wide"			"f0"
+			"zpos"			"5"
+			"wide"			"250"
 			"tall"			"f0"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"56 53 49 255"
+			"fgcolor"		"156 153 149 255"
+			"bgcolor_override"	"Black"
 
 			"proportionaltoparent"	"1"
 		}
 	}
-
 
 	"PreviewImage"
 	{
@@ -65,7 +66,7 @@
 		"scaleImage"		"1"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"TwitchTVLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -81,7 +82,7 @@
 		"textinsetx"		"0"
 		"textAlignment"		"center"
 		"auto_wide_tocontents"	"1"
-		
+
 		"pin_to_sibling" 	"PreviewImage"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -104,7 +105,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
-		
+		"textinsetx"		"1"
+
 		"pin_to_sibling" 	"TwitchTVLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -130,7 +132,7 @@
 		"fgcolor"		"TanLight"
 		"bgcolor_override"	"30 30 30 180"
 		"auto_wide_tocontents"	"1"
-		
+
 		"pin_to_sibling" 	"PreviewImage"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
@@ -142,7 +144,7 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"%viewer_count%"
 		"textAlignment"		"center"
-		"xpos"			"-1" //"49"
+		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"150"
@@ -154,12 +156,12 @@
 		"enabled"		"1"
 		"fgcolor"		"Black"
 		"auto_wide_tocontents"	"1"
-		
+
 		"pin_to_sibling" 	"ViewerCountLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"ViewerCountImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -175,7 +177,7 @@
 		"fillcolor"		"30 30 30 180"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling" 	"ViewerCountLabel"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
@@ -201,7 +203,7 @@
 		"textinsetx"		"6"
 		"fgcolor"		"TanLight"
 		"bgcolor_override"	"Black"
-		
+
 		"pin_to_sibling" 	"PreviewImage"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
@@ -230,23 +232,23 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_armed"		"ComboBoxBorder"
-			
+
 		"defaultFgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 		"armedFgColor_override"		"0 0 0 0"
 		"armedBgColor_override"		"0 0 0 0"
 	}
-	
+
 	"BorderBottom"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BorderBottom"
 		"xpos"			"0"
 		"ypos"			"r1"
-		"zpos"			"4"
+		"zpos"			"12"
 		"wide"			"f0"
 		"tall"			"1"
-		
+
 		"fillcolor"		"100 65 165 255"
 		"proportionaltoparent"	"1"
 	}

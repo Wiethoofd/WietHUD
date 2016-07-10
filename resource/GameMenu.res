@@ -11,10 +11,12 @@
 		"command"	"OpenOptionsDialog"
 		"tooltip"	"#GameUI_GameMenu_Options"
 	}
-	
-	"PlayPVEButton"
+	"QuickplayButton"
 	{
-		"label"		"#Gametype_MVM"
+		"label"		"#MMenu_PlayList_QuickPlay_Button" 
+		"command"	"engine OpenQuickplayDialog"
+		"subimage"	"glyph_server"
+		"OnlyAtMenu"	"1"
 	}
 	"CharacterSetupButton"
 	{

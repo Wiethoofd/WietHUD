@@ -5,65 +5,74 @@
 		"button_x_offset"	"-325"
 		// xpos-40 for buttons in panels
 	}
-	"AvatarImage"
-	{
-		"xpos"		"c-323"
-	}
-	"TopLeftDataPanel"
-	{
-		"xpos"		"c-322"
-	}
 
 	"TFLogoImage"
 	{
 		"xpos"		"c-330"
+
+		if_meet_your_match_0 { xpos c-340 }
+		if_meet_your_match_1 { xpos c-340 }
+		if_meet_your_match_2 { xpos c-340 }
+		if_meet_your_match_3 { xpos c-340 }
+		if_meet_your_match_4 { xpos c-340 }
 	}
 	"MainMenuBGPanel"
 	{
 		"xpos"		"c-330"
 	}
-	"PlayPVEButton"
+	"PlayLabel"
+	{
+		"xpos"		"c-318"
+	}
+	"FindAGameButton"
 	{
 		"xpos"		"c-325"
 	}
-	"PlayCompetitiveButton"
-	{
-		"xpos"		"c-325"
-	}
-	"PlayCompetitiveLobbyButton"
-	{
-		"xpos"		"c-325"
-	}
-	CompetitiveBetaImage
-	{
-		"xpos"		"c-325+218"
-
-		if_competitive_stress_event { xpos "c-325+205" }
-	}
-	"TrainingButton"
-	{
-		"xpos"		"c-200"
-	}
-	"ChangeServerButton"
-	{
-		"xpos"		"c-325"
-	}
-	"QuickplayButton"
-	{
-		"xpos"		"c-325"
-	}
-	"QuickplayChangeButton"
+	"FindAGameButtonHalfWidth"
 	{
 		"xpos"		"c-325"
 	}
 	"ResumeGameButton"
 	{
+		"xpos"		"c-200"
+	}
+	"PlayListContainer"
+	{
+		"xpos"		"c-330"
+	}
+	"ItemsContainer"
+	{
+		"xpos"		"c-330"
+	}
+
+	"EventPromo"
+	{
+		"xpos"		"c-330"
+	}
+	
+	"SafeMode"
+	{
+		"xpos"		"c-330"
+	}
+
+	"VRBGPanel"
+	{
+		"xpos"		"c-330"
+	}
+	"VRModeButton"
+	{
 		"xpos"		"c-325"
 	}
+	"ShowPromoCodesButton"
+	{
+		"xpos"		"c-325"
+	}
+
 	// Ingame Buttons
 	"SpectateButton"
 	{
 		"xpos"		"-3"
+
 		"SubButton"
 		{
 			"wide"			"25"
@@ -81,7 +90,7 @@
 	"ReportPlayerButton"
 	{
 		"xpos"			"c-169"
-		"ypos"			"120"
+		"ypos"			"95"
 		"SubButton"
 		{
 			"wide"			"25"
@@ -99,7 +108,7 @@
 	"CallVoteButton"
 	{
 		"xpos"			"c-147"
-		"ypos"			"120"
+		"ypos"			"95"
 		"SubButton"
 		{
 			"wide"			"25"
@@ -117,7 +126,7 @@
 	"MutePlayersButton"
 	{
 		"xpos"			"c-124"
-		"ypos"			"120"
+		"ypos"			"95"
 		"SubButton"
 		{
 			"wide"			"25"
@@ -135,7 +144,7 @@
 	"RequestCoachButton"
 	{
 		"xpos"			"c-101"
-		"ypos"			"120"
+		"ypos"			"95"
 		"SubButton"
 		{
 			"wide"			"25"
@@ -150,145 +159,14 @@
 			}
 		}
 	}
-	// Play Panel
-	"PlayLabel"
-	{
-		"xpos"		"c-318"
-	}
-	"ServerBrowserButton"
-	{
-		"xpos"		"c-325"
-	}
-	"CreateServerButton"
-	{
-		"xpos"		"c-226"
-	}
 
-	"RecordDemoButton"
-	{
-		"xpos"		"c-325"
-	}
-	"StopDemoRecord"
-	{
-		"xpos"		"c-226"
-		"ypos"		"210"
-		"SubButton"
-		{
-			"wide"			"25"
-			"tall"			"25"
-
-			"SubImage"
-			{
-				"xpos"			"4"
-				"ypos"			"4"
-				"wide"			"18"
-				"tall"			"18"
-			}
-		}
-	}
-	"HudIssuesFixButton"
-	{
-		"xpos"		"c-200"
-	}
-	"SndRestartButton"
-	{
-		"xpos"			"c-101"
-		"ypos"			"210"
-		"SubButton"
-		{
-			"wide"			"25"
-			"tall"			"25"
-
-			"SubImage"
-			{
-				"xpos"			"4"
-				"ypos"			"4"
-				"wide"			"18"
-				"tall"			"18"
-			}
-		}
-	}
+	// Bottom Buttons
 	"ConsoleButton"
 	{
 		"SubButton"
 		{
 			"border_default"	"MainMenuButtonBorder"
 		}
-	}
-
-	// Customize Panel
-	"StoreBGPanel"
-	{
-		"xpos"		"c-330"
-	}
-	"CustomizeLabel"
-	{
-		"xpos"		"c-318"
-	}
-	"GeneralStoreButton"
-	{
-		"xpos"		"c-200"
-	}
-	"StoreHasNewItemsImage"
-	{
-		"xpos"		"c-99"
-	}
-	"CharacterSetupButton"
-	{
-		"xpos"		"c-325"
-	}
-
-	"BackpackButton"
-	{
-		"xpos"		"c-249"
-	}
-	"CraftButton"
-	{
-		"xpos"		"c-226"
-	}
-
-	// Create Panel
-	"CreateBGPanel"
-	{
-		"xpos"		"c-330"
-	}
-	"CreateLabel"
-	{
-		"xpos"		"c-318"
-	}
-	"ReplayBrowserButton"
-	{
-		"xpos"		"c-325"
-	}
-	"SteamWorkshopButton"
-	{
-		"xpos"		"c-200"
-	}
-
-	"VRBGPanel"
-	{
-		"xpos"		"c-330"
-	}
-	"VRModeButton"
-	{
-		"xpos"		"c-325"
-	}
-
-	"ShowPromoCodesButton"
-	{
-		"xpos"		"c-325"
-	}
-	"LoadoutHighlightPanel"
-	{
-		"callout_inparents_x"	"c-203"
-	}
-	"TutorialHighlight"
-	{
-		"callout_inparents_x"	"c-80"
-	}
-	"PracticeHighlight"
-	{
-		"callout_inparents_x"	"c-80"
 	}
 
 	"QuitButton"
@@ -302,5 +180,23 @@
 	"BackToReplaysButton"
 	{
 		"xpos"		"c-330"
+	}
+
+	//Help tooltips
+	"LoadoutHighlightPanel"
+	{
+		"callout_inparents_x"	"c-203"
+	}
+	"WarHighlightPanel"
+	{
+		"callout_inparents_x"	"c-80"
+	}
+	"TutorialHighlight"
+	{
+		"callout_inparents_x"	"c-80"
+	}
+	"PracticeHighlight"
+	{
+		"callout_inparents_x"	"c-80"
 	}
 }

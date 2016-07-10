@@ -1,13 +1,15 @@
 // Widescreen version of main menu, moving buttons to the left
 #base "../../alternatives/mainmenu_widescreen.res"
 
+// Recent Achievements
+//#base "../../alternatives/mainmenu_achievements.res"
+
 // - (Un)Comment mainmenu_custom_buttonactions.res in ui/GameMenu.res to toggle custom buttons
 #base "../../alternatives/mainmenu_custom_buttons.res"
 
 // Main Menu
 // - Change the value of mat_antialias to see changes made without restarting TF2
 #base "../../default_hudfiles/resource/ui/MainMenuOverride.res"
-
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -42,6 +44,7 @@
 	"StreamListPanel"
 	{
 		"tall"			"210"
+		"zpos"			"11"
 		"border"		"NoBorder"
 		"bgcolor_override"	"Black"
 		"paintbackground"	"1"
@@ -52,86 +55,190 @@
 	}
 	"MainMenuBGPanel"
 	{
+		"tall"			"57"
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"TransparentBlack"
-
-		if_competitive { tall 150 }
-	}
-	"TrainingButton"
-	{
-		if_competitive { ypos 210 }
-	}
-	"ServerBrowserButton"
-	{
-		if_competitive { ypos 210 }
-	}
-	"CreateServerButton"
-	{
-		if_competitive { ypos 210 }
 	}
 	"TooltipPanel"
 	{
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"Black"
 	}
-
-	"StoreBGPanel"
+	"FindAGameButton"
 	{
-		"ypos"		"251" // if_competitive
-		"border"		"QuickplayBorder"
-		"bgcolor_override"	"TransparentBlack"
-	}
-	"CustomizeLabel"
-	{
-		"ypos"		"252" // if_competitive
-		"wide"		"140"
-	}
-	"GeneralStoreButton"
-	{
-		"ypos"		"279" // if_competitive
-	}
-	"StoreHasNewItemsImage"
-	{
-		"ypos"		"271" // if_competitive
-	}
-	"CharacterSetupButton"
-	{
-		"ypos"		"279" // if_competitive
+		"wide"			"135"
+		
+		"SubButton"
+		{
+			"wide"			"125"
+		}
 	}
 
-	"CreateBGPanel"
+	"QuickplayButton"
 	{
-		"ypos"		"313" // if_competitive
-		"border"		"QuickplayBorder"
-		"bgcolor_override"	"TransparentBlack"
+		"ControlName"	"EditablePanel"
+		"fieldname"		"QuickplayButton"
+		"xpos"			"-10"
+		"ypos"			"0"
+		"zpos"			"11"
+		"wide"			"135"
+		"tall"			"36"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		
+		"pin_to_sibling"	"FindAGameButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"125"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
 	}
-	"CreateLabel"
+
+	"PlayListContainer"
 	{
-		"ypos"		"314" // if_competitive
-		"wide"			"140"
+		"PlaylistBGPanel"
+		{
+			"ypos"		"-256"
+			"wide"		"f0"
+			"tall"		"240"
+			"border"		"QuickplayBorder"
+			"bgcolor_override"	"TransparentBlack"
+
+			"PlayListDropShadow"
+			{
+				"wide"		"p0.98"
+				"tall"		"p0.98"
+				"ypos"		"3"
+				//"visible"	"0"
+			}
+			
+			"PlayListContainer"
+			{
+				"wide"		"p0.98"
+				"tall"		"p0.98" //229
+				"ypos"		"2"
+
+				"CasualEntry"
+				{
+					"xpos"		"0"
+					"ypos"		"2"
+				}
+
+				"CompetitiveEntry"
+				{
+					"xpos"		"0"
+					"ypos"		"2"
+
+					"pin_to_sibling"	"CasualEntry"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+				}
+
+				"MvMEntry"
+				{
+					"xpos"		"0"
+					"ypos"		"2"
+
+					"pin_to_sibling"	"CompetitiveEntry"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+				}
+
+				"ServerBrowserEntry"
+				{
+					"xpos"		"0"
+					"ypos"		"2"
+
+					"pin_to_sibling"	"MvMEntry"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+				}
+
+				"TrainingEntry"
+				{
+					"xpos"		"0"
+					"ypos"		"2"
+
+					"pin_to_sibling"	"ServerBrowserEntry"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+				}
+			}
+		}
 	}
-	"ReplayBrowserButton"
+	"ItemsContainer"
 	{
-		"ypos"		"342" // if_competitive
+		"tall"			"57"
+		
+		"StoreBGPanel"
+		{
+			"border"		"QuickplayBorder"
+			"bgcolor_override"	"TransparentBlack"
+		}
 	}
-	"SteamWorkshopButton"
+	
+	"SafeMode"
 	{
-		"ypos"		"342" // if_competitive
+		"Background"
+		{
+			"border"		"QuickplayBorder"
+			"bgcolor_override"	"TransparentBlack"
+		}
 	}
 
 	"VRBGPanel"
 	{
-		"ypos"		"378" // if_competitive
-		"border"		"QuickplayBorder"
-		"bgcolor_override"	"TransparentBlack"
-	}
-	"VRModeButton"
-	{
-		"ypos"		"384" // if_competitive
+		"tall"			"0"
 	}
 	"ShowPromoCodesButton"
 	{
-		"ypos"			"412"
+		"ypos"			"379"
 	}
 
 	"BackgroundFooter"
@@ -151,7 +258,7 @@
 		"tall"			"24"
 		"SubImage"
 		{
-			"ypos"			"3"
+			"ypos"			"4"
 		}
 	}
 	"AchievementsButton"
@@ -160,7 +267,7 @@
 		"tall"			"24"
 		"SubImage"
 		{
-			"ypos"			"4.5"
+			"ypos"			"4"
 		}
 	}
 	"CommentaryButton"
@@ -173,6 +280,24 @@
 		}
 	}
 	"CoachPlayersButton"
+	{
+		"ypos"			"445"
+		"tall"			"24"
+		"SubImage"
+		{
+			"ypos"			"5"
+		}
+	}
+	"WorkshopButton"
+	{
+		"ypos"			"445"
+		"tall"			"24"
+		"SubImage"
+		{
+			"ypos"			"4"
+		}
+	}
+	"ReplayButton"
 	{
 		"ypos"			"445"
 		"tall"			"24"
@@ -196,14 +321,19 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MySettingsButton"
-		"xpos"			"c-11"
-		"ypos"			"445"
+		"xpos"			"-5"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"24"
 		"visible"		"1"
+		"border_default"	"MainMenuSubButtonBorder"
 
 		"navToRelay"	"SubButton"
+		
+		"pin_to_sibling"	"ReportBugButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -251,29 +381,21 @@
 
 	"SettingsButton"
 	{
-		"xpos"			"c-11"
-		"ypos"			"445"
-		"zpos"			"1"
-		"wide"			"30"
-		"tall"			"24"
 		"visible"		"0"
-		"textinsetx"		"0"
-		"labelText"		""
-		"SubImage"
-		{
-			"xpos"			"10"
-			"ypos"			"5"
-			"wide"			"15"
-			"tall"			"15"
-		}
+		"enabled"		"0"
 	}
 	"TF2SettingsButton" // Advanced Settings
 	{
-		"xpos"			"c32"
-		"ypos"			"445"
+		"xpos"			"4"
+		"ypos"			"0"
+		"zpos"			"1"
 		"tall"			"24"
-		"textinsetx"		"30"
-		"textAlignment"		"east"
+		"textinsetx"		"22"
+		"textAlignment"		"right"
+		
+		"pin_to_sibling"	"MySettingsButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		"image_drawcolor"	"235 226 202 255"
 
@@ -284,6 +406,12 @@
 			"ypos"			"5"
 		}
 	}
+	
+	"Notifications_Panel"
+	{
+		"xpos"		"c-25"
+	}
+
 	"QuitButton"
 	{
 		"ypos"			"445"
