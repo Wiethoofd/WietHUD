@@ -14,7 +14,6 @@
 		"team1_player_base_offset_x"		"c-55"
 		"team2_player_base_offset_x"		"c0"
 		"teams_player_delta_x_comp"		"45"
-		"teams_player_delta_x_comp"		"20"
 
 		if_mvm
 		{
@@ -33,8 +32,8 @@
 			"wide"					"f0"
 			"tall"					"480"
 
-			"team1_player_base_y"			"0"
-			"team2_player_base_y"			"0"
+			"team1_player_base_y"			"48"
+			"team2_player_base_y"			"48"
 			"team2_player_delta_x"			"55"
 		}
 		if_readymode
@@ -51,7 +50,7 @@
 
 		"ModeImage"
 		{
-			"ypos"	"11"
+			"ypos"	"52"
 			"zpos"	"-2"
 			"wide"	"30"
 			"tall"	"30"
@@ -369,7 +368,7 @@
 			"wide"		"f0"
 			"tall"		"50"
 			"xpos"		"0"
-			"ypos"		"36"
+			"ypos"		"85"
 		}
 		if_readymode
 		{

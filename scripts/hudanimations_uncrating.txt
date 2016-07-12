@@ -5,7 +5,7 @@ event CollectionCrafting_ItemRecieved
 	SetVisible	NewItemPanel		0				0
 	Animate		TradeUpContainer	wide 0			Accel	0	0	// Fix Trade-Up Background
 	SetVisible	ReturnModel		1				0.05
-	RunEventChild	BehindItemParticlePanel PlayCrateSmashParticles		0.2
+	RunEventChild	BehindItemParticlePanel StartParticle1			0.2
 
 	FireCommand	0	"playsound ui/itemcrate_smash_ultrarare_fireworks.wav"
 

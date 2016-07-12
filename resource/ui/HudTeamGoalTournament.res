@@ -1,80 +1,5 @@
-"Resource/UI/HudTeamGoal.res"
+"Resource/UI/HudTeamGoalTournament.res"
 {
-	"HudTeamGoalBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudTeamGoalBG"
-		"xpos"			"20"
-		"ypos"			"25"
-		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"150"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
-		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
-
-		"draw_corner_width"	"2"		// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"
-	}
-	"SwitchLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"SwitchLabel"
-		"font"			"HudFontSmallBold"
-		"xpos"			"100"
-		"ypos"			"48"
-		"zpos"			"1"
-		"wide"			"220"	[$WIN32]
-		"wide"			"180"	[$X360]
-		"tall"			"15"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"labelText"		"#TF_teamswitch_attackers"
-		"textAlignment"		"North"
-	}
-	"GoalLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"GoalLabel"
-		"font"			"HudFontSmall"
-		"xpos"			"100"
-		"ypos"			"60"
-		"zpos"			"1"
-		"wide"			"220"
-		"tall"			"55"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"labelText"		""
-		"textAlignment"		"North"
-	}
-	"GoalImage"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"GoalImage"
-		"xpos"			"48"
-		"ypos"			"52"
-		"zpos"			"1"
-		"wide"			"46"
-		"tall"			"46"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/hud_icon_attack"
-		"scaleImage"		"1"
-	}
-
 	"HudStopWatchObjective"
 	{
 		"ControlName"		"EditablePanel"
@@ -83,12 +8,12 @@
 		"ypos"				"35"
 		"zpos"				"1"
 		"wide"				"f0"
-		"tall"				"120"
+		"tall"				"190"
 		"visible"			"0"
 		"enabled"			"1"
 		"proportionaltoparent"		"1"
 
-		if_comp
+		if_match
 		{
 			"ypos"	"48"
 		}
@@ -144,7 +69,7 @@
 			"pinCorner"		"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"They got 3 points in just 20 minutes 43 seconds."
+			"labelText"		""
 			"textAlignment"		"center"
 			"font"			"HudFontSmallestShadow"
 			"maxchars"		"-1"

@@ -43,7 +43,7 @@ event CollectionCrafting_LetterSend
 	Animate LetterFront			xpos	c-320	Deaccel 0 0.3
 	Animate DrawingPanel			xpos	c-320	Deaccel 0 0.3
 
-	RunEventChild BehindItemParticlePanel PlayEnvelopSendParticles 0.3
+	RunEventChild BehindItemParticlePanel StartParticle2 0.3
 	Animate Stamp				xpos 2120	Accel 0.3 0.2
 	Animate LetterFront			xpos 2000	Accel 0.3 0.2
 	Animate DrawingPanel			xpos 2000	Accel 0.3 0.2

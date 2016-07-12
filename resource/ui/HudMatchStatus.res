@@ -90,7 +90,7 @@
 		"delta_lifetime"	"1.5"
 		"delta_item_font"	"HudFontMediumSmall"
 
-		if_comp
+		if_match
 		{
 			"delta_item_x"		"300"
 			"delta_item_start_y"	"35"
@@ -127,7 +127,7 @@
 			"font_minmode"	"HudFontMediumSmall"
 			"font_lodef"	"HudFontMediumSmall"
 
-			if_comp
+			if_match
 			{
 				"ypos"		"12"
 				"ypos_minmode"	"12"
@@ -160,7 +160,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		
-		if_comp
+		if_match
 		{	
 			"visible"		"1"
 			"enabled"		"1"

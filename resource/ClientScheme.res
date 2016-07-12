@@ -222,6 +222,18 @@ Scheme
 			"draw_corner_width"	"4"
 			"draw_corner_height"	"4"
 		}
+
+		MainMenuButtonGlow
+		{
+			"draw_corner_width"	"1"
+			"draw_corner_height"	"1"
+		}
+		MainMenuButtonGlow2
+		{
+			"draw_corner_width"	"1"
+			"draw_corner_height"	"1"
+		}
+
 		CustomOutlineBorder
 		{
 			"inset" "0 0 0 0"

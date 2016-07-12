@@ -47,7 +47,7 @@
 		"draw_corner_height"	"0"
 		"draw_corner_width"	"0"
 
-		if_comp
+		if_match
 		{
 			"ypos"		"13"
 			"visible"	"0"

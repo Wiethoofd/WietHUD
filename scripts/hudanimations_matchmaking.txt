@@ -1,5 +1,5 @@
 // MatchMaking Starting show playerlists + Doors
-event HudMatchSummary_ShowMatchStartDoors
+event HudMatchStatus_ShowMatchStartDoors
 {
 	SetVisible	MatchDoors		1 0
 	SetVisible	BlueTeamPanel		1 0
@@ -38,7 +38,7 @@ event HudTournament_DoorsCleanup
 
 // HudTournament Readymode & Competitive Countdown timer
 // Shadow is pinned to Label | move BG/Label
-event HudMatchSummary_ShowCountdown
+event HudMatchStatus_ShowCountdown
 {
 	SetVisible	CountdownLabel		1 0
 	SetVisible	CountdownLabelShadow	1 0
@@ -53,7 +53,7 @@ event HudMatchSummary_ShowCountdown
 // HudTournament Readymode & Competitive Countdown timer
 event HudTournament_ShowTimerCompetitive
 {
-	Animate		CountdownBG		ypos 5		Linear	0 0
+	Animate		CountdownBG		ypos 46		Linear	0 0
 	Animate		CountdownLabel		ypos 0		Linear	0 0
 
 	SetVisible	CountdownBG		0 0
@@ -70,7 +70,7 @@ event HudTournament_ShowTimerDefault
 }
 event HudTournament_MoveTimerDown
 {
-	Animate		CountdownBG		ypos 5		Linear	0 0
+	Animate		CountdownBG		ypos 46		Linear	0 0
 	Animate		CountdownLabel		ypos 0		Linear	0 0
 
 	SetVisible	CountdownBG		0 5
