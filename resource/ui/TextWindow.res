@@ -69,10 +69,10 @@
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"c-200"
+		"xpos"			"c-240"
 		"ypos"			"c-175"
 		"zpos"			"1"
-		"wide"			"400"
+		"wide"			"480"
 		"tall"			"330"
 		"autoResize"		"1"
 		"pinCorner"		"0"
