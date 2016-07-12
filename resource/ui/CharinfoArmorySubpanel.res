@@ -12,7 +12,7 @@
 		"thumbnail_bgcolor_mouseover"	"BackpackPopupBGColor"
 		"thumbnail_bgcolor_selected"	"ButtonPressColor"
 
-		"thumbnails_rows"	"6"
+		"thumbnails_rows"	"7"
 		"thumbnails_columns"	"4"
 
 		"thumbnails_x"		"c-282"
@@ -24,7 +24,7 @@
 		"thumbnail_modelpanels_kv"
 		{
 			"wide"		"70"
-			"tall"		"46"
+			"tall"		"43"
 
 			"model_xpos"		""
 			"model_ypos"		""
@@ -77,7 +77,7 @@
 	"NextPageButton"
 	{
 		"xpos"			"6"
-		"ypos"			"4"
+		"ypos"			"5"
 		"pin_to_sibling" 	"DataPanel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
@@ -86,7 +86,7 @@
 	"WikiButton"
 	{
 		"xpos"		"0"
-		"ypos"		"4"
+		"ypos"		"5"
 		"pin_to_sibling" 	"DataPanel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
@@ -103,7 +103,7 @@
 	"StoreButton"
 	{
 		"xpos"		"0"
-		"ypos"		"4"
+		"ypos"		"5"
 		"wide"		"106"
 		"tall"		"20"
 		"font"		"HudFontSmallestBold"
@@ -140,7 +140,7 @@
 	"DataPanel"
 	{
 		"ypos"		"4"
-		"tall"		"330"
+		"tall"		"359"
 
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
