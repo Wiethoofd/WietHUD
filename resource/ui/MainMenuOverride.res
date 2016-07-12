@@ -39,7 +39,7 @@
 	"Notifications_Panel"
 	{
 		"xpos"			"c10"
-		"ypos"			"32"
+		"ypos"			"31"
 	}
 	"StreamListPanel"
 	{
@@ -483,6 +483,20 @@
 			"CyclingAd"
 			{
 				"bgcolor_override"	"TransparentBlack"
+			}
+
+			"ViewDetailsGlow"
+			{
+				"xpos"		"p0.0175"
+				"wide"		"p0.485"
+				//"visible"	"1"
+			}
+
+			"ViewWarButtonGlow"
+			{
+				"xpos"		"p0.4975"
+				"wide"		"p0.485"
+				//"visible"	"1"
 			}
 		}
 	}
