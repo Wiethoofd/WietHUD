@@ -115,6 +115,19 @@ event TeamsFullArrowAnimate
 	RunEvent TeamsFullArrowAnimateLoop	1
 }
 
+// Checkbox animations casual matchmaking (MatchmakingCategoryPanel.res)
+event CasualCategory_Checkbox_Hide
+{
+	Animate Title		xpos 125 Deaccel 0 0.2
+	SetVisible Checkbutton	0 0.05
+}
+
+event CasualCategory_Checkbox_Show
+{
+	Animate Title		xpos 121 Deaccel 0 0.2
+	SetVisible Checkbutton	1 0.1
+}
+
 // Animate HudTournamentSetup.res panel
 event HudTournamentSetupPanelOpen
 {
