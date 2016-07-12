@@ -43,6 +43,10 @@
 			"model_wide"		"84"
 			"model_tall"		"56"
 		}
+		"cart_modelpanels_kv"
+		{
+			"tall"			"24"
+		}
 	}
 
 	"mouseoveritempanel"
@@ -58,9 +62,9 @@
 	}
 	"BackpackSpaceLabel"
 	{
-		"xpos"			"0"
+		"xpos"			"-2"
 		"ypos"			"0"
-		"tall"			"16"
+		"tall"			"20"
 		"fgcolor_override"	"TanLight"
 		"pin_to_sibling" 	"CartButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
@@ -69,7 +73,7 @@
 	"CartButton"
 	{
 		"xpos"			"c-300"
-		"ypos"			"350"
+		"ypos"			"352"
 		"font"			"HudFontSmall"
 		"textinsetx"		"10"
 	}
@@ -86,7 +90,7 @@
 	{
 		"xpos"			"2"
 		"ypos"			"0"
-		"labelText"		"&A"
+		"tall"			"24"
 		"pin_to_sibling" 	"CurPageLabel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -95,6 +99,7 @@
 	{
 		"wide"			"52"
 		"xpos"			"2"
+		"tall"			"24"
 		"ypos"			"0"
 		"fgcolor_override"	"TanLight"
 		"pin_to_sibling" 	"NextPageButton"
@@ -105,10 +110,27 @@
 	{
 		"xpos"			"-8"
 		"ypos"			"-6"
-		"labelText"		"&D"
+		"tall"			"24"
 		"pin_to_sibling" 	"ItemBackdrop"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+	}
+	
+	"prevPageKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&a"
+		"command"	"prevpage"
+	}
+	"nextPageKey"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&d"
+		"command"	"nextpage"
 	}
 
 	"ClassFilterNavPanel"
