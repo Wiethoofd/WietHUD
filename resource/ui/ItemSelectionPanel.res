@@ -28,6 +28,7 @@
 			"inset_eq_y"		"68"
 			
 			"textAlignment"		"south"
+			"text_ypos"		"74"
 			"text_center"		"0"
 			"text_center_x"		"1"
 			"text_center_y"		"0"
