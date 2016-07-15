@@ -81,7 +81,7 @@
 		"xpos"			"-10"
 		"ypos"			"0"
 		"zpos"			"11"
-		"wide"			"135"
+		"wide"			"125"
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -138,6 +138,71 @@
 				"scaleImage"	"1"
 			}
 		}
+	}	
+	"CreateServerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"CreateServerButton"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"12"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"	"QuickplayButton"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"		"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"textinsetx"		"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"		"west"
+			"dulltext"		"0"
+			"brighttext"		"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuMiniButtonDefault"
+			"border_armed"		"MainMenuMiniButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override"	"46 43 42 255"
+			"armedFgColor_override"		"46 43 42 255"
+			"depressedFgColor_override"	"46 43 42 255"
+			
+			"image_drawcolor"		"235 226 202 255"
+			"image_armedcolor"		"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"4"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"		"1"
+			}				
+		}		
 	}
 
 	"PlayListContainer"
@@ -161,13 +226,13 @@
 			"PlayListContainer"
 			{
 				"wide"		"p0.98"
-				"tall"		"p0.98" //229
+				"tall"		"p0.98"
 				"ypos"		"2"
 
 				"CasualEntry"
 				{
 					"xpos"		"0"
-					"ypos"		"2"
+					"ypos"		"3"
 				}
 
 				"CompetitiveEntry"
@@ -218,6 +283,9 @@
 		
 		"StoreBGPanel"
 		{
+			"tall"		"f0"
+			"wide"		"f0"
+			"proportionaltoparent" "1"
 			"border"		"QuickplayBorder"
 			"bgcolor_override"	"TransparentBlack"
 		}
@@ -227,6 +295,9 @@
 	{
 		"Background"
 		{
+			"tall"		"f0"
+			"wide"		"f0"
+			"proportionaltoparent" "1"
 			"border"		"QuickplayBorder"
 			"bgcolor_override"	"TransparentBlack"
 		}

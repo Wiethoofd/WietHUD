@@ -23,4 +23,11 @@
 		"label"		"#BackpackTitle"
 		"command"	"engine open_charinfo_backpack"
 	}
+	"CreateServerButton"
+	{
+		"label"		"#GameUI_GameMenu_CreateServer"
+		"command"	"OpenCreateMultiplayerGameDialog"
+		"tooltip"	"#GameUI_GameMenu_CreateServer"
+		"OnlyAtMenu"	"1"
+	}
 }
