@@ -36,16 +36,62 @@
 				"xpos"		"0"
 				"ypos"		"0"
 				"wide"		"p1"
-				"tall"		"p1"
+				"tall"		"p0.88"
+
+				"pin_to_sibling"	"GameModesList"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
+
+			"Title"
+			{
+				"xpos"		"0"
+				"ypos"		"0"
+				"tall"		"25"
+				"textinsetx"	"10"
+			}
+
+			"SelectedCount"
+			{
+				"xpos"		"0"
+				"ypos"		"-5"
+				"tall"		"15"
+				"textinsetx"	"10"
+				
+				"pin_to_sibling"	"Title"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+			}
+
+			"QueueEstimation"
+			{
+				"xpos"		"0"
+				"ypos"		"0"
+				"tall"		"15"
+				"textinsetx"	"10"
+				
+				"pin_to_sibling"	"SelectedCount"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
+			
+			"ShowExplanationsButton"
+			{
+				"border_default"	"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
 			}
 			
 			"GameModesList"
 			{
-				"xpos"		"cs-0.5"
-				"ypos"		"cs-0.5"
+				"xpos"		"0"
+				"ypos"		"0"
 				"wide"		"p0.995"
-				"tall"		"p1"
-				
+				"tall"		"p0.88"
+
+				"pin_to_sibling"	"SelectedCount"
+				"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+
 				"ScrollBar"
 				{
 					"xpos"		"rs1"
