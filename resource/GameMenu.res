@@ -13,7 +13,7 @@
 	}
 	"QuickplayButton"
 	{
-		"label"		"#MMenu_PlayList_QuickPlay_Button" 
+		"label"		"Quickplay" 
 		"command"	"engine OpenQuickplayDialog"
 		"subimage"	"glyph_server"
 		"OnlyAtMenu"	"1"

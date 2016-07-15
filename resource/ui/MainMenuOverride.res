@@ -274,6 +274,17 @@
 					"pin_corner_to_sibling"	"PIN_TOPLEFT"
 					"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 				}
+
+				"CreateServerEntry"
+				{
+					"xpos"		"0"
+					"ypos"		"2"
+					"tall"		"0" // Hide create server box because of custom button
+
+					"pin_to_sibling"	"TrainingEntry"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+				}
 			}
 		}
 	}
