@@ -355,7 +355,7 @@
 	HudDeathNotice // Killfeed
 	{
 		"xpos"	 		"r640"
-		"ypos"			"1"
+		"ypos"			"30"
 		"wide"	 		"637"
 		"MaxDeathNotices"	"20"
 		"IconScale"		"0.24"
