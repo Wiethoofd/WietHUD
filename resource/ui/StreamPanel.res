@@ -244,9 +244,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BorderBottom"
 		"xpos"			"0"
-		"ypos"			"r1"
+		"ypos"			"34"
 		"zpos"			"12"
-		"wide"			"f0"
+		"wide"			"300"
 		"tall"			"1"
 
 		"fillcolor"		"100 65 165 255"
