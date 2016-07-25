@@ -28,7 +28,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimeBG"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"52"
@@ -46,10 +46,12 @@
 		"src_corner_width"	"20"
 		"draw_corner_height"	"0"
 		"draw_corner_width"	"0"
+		"pin_to_sibling" 	"TimePanelValue"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 
 		if_match
 		{
-			"ypos"		"13"
 			"visible"	"0"
 		}
 	}
