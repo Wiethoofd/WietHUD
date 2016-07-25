@@ -17,7 +17,28 @@
 			"bgcolor_override"	"MainMenuBGColor"
 		}
 	}
-	
+
+	"EventTitleLabel"
+	{
+		"ypos"		"85"
+		"tall"		"16"
+		"font"		"HudFontMediumSmallBoldShadow"
+	}
+	"EventDetailLabel"
+	{
+		"tall"		"16"
+		"font"		"HudFontSmallBoldShadow"
+	}
+	"EventBonusLabel"
+	{
+		"tall"		"16"
+		"font"		"HudFontSmallBoldShadow"
+
+		"pin_to_sibling"	"EventDetailLabel"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+	}
+
 	"ProgressSelfPlayerIcon"
 	{
 		"wide"		"36"
