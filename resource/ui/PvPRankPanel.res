@@ -7,6 +7,7 @@
 		"border"		"NoBorder"
 		"bgcolor_override"	"0 0 0 0"
 		
+		// Custom bordered background
 		"RankPanelBG"
 		{
 			"ControlName" "EditablePanel"
@@ -23,6 +24,11 @@
 			"pin_to_sibling"	"StatsContainer"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		
+			if_mini
+			{
+				"wide"		"p0.865"
+			}
 		}
 	}
 }
