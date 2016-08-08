@@ -175,6 +175,9 @@
 			"color_portrait_bg_red_dead"	"49 44 42 150"
 			"color_portrait_bg_blue_dead"	"44 49 51 150"
 
+			//"color_portrait_bg_red_local_player"	""
+			//"color_portrait_bg_blue_local_player"	""
+
 			"classimage"
 			{
 				"xpos"		"cs-0.5"
@@ -187,7 +190,7 @@
 			{
 				"xpos"		"cs-0.5"
 				"ypos"		"0"
-				"wide"		"30"
+				"wide"		"f0"
 				"tall"		"31"
 				"proportionaltoparent"	"1"
 			}
@@ -195,12 +198,15 @@
 			{
 				"xpos"		"0"
 				"ypos"		"0"
-				"wide"		"30"
+				"wide"		"f0"
 				"tall"		"7"
 				"textinsetx"	"1"
-				"visible"	"0"
+				"visible"	"1"
+				"labelText"	"%playername%"
 				"textAlignment"	"center"
 				"bgcolor_override"	"TransparentBlack"
+				"proportionaltoparent"	"1"
+				
 			}
 			"healthbar"
 			{
@@ -247,13 +253,14 @@
 			{
 				"tall"		"16"
 				"xpos"		"0"
-				"ypos"		"-1"
+				"ypos"		"0"
 				"wide"		"30"
-				"tall"		"10"
-				"font"		"HudFontSmallestBoldShadow"
+				"tall"		"4"
+				"font"		"HudFontSmallBoldOutlineShadow"
+				"fgcolor_override"	"230 230 220 255"
 
 				"pin_to_sibling"	"classimagebg"
-				"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+				"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
 				"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 			}
 			"DeathPanel"

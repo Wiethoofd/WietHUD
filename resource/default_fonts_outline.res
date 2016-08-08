@@ -45,6 +45,31 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"HudFontSmallBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		"HudFontSmallBoldOutlineShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+				"dropshadow"	"1"
+			}
+		}
 
 		"HudFontSmallestBoldOutline"
 		{
@@ -105,6 +130,19 @@ Scheme
 				"additive"	"0"
 				"antialias"	"1"
 				"outline"	"1"
+			}
+		}
+		"HudFontGiantBoldOutlineShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+				"dropshadow"	"1"
 			}
 		}
 
