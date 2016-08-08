@@ -3,8 +3,13 @@
 
 "Resource/UI/LobbyContainerFrame_casual.res"
 {
-	"RankPanel"
+	"Sheet"
 	{
-		//"matchgroup"	"MatchGroup_Ladder_9v9"
+		"tabheight"	"33"
+		
+		"tabskv"
+		{
+			"defaultBgColor_override"	"BackpackPopupBGColor"
+		}
 	}
 }

@@ -3,21 +3,13 @@
 
 "Resource/UI/LobbyContainerFrame_Comp.res"
 {
-	"RankPanel"
+	"Sheet"
 	{
-		//"matchgroup"	"MatchGroup_Ladder_9v9"
-	}
-	"StartPartyButton"
-	{
-		"xpos"		"0"
-		"ypos"		"-6"
+		"tabheight"	"33"
 		
-		"pin_to_sibling"	"PlayWithFriendsExplanation"
-		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
-	}
-	"PlayWithFriendsExplanation"
-	{
-		"tall"		"300"
+		"tabskv"
+		{
+			"defaultBgColor_override"	"BackpackPopupBGColor"
+		}
 	}
 }

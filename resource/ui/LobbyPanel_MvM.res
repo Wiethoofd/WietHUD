@@ -1,5 +1,5 @@
-#base "../../default_hudfiles/resource/ui/lobbypanel_MvM.res"
 #base "LobbyPanel.res"
+#base "../../default_hudfiles/resource/ui/lobbypanel_MvM.res"
 
 "Resource/UI/LobbyPanel.res"
 {
