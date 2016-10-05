@@ -1520,6 +1520,22 @@
 					"desc_token"		"#MMenu_PlayList_Training_Desc"
 				}
 
+				"CreateServerEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"CreateServerEntry"
+					"xpos"			"0"
+					"ypos"			"253"
+					"tall"			"45"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_custom_server"
+					"button_token"		"#MMenu_PlayList_CreateServer_Button"
+					"button_command"	"OpenCreateMultiplayerGameDialog"
+					"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
+				}
+
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
@@ -2232,6 +2248,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"stay_armed_on_click"	"1"
 			
 			"border_default"	"MainMenuButtonDefault"
 			"border_armed"		"MainMenuButtonArmed"
@@ -2271,6 +2288,7 @@
 		"tall"			"26"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
+		"stay_armed_on_click"	"1"
 
 		"navUp"			"ServerBrowserButton"
 		"navDown"		"QuickplayChangeButton"
