@@ -196,7 +196,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"c27"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"52"
@@ -211,6 +211,9 @@
 		"auto_wide_tocontents"	"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
+		"pin_to_sibling" 	"TimePanelValue"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"ServerTimeLimitLabelBG"
 	{

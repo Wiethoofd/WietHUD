@@ -29,16 +29,16 @@
 		"AnimBlueTeamLabel12v12YPos"		"0"
 		"AnimRedTeamLabel12v12YPos"		"0"
 	}
+	
+	"RankPanel"
+	{
+		"xp_source_notification_center_x"	"290"
+	}
 
 	"MainStatsContainer"
 	{
-		DisconnectButton
-		{
-			"border_default"	"QuickplayBorder"
-			"border_armed"		"ComboBoxBorder"
-		}
 		"TeamScoresPanel"
-		{
+		{			
 			"BlueTeamPanel"
 			{
 				"BlueTeamScoreBG"
@@ -52,7 +52,7 @@
 
 					if_large
 					{
-						"ypos"		"35"
+						"ypos"		"45"
 					}
 				}
 				"BlueTeamScore"
@@ -187,7 +187,7 @@
 
 					if_large
 					{
-						"ypos"		"70"
+						"ypos"		"80"
 						"tall"		"355"
 					}
 
@@ -233,7 +233,7 @@
 
 					if_large
 					{
-						"ypos"		"35"
+						"ypos"		"45"
 					}
 				}
 				RedTeamScore
@@ -367,7 +367,7 @@
 
 					if_large
 					{
-						"ypos"		"70"
+						"ypos"		"80"
 						"tall"		"355"
 					}
 

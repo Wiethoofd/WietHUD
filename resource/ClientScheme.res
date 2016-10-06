@@ -103,6 +103,15 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		
+		// Scoreboard player status
+		ScoreboardSmallest
+		{
+			"1"
+			{
+				"tall"	"8"
+			}
+		}
 
 		"HudClassHealth"
 		{
