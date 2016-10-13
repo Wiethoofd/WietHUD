@@ -1,6 +1,14 @@
 // Color Damage Text Dealt on player hit
 event DamagedPlayer
 {
+	// Workaround for FPS drops caused by stacking DamgedPlayer animations
+	// Credit to sigsevs for suggesting this as a possibile fix
+	//	https://redd.it/57760o
+	StopEvent	BlinkDamageNumber	0.0
+	RunEvent	BlinkDamageNumber	0.01
+}
+event BlinkDamageNumber
+{
 	Animate	DamageAccountValue		Alpha		"255"		Linear	0.0	0.01
 	Animate	DamageAccountValueShadow	Alpha		"255"		Linear	0.0	0.01
 
