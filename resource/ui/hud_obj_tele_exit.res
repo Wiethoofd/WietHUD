@@ -3,7 +3,7 @@
 	"BuildingStatusItem"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
+		"fieldName"		"BuildingStatusItemTeleExit"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"140"

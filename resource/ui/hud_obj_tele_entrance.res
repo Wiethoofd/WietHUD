@@ -2,6 +2,11 @@
 
 "Resource/UI/hud_obj_tele_entrance.res"
 {
+	"BuildingStatusItem"
+	{
+		"fieldName"	"BuildingStatusItemTeleEntrance"
+	}
+
 	"Icon"
 	{
 		"icon"			"obj_status_tele_entrance"

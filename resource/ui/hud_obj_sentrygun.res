@@ -4,6 +4,7 @@
 {
 	"BuildingStatusItem"
 	{
+		"fieldName"	"BuildingStatusItemSentry"
 		"tall"		"43"
 	}
 

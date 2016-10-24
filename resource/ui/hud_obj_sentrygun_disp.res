@@ -2,6 +2,11 @@
 
 "Resource/UI/hud_obj_sentrygun_disp.res"
 {
+	"BuildingStatusItem"
+	{
+		"fieldName"	"BuildingStatusItemSentryDisposable"
+	}
+
 	"Icon"
 	{
 		"visible"	"0"

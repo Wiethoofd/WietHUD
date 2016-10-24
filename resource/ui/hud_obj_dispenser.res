@@ -2,6 +2,11 @@
 
 "Resource/UI/hud_obj_dispenser.res"
 {
+	"BuildingStatusItem"
+	{
+		"fieldName"		"BuildingStatusItemDispenser"
+	}
+
 	"Icon"
 	{
 		"xpos"			"-14"
