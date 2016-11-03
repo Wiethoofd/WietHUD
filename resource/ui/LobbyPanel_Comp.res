@@ -76,6 +76,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+
 			"pin_to_sibling"	"ShowMatchHistoryButton"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -83,7 +86,7 @@
 
 		"ShowMatchHistoryButton"
 		{
-			"ControlName"	"Button"
+			"ControlName"	"CExButton"
 			"fieldName"		"ShowMatchHistoryButton"
 			"xpos"			"-3"
 			"ypos"			"-6"

@@ -106,6 +106,11 @@
 		"tall"		"300"
 	}
 
+	"ShowExplanationsButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 
 	"NextButton"
 	{

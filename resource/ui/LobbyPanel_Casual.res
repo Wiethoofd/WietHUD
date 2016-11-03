@@ -135,6 +135,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"button_load"
+					"scaleImage"		"1"
 				}
 			}
 
@@ -181,6 +182,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"button_save"
+					"scaleImage"		"1"
 				}
 			}
 

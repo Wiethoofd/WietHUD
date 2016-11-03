@@ -27,4 +27,22 @@
 		"paintbackground"	"1"
 		"paintborder"		"1"
 	}
+
+	"CasualTitleLabel"
+	{
+		"ypos"			"10"
+		"font"			"HudFontSmallBoldShadow"
+	}
+
+	"TakeTourButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
+
+	"ConfirmButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 }

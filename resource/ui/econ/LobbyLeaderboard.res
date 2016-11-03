@@ -19,21 +19,29 @@
 	}
 	LocalLeaderboardButton
 	{
+		"ControlName"	"CExButton"
 		"xpos"			"-2"
 		"ypos"			"2"
-		
+
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+
 		"pin_to_sibling"	"Line"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
 	GlobalLeaderboardButton
 	{
-			"xpos"			"2"
-			"ypos"			"0"
-			
-			"pin_to_sibling"	"LocalLeaderboardButton"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"ControlName"	"CExButton"
+		"xpos"			"2"
+		"ypos"			"0"
+
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+
+		"pin_to_sibling"	"LocalLeaderboardButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"TooltipPanel"
 	{
