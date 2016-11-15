@@ -8,11 +8,9 @@ SET "default_hudfile_folder=default_hudfiles"
 :: Use HLExtract to get default HUD files ( https://developer.valvesoftware.com/wiki/HLLib#HLExtract )
 IF NOT EXIST "%default_hudfile_folder%/resource" (mkdir "%default_hudfile_folder%/resource")
 IF EXIST "HLExtract\HLExtract.exe" (
-	REM Extracting resource\ui folder and clientscheme, mainmenu buttons
+	REM Extracting resource folder (schemes + main menu button actions)
 	echo Extracting default hudfiles required for #base include to: %default_hudfile_folder%
-	HLExtract\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%default_hudfile_folder%/resource" -e "root\resource\ui" -m -v -s
-	HLExtract\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%default_hudfile_folder%/resource" -e "root\resource\clientscheme.res" -m -v -s
-	HLExtract\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%default_hudfile_folder%/resource" -e "root\resource\gamemenu.res" -m -v -s
+	HLExtract\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%default_hudfile_folder%" -e "root\resource" -m -v -s
 	HLExtract\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%default_hudfile_folder%" -e "root\scripts\HudLayout.res" -m -v -s
 	HLExtract\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%default_hudfile_folder%" -e "root\scripts\HudAnimations_tf.txt" -m -v -s
 ) ELSE (
