@@ -21,7 +21,7 @@
 			"border"	"QuickplayBorder"
 			"textAlignment"		"center"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"79 111 134 255" //"99 120 136 255" //"79 117 144 225" //
+			"bgcolor_override"	"79 111 134 255"
 		}
 	}
 
@@ -46,7 +46,7 @@
 			"border"	"QuickplayBorder"
 			"textAlignment"		"center"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"174 60 59 255" //"174 64 67 225"
+			"bgcolor_override"	"174 60 59 255"
 		}
 	}
 

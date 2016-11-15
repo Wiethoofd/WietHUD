@@ -144,7 +144,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-				"HealthBonusPosAdj"		"226"
+				"HealthBonusPosAdj"		"250"
 				"HealthDeathWarning"		"1.001"
 				"HealthDeathWarningColor"	"Black"
 				"TextColor"			"TanLight"
