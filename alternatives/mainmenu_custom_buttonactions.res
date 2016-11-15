@@ -17,7 +17,7 @@
 
 	"RecordDemoButton"
 	{
-		"label"		"Record"
+		"label"		"Rec. Demo"
 		"command"	"engine ds_record"
 		"OnlyInGame"	"1"
 	}

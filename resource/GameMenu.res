@@ -11,13 +11,6 @@
 		"command"	"OpenOptionsDialog"
 		"tooltip"	"#GameUI_GameMenu_Options"
 	}
-	"QuickplayButton"
-	{
-		"label"		"Quickplay" 
-		"command"	"engine OpenQuickplayDialog"
-		"subimage"	"glyph_server"
-		"OnlyAtMenu"	"1"
-	}
 	"CharacterSetupButton"
 	{
 		"label"		"#BackpackTitle"
