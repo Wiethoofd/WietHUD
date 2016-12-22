@@ -111,14 +111,14 @@
 			"xpos"			"0"	[$WIN32]
 			"ypos"			"0"	[$WIN32]
 			"wide"			"f0"
-			"tall"			"26"
+			"tall"			"36"
 			"wrap"			"1"
 			"autoResize"		"1"
 			"pinCorner"		"1"
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"They got 3 points in just 20 minutes 43 seconds."
-			"textAlignment"		"west"
+			"textAlignment"		"north-west"
 			"font"			"HudFontSmallestShadow"
 			"maxchars"		"-1"
 			"proportionaltoparent"	"1"
