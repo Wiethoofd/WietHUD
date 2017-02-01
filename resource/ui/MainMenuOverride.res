@@ -45,7 +45,7 @@
 	{
 		"tall"			"210"
 		"zpos"			"11"
-		"border"		"NoBorder"
+		"border"		"QuickplayBorder"
 		"bgcolor_override"	"Black"
 		"paintbackground"	"1"
 	}
