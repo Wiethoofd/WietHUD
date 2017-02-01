@@ -1,4 +1,5 @@
 #base "../../default_hudfiles/Resource/UI/PvPRankPanel.res"
+// Stats above XP bar
 
 "Resource/UI/PvPRankPanel.res"
 {

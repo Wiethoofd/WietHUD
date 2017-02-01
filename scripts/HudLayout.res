@@ -49,9 +49,9 @@
 	// Floating Player names
 	HudSpectatorExtras
 	{
-		"tall"			"f0"
-		//"player_name_font"	""
+		"tall"			"f0" // Change to 0 to hide health bars & names
 		"zpos"			"-1"
+		//"player_name_font"	"SpectatorVerySmall"
 	}
 
 	// Sniper Scope Transparent Viewmodel fix

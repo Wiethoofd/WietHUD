@@ -1,4 +1,5 @@
 #base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyStrangifierDialog.res"
+// Strangifier dialog
 
 "Resource/UI/ConfirmApplyStrangifierDialog.res"
 {

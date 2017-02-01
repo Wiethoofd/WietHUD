@@ -171,11 +171,17 @@
 	{
 		"xpos"			"2"
 		"ypos"			"158"
+
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
  	"DragToNextPageButton"
 	{
 		"xpos"			"r27"
 		"ypos"			"158"
+
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 
 	"ShowExplanationsButton" // Help ?
@@ -183,6 +189,9 @@
 		"ypos"			"3"
 		"wide"			"19"
 		"tall"			"19"
+
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 
 	"PagesExplanation"
