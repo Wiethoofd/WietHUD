@@ -4,7 +4,9 @@
 {
 	"MMPopup"
 	{
+		//"collapsed_height"	"70" // debug
 		"ypos"		"0"
+		"zpos"		"10000"
 
 		"ChooseRematchOrRequeueContainer"
 		{

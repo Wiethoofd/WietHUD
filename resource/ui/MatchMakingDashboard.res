@@ -4,7 +4,9 @@
 {
 	"MMDashboard"
 	{
+		//"collapsed_height"	"25" // debug
 		"ypos"			"0"
+		"zpos"			"10001"
 	}
 
 	"TopBar"
