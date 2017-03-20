@@ -7,6 +7,9 @@
 // - (Un)Comment mainmenu_custom_buttonactions.res in ui/GameMenu.res to toggle custom buttons
 #base "../../alternatives/mainmenu_custom_buttons.res"
 
+// WietHUD logo (comment this out & mainmenu_hudlogo_buttonaction.res in ui/GameMenu.res to hide the logo)
+#base "../../alternatives/mainmenu_hudlogo.res"
+
 // Main Menu
 // - Change the value of mat_antialias to see changes made without restarting TF2
 #base "../../default_hudfiles/resource/ui/MainMenuOverride.res"
