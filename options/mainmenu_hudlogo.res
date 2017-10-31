@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"proportionaltoparent"	"1"
+		"command"		"echo WietHUD"
 
 		"pin_to_sibling"	"TFLogoImage"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"

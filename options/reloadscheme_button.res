@@ -17,13 +17,15 @@
 		"labelText"		"RS"
 		"font"			"Default"
 		"textAlignment"		"center"
-		"textinsetx"		"2"
+		"textinsetx"		"10"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"Command"		"reloadscheme"
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"proportionaltoparent"	"1"
+		"auto_wide_tocontents"	"1"
 	}
 }
