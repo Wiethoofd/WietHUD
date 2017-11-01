@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmDialogAbandonPenalty.res"
+"Resource/UI/ConfirmDialogAbandonSafe.res"
 {
 	"ConfirmDialog"
 	{
@@ -18,7 +18,7 @@
 		"paintbackground"		"1"
 		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
-		
+	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -38,28 +38,14 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 	
-	"AbandonIcon"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"AbandonIcon"
-		"xpos"		"10"
-		"ypos"		"52"
-		"wide"		"40"
-		"tall"		"40"
-		"image"			"pve/mvm_timeout_active_large"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-	}
-	
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
 		"font"			"EconFontSmall"
 		"labelText"		"%text%"
-		"textAlignment"	"north-west"
-		"xpos"			"60"
+		"textAlignment"	"north"
+		"xpos"			"40"
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"220"
@@ -68,8 +54,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "200 80 60 255"
+		"centerwrap"	"1"
+		"fgcolor_override" "TanLight"
 	}
 		
 	"CancelButton"
@@ -115,7 +101,7 @@
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_cancel"
-	}
+	}		
 
 	"ConfirmButton"
 	{
@@ -161,5 +147,5 @@
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_select"
-	}			
+	}					
 }

@@ -1,10 +1,9 @@
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmDialogAbandonSafe.res"
+#base "../../default_hudfiles/Resource/UI/ConfirmAbandonDialog.res"
 
-"Resource/UI/ConfirmDialogAbandonSafe.res"
+"Resource/UI/ConfirmAbandonDialog.res"
 {
 	"ConfirmDialog"
 	{
-		"ypos"			"c-100"
 		"border"		"NoBorder"
 		"bgcolor_override"	"0 0 0 0"
 		"paintbackgroundtype"	"0"

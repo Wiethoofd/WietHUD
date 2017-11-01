@@ -1,10 +1,9 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyGiftWrapDialog.res"
-// Giftwrap Item
+#base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyDuckTokenDialog.res"
 
-"Resource/UI/ConfirmApplyGiftWrapDialog.res"
+"Resource/UI/ConfirmApplyDuckTokenDialog.res"
 {
-	"ConfirmApplyGiftWrapDialog"
+	"ConfirmApplyDuckTokenDialog"
 	{
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"

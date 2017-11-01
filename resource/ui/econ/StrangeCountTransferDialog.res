@@ -12,13 +12,13 @@
 	{
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
-	
+
 		"TitleLabel"
 		{
-			"font"			"HudFontSmall"
+			"font"			"HudFontSmallShadow"
 			"tall"			"70"
 		}
-		
+
 		"ToolBG"
 		{
 			"border"		"BackpackItemBorder_Strange"
@@ -31,7 +31,7 @@
 				"antialias"		"1"
 			}
 		}
-		
+
 		"SubjectBG"
 		{
 			"xpos"			"306"
@@ -45,6 +45,16 @@
 				"inventory_image_type"	"1" // High quality item image
 				"antialias"		"1"
 			}
+		}
+		"OkButton"
+		{
+			"border_default"		"QuickplayBorder"
+			"border_armed"			"ComboboxBorder"
+		}
+		"CancelButton"
+		{
+			"border_default"		"QuickplayBorder"
+			"border_armed"			"ComboboxBorder"
 		}
 	}
 }

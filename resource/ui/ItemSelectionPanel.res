@@ -1,4 +1,4 @@
-//#base "../../alternatives/reloadscheme_button.res"
+#base "../../options/reloadscheme_button.res"
 #base "../../alternatives/itemselection_widescreen.res"
 #base "../../alternatives/itemselection_buttons.res"
 
@@ -7,8 +7,8 @@
 
 "Resource/UI/ItemSelectionPanel.res"
 {
-	"reloadschemebutton" { xpos r20 ypos 5 }
-	
+	"reloadschemebutton" { visible 0 xpos c-10 ypos 5 }
+
 	"ItemSelectionPanel" {
 		"zpos"				"560"
 		"tall"				"420"

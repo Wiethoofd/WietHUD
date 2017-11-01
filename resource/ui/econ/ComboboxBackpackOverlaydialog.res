@@ -1,4 +1,5 @@
 // Change Item Style Popup
+// Select Strange Filter Strange Part
 "Resource/UI/econ/ComboBoxBackpackOverlayDialogBase.res"
 {
 	"ComboBoxBackpackOverlayDialogBase"
@@ -8,6 +9,7 @@
 		"enabled"			"1"
 		"xpos"				"c-140"
 		"ypos"				"105"
+		"zpos"				"0"
 		"wide"				"280"
 		"tall"				"240"
 		"bgcolor_override"		"BackpackPopupBGColor"
@@ -15,7 +17,7 @@
 		"paintbackgroundtype"		"0"
 		"settitlebarvisible"		"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -36,23 +38,21 @@
 	}
 
 	"preview_model"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"preview_model"
 		"xpos"			"60"
 		"ypos"			"40"
-		"zpos"			"1"
+		"zpos"			"10"
 		"wide"			"160"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"	"0 0 0 0"
+		"noitem_textcolor"	"117 107 94 255"
 		"border_override"	"QuickplayBorder"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
-		//"model_xpos"		"2"
-		//"model_ypos"		"5"
 		"model_center_x"	"1"
 		"model_center_y"	"1"
 		"model_wide"		"160"
@@ -61,22 +61,12 @@
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
-	
+
 		"itemmodelpanel"
 		{
 			"force_use_model"	"1"
-			"inventory_image_type"	"2" // High quality item image
-			"use_item_rendertarget" "0"
-			//"allow_manip"		"1"
-			//"fov"			"24"
-			//"use_pedestal"			"1"
-			//"use_particle"			"1"
-			
-			"model"
-			{
-				"force_pos"	"1"
-				"spotlight"	"1"
-			}
+			"use_item_rendertarget" "1"
+			"allow_manip"		"1"
 		}
 	}
 
@@ -100,7 +90,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		
+
 		"fgcolor_override"		"117 107 94 255"
 		"bgcolor_override"		"251 235 202 0"
 		"disabledFgColor_override"	"117 107 94 0"
@@ -109,7 +99,7 @@
 		"selectionTextColor_override"	"117 107 94 255"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -131,10 +121,12 @@
 		"brighttext"		"0"
 		"default"		"0"
 		"Command"		"cancel"
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -156,6 +148,8 @@
 		"brighttext"		"0"
 		"default"		"1"
 		"Command"		"apply"
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

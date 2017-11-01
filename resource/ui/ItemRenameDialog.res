@@ -23,18 +23,22 @@
 			"tall"		"30"
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"font"			"HudFontSmallShadow"
 		"tall"			"70"
 	}
-	
+
+	"ToolBG"
+	{
+		"border"		"BackpackItemBorder_Unique"
+	}
 	"tool_icon"
 	{
 		"visible"		"0"
 	}
-	
+
 	"SubjectBG"
 	{
 		"xpos"			"306"
@@ -62,7 +66,7 @@
 			"antialias"		"1"
 		}
 	}
-	
+
 	"OldItemNameBG"
 	{
 		"bgcolor_override"	"30 30 30 60"
@@ -71,18 +75,19 @@
 	{
 		"fgcolor_override"	"235 226 202 255"
 		"wide"			"165"
-	}	
+	}
 	"OldItemNameLabel"
 	{
-		"fgcolor_override"	"205 196 172 255"
 		"xpos"			"180"
-		"ypos"			"86"
+		"ypos"			"92"
 		"wide"			"206"
 		"wrap"			"1"
-		"tall"			"40"
+		"tall"			"28"
 		"font"			"HudFontSmall"
+		"fgcolor_override"	"205 196 172 255"
+		"autoResize"	"3"
 	}
-	
+
 	"NewItemNameBG"
 	{
 		"bgcolor_override"	"30 30 30 60"
@@ -96,6 +101,18 @@
 	{
 		"xpos"			"180"
 		"wide"			"206"
+		//"maxchars"		"40"
 		"bgcolor_override"	"BackpackBorderColor"
+	}
+
+	"CancelButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
+	"OkButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
 	}
 }

@@ -10,7 +10,7 @@
 		"paintbackgroundtype"	"2"
 		"paintborder"		"1"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"text_center_y"		"1"
@@ -30,100 +30,15 @@
 		"font"			"HudFontSmallShadow"
 		"tall"			"70"
 	}
+
+	"ToolBG"
+	{
+		"border"		"BackpackItemBorder_PaintkitWeapon"
+	}
 	"tool_icon"
 	{
 		"visible"		"0"
 	}
-	
-	"SubjectBG"
-	{
-		"xpos"			"466"
-	}
-	"subject_icon"
-	{
-		"visible"		"0"
-	}
-
-	"SelectImagePage"
-	{
-		"ImagePaletteGroupBox"
-		{
-			"bgcolor_override"	"52 50 52 255"
-			"border"		"QuickplayBorder"
-		}
-		"PreviewImageGroupBox"
-		{
-			"bgcolor_override"	"52 50 52 255"
-			"border"		"QuickplayBorder"
-			
-			"GradientBgPanel"
-			{
-				"image"		""
-			}
-		}
-	}
-				
-	"AdjustFilterPage"
-	{
-		"PageTitleLabel"
-		{
-			"labelText"		"2. Filter"
-		}
-		"FilterOptionsGroupBox"
-		{
-			"bgcolor_override"	"52 50 52 255"
-			"border"		"QuickplayBorder"
-		}
-		"PreviewImageGroupBox"
-		{
-			"bgcolor_override"	"52 50 52 255"
-			"border"		"QuickplayBorder"
-		}
-		"PreviewModelGroupBox"
-		{
-			"bgcolor_override"	"52 50 52 255"
-			"border"		"QuickplayBorder"
-			
-			"GradientBgPanel"
-			{
-				"image"		""
-			}
-		}
-	}
-
-	"FinalConfirmPage"
-	{	
-		"WarningTextGroupBox"
-		{
-			"bgcolor_override"	"52 50 52 255"
-			"border"		"QuickplayBorder"
-		}
-		"PreviewModelGroupBox"
-		{
-			"bgcolor_override"	"52 50 52 255"
-			"border"		"QuickplayBorder"
-			
-			"GradientBgPanel"
-			{
-				"image"		""
-			}
-		}
-	}
-	
-	"PerformingActionPage"
-	{
-		"PreviewModelGroupBox"
-		{
-			"bgcolor_override"	"52 50 52 255"
-			"border"		"QuickplayBorder"
-			
-			"GradientBgPanel"
-			{
-				"image"		""
-			}
-		}
-	}
-
 	"tool_modelpanel"
 	{
 		"itemmodelpanel"
@@ -133,6 +48,15 @@
 		}
 	}
 
+	"SubjectBG"
+	{
+		"xpos"			"466"
+		"border"		"BackpackItemBorder_PaintkitWeapon"
+	}
+	"subject_icon"
+	{
+		"visible"		"0"
+	}
 	"subject_modelpanel"
 	{
 		"xpos"				"466"
@@ -142,18 +66,155 @@
 			"antialias"		"1"
 		}
 	}
-	
+
 	"paint_model"
 	{
-		"zpos"			"500"
-		"model_center_x"	"1"
-		"model_center_y"	"1"
-		
 		"itemmodelpanel"
 		{
-			"inventory_image_type"	"2" // High quality item image
+			"force_use_model"	"1"
 			"use_item_rendertarget" "1"
 			"antialias"		"1"
+			"allow_manip"		"1"
+		}
+	}
+
+	"SelectImagePage"
+	{
+		"ImagePaletteGroupBox"
+		{
+			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
+
+			"BrowseForNewImageButton"
+			{
+				"border_default"	"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
+			}
+		}
+		"PreviewImageGroupBox"
+		{
+			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
+
+			"GradientBgPanel"
+			{
+				"image"		""
+			}
+		}
+		"CancelButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"NextButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+	}
+
+	"AdjustFilterPage"
+	{
+		"PageTitleLabel"
+		{
+			//"labelText"		"2. Filter"
+		}
+		"FilterOptionsGroupBox"
+		{
+			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
+
+			"StencilOptions"
+			{
+				"PrevStencilPaletteButton"
+				{
+					"border_default"	"QuickplayBorder"
+					"border_armed"		"ComboBoxBorder"
+				}
+				"NextStencilPaletteButton"
+				{
+					"border_default"	"QuickplayBorder"
+					"border_armed"		"ComboBoxBorder"
+				}
+			}
+		}
+		"PreviewImageGroupBox"
+		{
+			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
+		}
+		"PreviewModelGroupBox"
+		{
+			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
+
+			"GradientBgPanel"
+			{
+				"image"		""
+			}
+		}
+		"CancelButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"BackButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"NextButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+	}
+
+	"FinalConfirmPage"
+	{
+		"WarningTextGroupBox"
+		{
+			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
+		}
+		"PreviewModelGroupBox"
+		{
+			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
+
+			"GradientBgPanel"
+			{
+				"image"		""
+			}
+		}
+		"CancelButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"BackButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"OkButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+	}
+
+	"PerformingActionPage"
+	{
+		"PreviewModelGroupBox"
+		{
+			"bgcolor_override"	"52 50 52 255"
+			"border"		"QuickplayBorder"
+
+			"GradientBgPanel"
+			{
+				"image"		""
+			}
 		}
 	}
 }
