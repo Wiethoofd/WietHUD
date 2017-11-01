@@ -34,6 +34,8 @@ Scheme
 		"MainMenuBGColor"	"36 34 36 180"
 		"BackpackBGColor"	"52 50 52 255"
 
+		"DamageNumbersColor"	""
+
 		"AmmoLowColor"		"255 165 0 255"
 		"LowAmmoShadowColor"	"180 0 0 225"
 		"LowAmmoShadowColor2"	"130 0 0 255"
@@ -51,7 +53,10 @@ Scheme
 	BaseSettings // Define Color Names for Elements/Borders
 	{
 		//StickiesOutColor		"ItemRarityMythical" // Purple
-		StickiesOutColor		"ItemRarityLegendary" // Pink
+		//StickiesOutColor		"TanLight" // OffWhite
+		//StickiesOutColor		"ItemRarityLegendary" // Pink
+		//StickiesOutColor		"ItemRarityAncient" // Elite
+		StickiesOutColor		"ItemRarityUncommon" // Freelance
 
 		ReplayBrowser.BgColor		"BackpackBGColor"
 		ReplayBrowser.Search.BgColor	"BackpackPopupBGColor"
@@ -82,11 +87,24 @@ Scheme
 		AmmoClipLowColor		"AmmoLowColor"
 		AmmoReserveLowColor		"AmmoLowColor"
 
+		//DamageTextColor			"DamageNumbersColor" // Use RGB defined values on line 36
 		DamageTextColor			"ItemRarityMythical" //"QualityColorCollectors"
 	}
 
 	Fonts
 	{
+		"ChargeMeterFont"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"500"
+				"additive"	"0"
+				"dropshadow"	"1"
+				"antialias" "1"
+			}
+		}
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -119,6 +137,7 @@ Scheme
 			"1"
 			{
 				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_Normal"

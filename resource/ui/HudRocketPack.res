@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_base.res"
+"Resource/UI/HudRocketPack.res"
 {
 	HudItemEffectMeter
 	{
@@ -8,20 +8,15 @@
 		"xpos"			"c-75"
 		"x_offset"		"0"
 		"x_offset_minmode"	"0"
-		"ypos"			"c110"
+		"ypos"			"r109"
 		"wide"			"150"
-		"tall"			"5"
-		"MeterFG"		"ProgressBarBlue"
-		"MeterBG"		"ProgressOffWhiteTransparent"
-		"fgcolor_override"	"66 66 66 255"
-		"defaultFgColor_override"	"66 66 66 255"
-		"bgcolor_override"	"88 88 88 133"
+		"tall"			"25"
 	}
 
 	"ItemMeterDescription"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"DefaultHudItemMeter"
+		"fieldName"		"Jetpack"
 		"wide"			"0"
 		"enabled"		"1"
 		"visible"		"1"
@@ -29,40 +24,55 @@
 		"ypos"			"0"
 	}
 
+	"ItemEffectIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"image"			"../hud/pyro_jetpack_off2"
+		"scaleImage"		"1"	
+	}
+
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"ItemEffectMeterLabel"
 		"xpos"			"0"
 		"ypos"			"-1"
-		"ypos_lodef"		"0"
 		"zpos"			"3"
-		"wide"			"f0"
-		"proportionaltoparent"	"1"
+		"wide"			"p0.455"
 		"tall"			"6"
+		"proportionaltoparent"	"1"
 		"autoResize"		"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#TF_Ball"
+		"labelText"		"#TF_RocketPack_Disabled"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"font"			"ChargeMeterFont"
-		"fgcolor_override"	"66 66 66 255"
+		"fgcolor"		"178 0 0 255"
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"p0.455"
+		"tall"			"5"
 		"proportionaltoparent"	"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -71,5 +81,24 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-	}					
+	}
+	"ItemEffectMeter2"
+	{
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"		"ItemEffectMeter2"
+		"font"			"Default"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"p0.46"
+		"tall"			"5"
+		"proportionaltoparent"	"1"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"		"Left"
+		"dulltext"		"0"
+		"brighttext"		"0"
+	}
 }
