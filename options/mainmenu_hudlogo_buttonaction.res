@@ -7,9 +7,9 @@
 	{
 		"label"		"WietHUD"
 		"command"	"engine echo; echo; echo ---------;
-				echo WietHUD | March 20, 2017;
+				echo WietHUD | October 31, 2017;
 				echo Made by : Wiethoofd;
-				echo On tftv : tf.gg/31482
+				echo On tftv : tf.gg/31482;
 				echo Support : twitter.com/Wiethoofd;
 				echo Updates : github.com/Wiethoofd/WietHUD;
 				echo ---------"
