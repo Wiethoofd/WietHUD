@@ -906,6 +906,21 @@ Scheme
 			"draw_corner_width"	"3"
 			"draw_corner_height"	"3"
 		}
+
+		// Jungle Inferno Quest Tracker Borders
+		CYOANodeViewBorder { // 127 | 24
+			"draw_corner_width"	"0"
+			"draw_corner_height"	"0"
+		}
+		CYOANodeViewBorder_Active {
+			"image"	"replay/thumbnails/node_view_border_active"
+		}
+		CYOANodeViewBorder_Inactive {
+			"image"	"replay/thumbnails/node_view_border_inactive"
+		}
+		CYOANodeViewBorder_TurnIn {
+			"image"	"replay/thumbnails/node_view_border_turnin"
+		}
 	}
 
 	CustomFontFiles
