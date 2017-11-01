@@ -11,21 +11,16 @@ Scheme
 				"weight"	"250"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"1"
 			}
-			"2"
+		}
+		"CrosshairFontOutline"
+		{
+			"1"
 			{
 				"name"		"Arial"
-				"tall"		"28"
+				"tall"		"22"
 				"weight"	"250"
-				"antialias" 	"1"
-				"outline"	"1"
-			}
-			"34"
-			{
-				"name"		"Arial"
-				"tall"		"34"
-				"weight"	"300"
+				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"1"
 			}
