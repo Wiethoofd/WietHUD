@@ -6,13 +6,14 @@
 	{
 		"item_backpack_offcenter_x"	"-386"	// Move items offcenter
 		"item_backpack_xdelta"		"3"	// Horizontal margin
-		"page_button_x_delta" 		"3"	// Horizontal page button offset
+		"page_button_x_delta" 		"2"	// Horizontal page button offset
+		"page_button_per_row"		"30"
 		
 		"pagebuttons_kv"
 		{
 			"Button"
 			{
-				"wide"			"36"
+				"wide"			"24"
 			}
 		}
 		"modelpanels_kv"
