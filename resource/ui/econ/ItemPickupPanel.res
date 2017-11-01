@@ -1,4 +1,4 @@
-//#base "../../../alternatives/reloadscheme_button.res"
+//#base "../../../options/reloadscheme_button.res"
 #base "../../../alternatives/itempickup_widescreen.res"
 #base "../../../default_hudfiles/resource/ui/econ/itempickuppanel.res"
 // New Item crafted/found/traded/bought
@@ -13,18 +13,18 @@
 		"outoffocus_bgcolor_override"	"BackpackBorderColor"
 		"modelpanels_spacing"		"250"
 		"modelpanels_height"		"340"
-		"modelpanels_ypos"		"70"
-		
-		"modelpanelskv"	
+		"modelpanels_ypos"		"80"
+
+		"modelpanelskv"
 		{
 			"border"		"QuickplayBorder"
 			"border_override"	"QuickplayBorder"
 			"bgcolor_override"	"BackpackBorderColor"
 			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
-			
+
 			"zpos"			"1"
-			
+
 			"itemmodelpanel"
 			{
 				"inventory_image_type"	"1"
@@ -32,15 +32,15 @@
 			}
 		}
 	}
-	
+
 	"ItemBGColor"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ItemBGColor"
-		"xpos"			"c-325"
-		"ypos"			"70"
-		"zpos"			"0"
-		"wide"			"650"
+		"xpos"			"c-250"
+		"ypos"			"80"
+		"zpos"			"-1"
+		"wide"			"500"
 		"tall"	 		"340"
 		"visible"		"1"
 		"enabled"		"1"
@@ -52,7 +52,7 @@
 		"border"		"NoBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"xpos"			"c-12"
@@ -60,52 +60,66 @@
 		"zpos"			"250000"
 		"wide"			"24"
 	}
-	
+
 	"ItemsFoundLabel"
 	{
-		"ypos"			"10"
+		"ypos"			"0"
 		"tall"			"30"
+
+		"pin_to_sibling"	"SelectedItemFoundMethodLabel"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
-	
+
 	"SelectedItemFoundMethodLabel"
 	{
-		"ypos"			"40"
+		"ypos"			"0"
 		"tall"			"24"
+
+		"pin_to_sibling"	"ItemBGColor"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
-	
+
 	"ItemCountLabel"
 	{
-		"ypos"			"75"
+		"ypos"			"85"
 	}
 	"SelectedItemNumberLabel"
 	{
-		"ypos"			"80"
+		"ypos"			"90"
 	}
-	
+
 	"classimageoutline"
 	{
-		"ypos"			"75"
+		"ypos"			"85"
 	}
 	"classimage"
 	{
-		"ypos"			"78"
+		"ypos"			"88"
 	}
-	
+
 	"PrevButton"
 	{
-		"ypos"			"396"
+		"ControlName"	"CExButton"
+		"ypos"			"406"
 		"tall"			"25"
 		"zpos"			"2"
 		"wrap"			"0"
 		"center_wrap"		"0"
+		"borderDefault_override"	"QuickplayBorder"
+		"borderArmed_override"		"ComboBoxBorder"
 	}
 	"NextButton"
 	{
-		"ypos"			"396"
+		"ControlName"	"CExButton"
+		"ypos"			"406"
 		"tall"			"25"
 		"zpos"			"2"
 		"wrap"			"0"
 		"center_wrap"		"0"
+		"borderDefault_override"	"QuickplayBorder"
+		"borderArmed_override"		"ComboBoxBorder"
 	}
 	"PrevButtonKey"
 	{
@@ -141,11 +155,14 @@
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
-	
+
 	"CloseButton"
 	{
-		"ypos"			"r45"
-	}	
+		"ypos"			"r40"
+		"zpos"			"1000"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 	"closeShortKey"
 	{
 		"ControlName"	"CExButton"
@@ -156,21 +173,24 @@
 	}
 	"OpenLoadoutButton"
 	{
-		"ypos"			"r45"
+		"ypos"			"r40"
+		"zpos"			"1000"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
-	
+
 	"DiscardButton"
 	{
 		//"xpos"			"c294"
-		"ypos"			"114"
-		
+		"ypos"			"124"
+
 		"defaultBgColor_override"	"ButtonColor"
 		"armedBgColor_override"		"ButtonArmedColor"
 		"depressedBgColor_override"	"ButtonPressColor"
-		
+
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
-	}	
+	}
 	"DiscardButtonTooltip"
 	{
 		"xpos"			"0"
@@ -178,11 +198,11 @@
 		"tall"			"30"
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
-		
+
 		"pin_to_sibling"	"DiscardButton"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
-		
+
 		"TipLabel"
 		{
 			"tall"			"30"

@@ -38,4 +38,15 @@
 			"antialias"		"1"
 		}
 	}
+	
+	"OkButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
+	"CancelButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
 }

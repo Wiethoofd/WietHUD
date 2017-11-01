@@ -1,4 +1,5 @@
 // Backpack OK/Cancel message
+// Taken from hl2/hl2_misc_dir.vpk/resource/ui/econ
 "Resource/UI/ConfirmDialog.res"
 {
 	"ConfirmDialog"
@@ -21,7 +22,7 @@
 		"paintbackground"	"0"
 		"paintborder"		"0"
 	}
-	
+
 	"ConfirmDialogBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -39,7 +40,7 @@
 		"paintbackground"	"1"
 		"paintborder"		"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -48,7 +49,7 @@
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"		"north"
 		"xpos"			"0"
-		"ypos"			"8"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"400"
 		"tall"			"30"
@@ -58,16 +59,16 @@
 		"enabled"		"1"
 		"centerwrap"		"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
 		"font"			"EconFontSmall"
 		"labelText"		"%text%"
-		"textAlignment"		"center"
+		"textAlignment"		"north"
 		"xpos"			"20"
-		"ypos"			"24"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"168"
@@ -78,45 +79,13 @@
 		"centerwrap"		"1"
 		"fgcolor_override"	"200 80 60 255"
 	}
-		
-	"ConfirmButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ConfirmButton"
-		"xpos"			"10"
-		"ypos"			"186"
-		"zpos"			"20"
-		"wide"			"176"
-		"tall"			"24"
-		"default"		"1"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#ConfirmButtonText"
-		"font"			"EconFontSmall"
-		"textAlignment"		"center"
-		"textinsetx"		"40"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"		"Econ.Button.Border.Default"
-		"border_armed"			"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}
 
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"194"
-		"ypos"			"186"
+		"ypos"			"rs1-5"
 		"zpos"			"20"
 		"wide"			"176"
 		"tall"			"24"
@@ -125,6 +94,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"proportionaltoparent"	"1"
 		"labelText"		"#GameUI_CancelBold"
 		"font"			"EconFontSmall"
 		"textAlignment"		"center"
@@ -134,11 +104,44 @@
 		"Command"		"cancel"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		"border_default"		"Econ.Button.Border.Default"
-		"border_armed"			"Econ.Button.Border.Armed"
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboBoxBorder"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}		
+	}
+
+	"ConfirmButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ConfirmButton"
+		"xpos"			"10"
+		"ypos"			"rs1-5"
+		"zpos"			"20"
+		"wide"			"176"
+		"tall"			"24"
+		"default"		"1"
+		"autoResize"		"0"
+		"pinCorner"		"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"proportionaltoparent"	"1"
+		"labelText"		"#ConfirmButtonText"
+		"font"			"EconFontSmall"
+		"textAlignment"		"center"
+		"textinsetx"		"40"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"Command"		"confirm"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboBoxBorder"
+		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
+		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+	}
 }

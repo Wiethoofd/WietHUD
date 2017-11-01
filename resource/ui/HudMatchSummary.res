@@ -29,7 +29,7 @@
 		"AnimBlueTeamLabel12v12YPos"		"0"
 		"AnimRedTeamLabel12v12YPos"		"0"
 	}
-	
+
 	"RankPanel"
 	{
 		"xp_source_notification_center_x"	"290"
@@ -38,13 +38,13 @@
 	"MainStatsContainer"
 	{
 		"TeamScoresPanel"
-		{			
+		{
 			"BlueTeamPanel"
 			{
 				"BlueTeamScoreBG"
 				{
 					"xpos"		"5"
-					"ypos"		"95"
+					"ypos"		"90"
 					"tall"		"36"
 					"wide"		"p.215"
 					"border"		"ComboBoxBorder"
@@ -52,7 +52,7 @@
 
 					if_large
 					{
-						"ypos"		"45"
+						"ypos"		"55"
 					}
 				}
 				"BlueTeamScore"
@@ -187,7 +187,7 @@
 
 					if_large
 					{
-						"ypos"		"80"
+						"ypos"		"90"
 						"tall"		"355"
 					}
 
@@ -226,14 +226,14 @@
 				RedTeamScoreBG
 				{
 					"xpos"		"r5-p.215"
-					"ypos"		"95"
+					"ypos"		"90"
 					"wide"		"p.215"
 					"border"		"ComboBoxBorder"
 					"bgcolor_override"	"174 60 59 255"
 
 					if_large
 					{
-						"ypos"		"45"
+						"ypos"		"55"
 					}
 				}
 				RedTeamScore
@@ -367,7 +367,7 @@
 
 					if_large
 					{
-						"ypos"		"80"
+						"ypos"		"90"
 						"tall"		"355"
 					}
 

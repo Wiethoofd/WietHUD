@@ -9,6 +9,18 @@
 		"bgcolor_override"	"BackpackBGColor"
 		"paintbackground"	"1"
 
+		"DetailsView"
+		{
+			"ScrollableChild"
+			{
+				"ItemWikiPageButton"
+				{
+					"border_default"	"QuickplayBorder"
+					"border_armed"		"ComboBoxBorder"
+				}
+			}
+		}
+
 		"FootBottomPanel"
 		{
 			"bgcolor_override" "BackpackPopupBGColor"
@@ -30,58 +42,6 @@
 			"force_pos"	"1"
 			"origin_x"	"190"
 			"origin_z"	"-36"
-
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 	}
 
@@ -105,8 +65,8 @@
 			"model_wide"	"28"
 			"model_tall"	"15"
 
-			"model_center_x""1"
-			"model_center_y""1"
+			"model_center_x"	"1"
+			"model_center_y"	"1"
 
 			"itemmodelpanel"
 			{
@@ -267,5 +227,16 @@
 		"defaultFgColor_override"	"0 0 0 0"
 		"armedFgColor_override"		"0 0 0 0"
 		"depressedFgColor_override"	"0 0 0 0"
+	}
+
+	"BackButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
+	"AddToCartButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 }

@@ -9,4 +9,9 @@
 		"paintbackgroundtype"	"2"
 		"paintborder"		"1"
 	}
+	"CloseButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 }

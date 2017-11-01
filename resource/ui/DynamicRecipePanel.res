@@ -1,3 +1,4 @@
+//#base "../../options/reloadscheme_button.res"
 #base "../../default_hudfiles/resource/ui/dynamicrecipepanel.res"
 // Fabricators & Chemistry Sets
 
@@ -42,6 +43,10 @@
 			"border_default"	"QuickplayBorder"
 			"border_armed"		"ComboBoxBorder"
 		}
+		"CancelButton" {
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
 	}
 	"recipecontainer" {
 		"RecipeTitle" {
@@ -54,6 +59,10 @@
 		}
 		"NextInputPageButton" {
 			"labelText"		"&J"
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"CraftButton" {
 			"border_default"	"QuickplayBorder"
 			"border_armed"		"ComboBoxBorder"
 		}

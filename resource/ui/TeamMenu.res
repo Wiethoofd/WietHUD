@@ -1,4 +1,4 @@
-//#base "../../alternatives/reloadscheme_button.res"
+//#base "../../options/reloadscheme_button.res"
 
 "Resource/UI/TeamMenu.res"
 {

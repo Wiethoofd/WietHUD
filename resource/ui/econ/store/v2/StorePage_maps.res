@@ -25,4 +25,25 @@
 	"NameFilterTextEntry"	{ "visible"	"0" }
 	"SortFilterLabel"	{ "visible"	"0" }
 	"SortFilterComboBox"	{ "visible"	"0" }
+	
+	"CartButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}	
+	"LearnMoreButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}		
+	"PrevPageButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}	
+	"NextPageButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 }

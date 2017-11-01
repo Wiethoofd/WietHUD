@@ -14,14 +14,14 @@
 	"modelpanel" // Discardable item
 	{
 		"xpos"			"c-65"
-		"ypos"			"2"
+		"ypos"			"22"
 		"wide"			"130"
 		"tall"			"84"
 		"model_ypos"		""
-			"model_center_x"	"1"
-			"model_center_y"	"1"
-			"model_wide"		"116"
-			"model_tall"		"75"
+		"model_center_x"	"1"
+		"model_center_y"	"1"
+		"model_wide"		"116"
+		"model_tall"		"75"
 		
 		"itemmodelpanel"
 		{
@@ -36,7 +36,7 @@
 		"controlname"	"editablepanel"
 		"fieldname"	"itemBorder"
 		"xpos"		"c-65"
-		"ypos"		"2"
+		"ypos"		"22"
 		"wide"		"130"
 		"tall"		"84"
 		"visible"	"1"
@@ -58,41 +58,41 @@
 	
 	"backpack_panel" // Backpack overview
 	{
-		"ypos"			"87"
+		"ypos"			"107"
 	}
 	
 	"CaratLabel2"
 	{
 		"xpos"			"r0"
-		"ypos"			"5"
+		"ypos"			"25"
 	}
 	"DiscardedCaratLabel"
 	{
 		"xpos"			"r0"
-		"ypos"			"5"
+		"ypos"			"25"
 	}
 	
 	"ExplanationLabel"
 	{
-		"ypos"			"10"
+		"ypos"			"30"
 		"wide"			"200"
 	}
 	"ExplanationLabel2"
 	{
 		"xpos"			"c75"
-		"ypos"			"10"
+		"ypos"			"30"
 		"wide"			"200"
 		"tall"			"60"
 	}
 
 	"DiscardedLabel"
 	{
-		"tall"			"24"
+		"tall"			"44"
 	}
 	"DiscardButton"
 	{
 		"xpos"			"c75"
-		"ypos"			"54"
+		"ypos"			"74"
 		"tall"			"24"
 		"textinsetx"		"15"
 	}
@@ -100,7 +100,7 @@
 	"CloseButton"
 	{
 		"xpos"			"c75"
-		"ypos"			"54"
+		"ypos"			"74"
 		"tall"			"24"
 		"visible"		"1"
 		"default"		"1"

@@ -1,4 +1,4 @@
-//#base "../../alternatives/reloadscheme_button.res"
+//#base "../../options/reloadscheme_button.res"
 
 // Class selection buttons at the bottom of backpack
 // Comment out when not using widescreen resolutions
@@ -35,6 +35,11 @@
 	"sniper"	{ "labelText"	"&8"	"textAlignment" "south" }
 	"spy"		{ "labelText"	"&9"	"textAlignment" "south" }
 
+	"ShowExplanationsButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboboxBorder"
+	}
 	"BackpackShortKey"
 	{
 		"ControlName"	"CExButton"

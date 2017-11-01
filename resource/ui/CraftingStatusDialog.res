@@ -15,4 +15,10 @@
 	{
 		"ypos"			"10"
 	}
+
+	"CloseButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 }

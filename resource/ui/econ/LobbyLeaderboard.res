@@ -1,5 +1,5 @@
 #base "../../../default_hudfiles/resource/ui/econ/LobbyLeaderboard.res"
-// Ranked Leaderboard in LobbyPanel
+// Ranked Leaderboard in CompStats
 
 "Resource/UI/econ/LobbyLeaderboard.res"
 {

@@ -5,13 +5,29 @@
 	"MMDashboard"
 	{
 		//"collapsed_height"	"25" // debug
-		"ypos"			"0"
-		"zpos"			"10001"
+		"resize_time"		"0.1"
 	}
 
 	"TopBar"
 	{
 		"ypos"		"0"
+
+		"QueueContainer"
+		{
+			"CTFLogoPanel"
+			{
+				"fgcolor_override"	"Orange"
+			}
+		}
+
+		"JoinPartyLobbyContainer"
+		{
+			"JoinNowButton"
+			{
+				"border_default"	"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
+			}
+		}
 
 		"DisconnectContainer"
 		{

@@ -10,7 +10,7 @@
 	{
 		"Title"
 		{
-			"xpos"		"121"
+			"xpos"			"rs1-18"
 		}
 		"TitleShadow"
 		{

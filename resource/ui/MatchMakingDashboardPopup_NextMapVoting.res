@@ -11,7 +11,7 @@
 		"BGPanel"
 		{
 			"border"		"QuickplayBorder"
-			"bgcolor_override"	"Black" // TransparentBlack to not cover stats from top players
+			"bgcolor_override"	"Black"
 
 			"DescLabel"
 			{
@@ -34,7 +34,7 @@
 				"tall"			"o1"
 				"scaleImage"		"1"
 				"image"			"../hud/objectives_timepanel_progressbar"
-				"drawcolor"		"190 190 190 255"
+				"drawcolor"		"190 190 190 125"
 				"alpha"			"100"
 				"proportionaltoparent"	"1"
 

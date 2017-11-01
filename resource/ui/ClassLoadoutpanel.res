@@ -1,4 +1,4 @@
-#base "../../alternatives/reloadscheme_button.res"
+#base "../../options/reloadscheme_button.res"
 //#base "../../alternatives/loadout_verywidescreen.res"
 #base "../../alternatives/loadout_widescreen.res"
 //#base "../../alternatives/loadout_54.res"
@@ -210,6 +210,7 @@
 	{
 		"paintbackgroundtype"	"0"
 		"bgcolor_override"	"BackpackPopupBGColor"
+		"border"		"QuickplayBorder"
 	}
 
 	"PassiveAttribsLabel"

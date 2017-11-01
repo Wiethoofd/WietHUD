@@ -15,7 +15,7 @@
 	
 	"Sheet"
 	{
-		"tabxindent"		"100"	// Left offset of tabs
+		"tabxindent"		"40"	// Left offset of tabs
 		"tabxdelta"		"5"	// Horizontal offset between buttons
 		"tabxfittotext"		"1"	// Auto width
 		

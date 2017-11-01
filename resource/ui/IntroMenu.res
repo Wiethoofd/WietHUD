@@ -10,6 +10,8 @@
 		"font"		"HudFontSmallBold"
 		"wide"		"140"
 		"tall"		"20"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"backShortKey"
 	{
@@ -35,7 +37,7 @@
 		"labelText"	"&r"
 		"command"	"replayVideo"
 	}
-	
+
 	"Skip"
 	{
 		"xpos"		"c70"
@@ -43,6 +45,8 @@
 		"font"		"HudFontSmallBold"
 		"wide"		"140"
 		"tall"		"20"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"Continue"
 	{
@@ -51,6 +55,8 @@
 		"font"		"HudFontSmallBold"
 		"wide"		"140"
 		"tall"		"20"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"continueShortKey"
 	{
@@ -62,7 +68,7 @@
 	}
 
 	"VideoPanel"
-	{		
+	{
 		"wide"		"400"
 		"tall"		"300"
 		"xpos"		"c-200"
@@ -71,7 +77,7 @@
 		"end_delay"	"1"
 		"border"	"QuickplayBorder"
 	}
-	
+
 	"VideoCaption"
 	{
 		"xpos"		"c-198"
@@ -85,7 +91,7 @@
 		"visible"	"0"
 		"enabled"	"0"
 	}
-	
+
 	"ShadedBar"
 	{
 		"xpos"			"0"

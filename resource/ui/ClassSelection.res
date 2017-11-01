@@ -1,10 +1,10 @@
-#base "../../alternatives/reloadscheme_button.res"
+#base "../../options/reloadscheme_button.res"
 #base "../../default_hudfiles/resource/ui/classselection.res"
 // Class selection screen
 
 "Resource/UI/ClassSelection.res"
 {
-	"ReloadSchemeButton" { "visible"	"0" }
+	"ReloadSchemeButton" { "visible" "0" }
 
 	"Background" // Transparent BG replacement
 	{
@@ -52,6 +52,8 @@
 		"ypos"		"c-10"
 		"wide"		"100"
 		"zpos"		"10"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"cancelShortKey"
 	{
@@ -70,6 +72,8 @@
 		"ypos"		"r25"
 		"zpos"		"10"
 		"labelText"	"&Edit Loadout"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 
 	"MenuBG"
@@ -111,48 +115,6 @@
 
 			"modelname"	""
 			"vcd"		"class_select.vcd"
-
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
 		}
 	}
 

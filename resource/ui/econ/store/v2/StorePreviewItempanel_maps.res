@@ -12,6 +12,18 @@
 		"bgcolor_override"	"BackpackBGColor"
 		"paintbackground"	"1"
 
+		"DetailsView"
+		{
+			"ScrollableChild"
+			{
+				"ItemWikiPageButton"
+				{
+					"border_default"	"QuickplayBorder"
+					"border_armed"		"ComboBoxBorder"
+				}
+			}
+		}
+
 		"FootBottomPanel"
 		{
 			"bgcolor_override" "BackpackPopupBGColor"
@@ -56,5 +68,16 @@
 		"defaultFgColor_override"	"0 0 0 0"
 		"armedFgColor_override"		"0 0 0 0"
 		"depressedFgColor_override"	"0 0 0 0"
+	}
+
+	"BackButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
+	"AddToCartButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 }

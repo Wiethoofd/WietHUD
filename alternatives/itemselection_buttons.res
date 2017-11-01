@@ -6,6 +6,7 @@
 	{
 		"modelpanels_selection_kv" {
 			"text_wide"		"93"
+			"text_ypos"		"55"
 		}
 		"modelpanels_kv" {
 			"wide"			"56"

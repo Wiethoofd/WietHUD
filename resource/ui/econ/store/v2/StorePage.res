@@ -76,6 +76,8 @@
 		"ypos"			"352"
 		"font"			"HudFontSmall"
 		"textinsetx"		"10"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"CartImage"
 	{
@@ -94,6 +96,8 @@
 		"pin_to_sibling" 	"CurPageLabel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"CurPageLabel"
 	{
@@ -114,6 +118,8 @@
 		"pin_to_sibling" 	"ItemBackdrop"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	
 	"prevPageKey"

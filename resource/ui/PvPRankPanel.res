@@ -27,6 +27,24 @@
 				"wide"		"p0.865"
 			}
 		}
+		
+		"NameLabel"
+		{
+			"wide"		"f65"
+			"font"		"HudFontSmallBold"
+			"textAlignment"	"north"
+		}
+		"LevelLabel"
+		{
+			"wide"		"f65"
+			"textAlignment"	"north"
+
+			if_mini
+			{
+				"wide"		"f0"
+				"textAlignment"	"north-west"
+			}
+		}
 
 		"StatsContainer"
 		{

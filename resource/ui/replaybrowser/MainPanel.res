@@ -80,13 +80,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"		"100"	// Left offset of tabs
+		"tabxindent"		"40"	// Left offset of tabs
 		"tabxdelta"		"5"	// Horizontal offset between buttons
 		"tabxfittotext"		"1"	// Auto width
-		"tabheight"		"34"
+		"tabheight"		"20"
 		"tall"			"460"
 		"transition_time"	"0"
-		"bgcolor_override"	"BackpackBorderColor"
+		"yoffset"		"14"
 
 		"HeaderLine"
 		{
@@ -106,9 +106,10 @@
 
 		"tabskv"
 		{
-			"textinsetx"			"15"
+			"textinsetx"			"10"
+			"textinsety"			"2"
 			"textAlignment"			"center"
-			"font"				"ReplayBrowserTab"
+			"font"				"HudFontSmallBold"
 			"selectedcolor"			"200 187 161 255"
 			"unselectedcolor"		"130 120 104 255"
 			"defaultBgColor_override"	"BackpackBGColor"
@@ -125,11 +126,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-330"
+		"xpos"			"c-295"
 		"ypos"			"445"
 		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"24"
+		"wide"			"100"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -144,10 +145,10 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ReplayGrayFillGrayBorder"
-		"border_armed"		"ReplayGrayFillGrayBorder"
-		"armedBgColor_override"		"ReplayBrowser.Button.ArmedBgColor"
-		"depressedBgColor_override"	"ReplayBrowser.Button.DepressedBgColor"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 	}
 	"backShortKey"
 	{

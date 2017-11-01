@@ -105,6 +105,8 @@
 		"command"		"okay"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"continueShortKey"
 	{

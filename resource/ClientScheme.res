@@ -233,6 +233,11 @@ Scheme
 			"draw_corner_height"	"4"
 		}
 
+		MainMenuHighlightBorder
+		{
+			"draw_corner_width"	"3"
+			"draw_corner_height"	"3"
+		}
 		MainMenuButtonGlow
 		{
 			"draw_corner_width"	"1"
@@ -412,6 +417,10 @@ Scheme
 			"draw_corner_height"	"3"
 		}
 		BackpackItemGreyedOutBorder {
+			"draw_corner_width"	"3"
+			"draw_corner_height"	"3"
+		}
+		BackpackItemGreyedOutSelectedBorder {
 			"draw_corner_width"	"3"
 			"draw_corner_height"	"3"
 		}

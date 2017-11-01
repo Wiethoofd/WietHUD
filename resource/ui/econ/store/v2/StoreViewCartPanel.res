@@ -44,6 +44,8 @@
 			{
 				"wide"		"75"
 				"xpos"		"510"
+				"border_default"	"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
 			}
 			"PriceLabel"
 			{
@@ -123,10 +125,15 @@
 	
 	"CloseButton" // Continue Shopping
 	{
+		"xpos"		"c-295"
 		"ypos"		"445"
 		"zpos"		"250"
-		"tall"		"24"
+		"tall"		"25"
+		"auto_wide_tocontents"	"1"
+		"textinsetx"	"40"
 		//"labelText"	"<< Continue Shopping (&Q)"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"closeShortKey"
 	{
@@ -142,6 +149,8 @@
 		"xpos"			"c170"
 		"ypos"			"445"
 		"wide"			"130"
-		"tall"			"24"
+		"tall"			"25"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 }

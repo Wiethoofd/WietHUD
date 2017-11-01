@@ -1,4 +1,4 @@
-//#base "../../alternatives/reloadscheme_button.res"
+//#base "../../options/reloadscheme_button.res"
 // Tabs & Back button for backpack/econ related panels
 
 "Resource/UI/CharInfoPanel.res"
@@ -85,9 +85,10 @@
 		"tabxindent"		"40"	// Left offset of tabs
 		"tabxdelta"		"5"	// Horizontal offset between buttons
 		"tabxfittotext"		"1"	// Auto width
-		"tabheight"		"34"
+		"tabheight"		"20"
 		"tall"			"460"
 		"transition_time" 	"0"
+		"yoffset"		"14"
 
 		"HeaderLine"
 		{
@@ -108,8 +109,9 @@
 		"tabskv"
 		{
 			"textinsetx"			"10"
+			"textinsety"			"2"
 			"textAlignment"			"center"
-			"font"				"HudFontMediumBold"
+			"font"				"HudFontSmallBold"
 			"selectedcolor"			"200 187 161 255"
 			"unselectedcolor"		"130 120 104 255"
 			"defaultBgColor_override"	"BackpackBGColor"
@@ -126,11 +128,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-330"
+		"xpos"			"c-295"
 		"ypos"			"445"
 		"zpos"			"2"
-		"wide"			"150"
-		"tall"			"24"
+		"wide"			"100"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -143,6 +145,8 @@
 		"brighttext"		"0"
 		"default"		"0"
 		"Command"		"back"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

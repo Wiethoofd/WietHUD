@@ -60,6 +60,8 @@
 		"brighttext"		"0"
 		"default"		"1"
 		"Command"		"close"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

@@ -1,3 +1,4 @@
+//#base "../../options/reloadscheme_button.res"
 #base "../../default_hudfiles/Resource/UI/CraftingPanel.res"
 // Item Craft menu
 
@@ -58,6 +59,16 @@
 		{
 			"textalignment"	"north-west"
 		}
+		"CraftButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"UpgradeButton"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
 	}
 	"mouseoveritempanel"
 	{
@@ -77,5 +88,11 @@
 		{
 			"ypos"		"0"
 		}
+	}
+	
+	"ShowExplanationsButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 }

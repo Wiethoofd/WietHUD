@@ -27,4 +27,15 @@
 		"paintbackground"	"1"
 		"paintborder"		"1"
 	}
+
+	"ConfirmButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
+	"CancelButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
 }

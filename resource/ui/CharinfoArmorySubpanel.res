@@ -63,6 +63,8 @@
 		"pin_to_sibling" 	"CurPageLabel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"CurPageLabel"
 	{
@@ -81,6 +83,8 @@
 		"pin_to_sibling" 	"DataPanel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 
 	"WikiButton"
@@ -90,6 +94,8 @@
 		"pin_to_sibling" 	"DataPanel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"ViewSetButton"
 	{
@@ -99,6 +105,8 @@
 		"pin_to_sibling" 	"PrevPageButton"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"StoreButton"
 	{
@@ -110,6 +118,8 @@
 		"pin_to_sibling" 	"DataPanel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 
 	"FiltersLabel"

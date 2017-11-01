@@ -84,4 +84,14 @@
 		"ypos"			"r71"
 		"tall"			"17"
 	}
+	"OkButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
+	"CancelButton"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
 }

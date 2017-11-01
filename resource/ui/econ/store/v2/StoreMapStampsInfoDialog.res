@@ -14,4 +14,9 @@
 			"bgcolor_override" "BackpackPopupBGColor"
 		}
 	}
+	"BackButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 }

@@ -86,6 +86,8 @@
 		"defaultBgColor_override"	"BackpackBorderColor"
 		"armedBgColor_override"		"BackpackPopupBGColor"
 		"selectedBgColor_override"	"46 44 46 255"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"MarketPlaceButton"
 	{
@@ -99,6 +101,8 @@
 		"defaultBgColor_override"	"BackpackBorderColor"
 		"armedBgColor_override"		"BackpackPopupBGColor"
 		"selectedBgColor_override"	"46 44 46 255"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"BackpackSpaceLabel"
 	{
@@ -119,6 +123,8 @@
 		"textinsetx"		"10"
 		"xpos"			"c-234"
 		"ypos"			"360"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"CartImage"
 	{
@@ -136,6 +142,8 @@
 		"pin_to_sibling" 	"CurPageLabel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"CurPageLabel"
 	{
@@ -154,6 +162,8 @@
 		"pin_to_sibling" 	"ItemBackdrop"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	
 	"prevPageKey"

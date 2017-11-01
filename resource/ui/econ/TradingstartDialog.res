@@ -6,7 +6,7 @@
 	{
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"BackpackPopupBGColor"
-		
+
 		"button_kv"
 		{
 			"button"
@@ -16,13 +16,39 @@
 			}
 		}
 	}
+	"StatePanel0" // Select Trade Type
+	{
+		"subbutton0"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"subbutton1"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+		"subbutton2"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+	}
+	"StatePanel3" // Steam URL
+	{
+		"subbutton0"
+		{
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"ComboBoxBorder"
+		}
+	}
 	"PlayerListScroller"
 	{
-		"ypos"		"80"
-		"tall"		"170"
+		"ypos"		"75"
+		"tall"		"180"
 		"PlayerList"
 		{
-			"tall"		"170"
+			"tall"		"180"
 		}
 	}
 	"CancelButton"

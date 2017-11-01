@@ -108,6 +108,8 @@
 		"default"		"1"
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"continueShortKey"
 	{
@@ -131,7 +133,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MapInfoWatchIntroReel"
 		"labelText"		" "
-		"xpos"			"c-208" //"c-198"
+		"xpos"			"c-208"
 		"ypos"			"c-174"
 		"zpos"			"6"
 		"wide"			"22"
@@ -145,6 +147,8 @@
 		"default"		"1"
 		"command"		"intro"
 		"fgcolor"		"Black"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 
 		"SubImage"
 		{
@@ -182,6 +186,8 @@
 		"command"		"back"
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
 	}
 	"backShortKey"
 	{

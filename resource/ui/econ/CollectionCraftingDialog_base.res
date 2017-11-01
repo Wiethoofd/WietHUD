@@ -64,7 +64,18 @@
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanLight"
 	}
-	
+
+	"ShowExplanationsButton1"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
+	"ShowExplanationsButton2"
+	{
+		"border_default"		"QuickplayBorder"
+		"border_armed"			"ComboboxBorder"
+	}
+
 	"CloseButton"
 	{
 		"labeltext"		"&X"

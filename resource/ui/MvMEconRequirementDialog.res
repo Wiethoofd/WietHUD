@@ -28,4 +28,10 @@
 		"paintbackground"	"1"
 		"paintborder"		"1"
 	}
+
+	"ConfirmButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 }

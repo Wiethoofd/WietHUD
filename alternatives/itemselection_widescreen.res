@@ -8,6 +8,9 @@
 			"wide"			"129"
 			"model_tall"		"75"
 			"text_wide"		"129"
+			"text_ypos"		"74"
+
+			"model_tall_collection"	"129"
 
 			"namepanel"
 			{
