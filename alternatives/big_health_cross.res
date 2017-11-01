@@ -16,15 +16,23 @@
 	{
 		"visible"	"0"
 	}
-	
+
 	"PlayerHealthTextValue"
 	{
-		"xpos"		"142"
-		"textAlignment"	"West"
+		"ypos"		"40"
+		"font"		"HudFontMediumBigBold"
 	}
 	"PlayerHealthTextValueShadow"
 	{
-		"xpos"		"143"
-		"textAlignment"	"West"
+		"ypos"		"-1"
+		"font"		"HudFontMediumBigBold"
+	}
+	"PlayerHealthTextValueBuff"
+	{
+		"font"		"HudFontMediumBigBold"
+	}
+	"PlayerHealthTextValueLow"
+	{
+		"font"		"HudFontMediumBigBold"
 	}
 }

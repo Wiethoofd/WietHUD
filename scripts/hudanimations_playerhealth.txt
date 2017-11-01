@@ -1,10 +1,12 @@
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate PlayerHealthTextValue		FgColor		"HealthOverhealColor"	Linear 0.0	0.0
+	SetVisible	PlayerHealthTextValueBuff	1 0
+	SetVisible	PlayerHealthTextValue		0 0
+
 	Animate PlayerStatusHealthValue		FgColor		"HealthOverhealColor"	Linear 0.0	0.0
 	Animate PlayerStatusSpecHealthValue	FgColor		"HealthOverhealColor"	Linear 0.0	0.0
-	
+
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"100"		Linear 0.0	0.2
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"		Linear 0.2	0.2
 	Animate	PlayerStatusSpecHealthBonusImage 	Alpha		"0"		Linear 0.0	0.0
@@ -16,9 +18,11 @@ event HudHealthBonusPulseStop
 {
 	StopEvent	HudHealthBonusPulse	0
 	StopEvent	HudHealthBonusPulseLoop	0
-	
+
+	SetVisible	PlayerHealthTextValueBuff	0 0
+	SetVisible	PlayerHealthTextValue		1 0
+
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
-	Animate PlayerHealthTextValue		FgColor		"HealthNormalColor"	Linear 0.0	0.0
 	Animate PlayerStatusHealthValue		FgColor		"PlayerHealthDefault"	Linear 0.0	0.0
 	Animate PlayerStatusSpecHealthValue	FgColor		"SpecHealthDefault"	Linear 0.0	0.0
 	Animate PlayerHealthTextValueShadow	FgColor		"Black"			Linear 0.0	0.0
@@ -29,8 +33,10 @@ event HudHealthBonusPulseStop
 // Reset Health elements to defaults
 event HudHealthColorsReset
 {
+	SetVisible	PlayerHealthTextValueBuff	0 0
+	SetVisible	PlayerHealthTextValue		1 0
+	SetVisible	PlayerHealthTextValueLow	0 0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
-	Animate PlayerHealthTextValue		FgColor		"HealthNormalColor"	Linear 0.0	0.0
 	Animate PlayerStatusHealthValue		FgColor		"PlayerHealthDefault"	Linear 0.0	0.0
 	Animate PlayerStatusSpecHealthValue	FgColor		"SpecHealthDefault"	Linear 0.0	0.0
 	Animate PlayerHealthTextValueShadow	FgColor		"Black"			Linear 0.0	0.0
@@ -41,7 +47,9 @@ event HudHealthColorsReset
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate PlayerHealthTextValue		FgColor		"HealthLowColor"	Linear 0.0	0.0
+	SetVisible	PlayerHealthTextValueLow	1 0
+	SetVisible	PlayerHealthTextValue		0 0
+
 	Animate PlayerStatusHealthValue		FgColor		"HealthLowColor"	Linear 0.0	0.0
 	Animate PlayerStatusSpecHealthValue	FgColor		"HealthNormalColor"	Linear 0.0	0.0
 
@@ -59,9 +67,11 @@ event HudHealthDyingPulseStop
 {
 	StopEvent	HudHealthDyingPulse	0
 	StopEvent	HudHealthDyingPulseLoop	0
-	
+
+	SetVisible	PlayerHealthTextValueLow	0 0
+	SetVisible	PlayerHealthTextValue		1 0
+
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
-	Animate PlayerHealthTextValue		FgColor		"HealthNormalColor"	Linear 0.0	0.0
 	Animate PlayerStatusHealthValue		FgColor		"PlayerHealthDefault"	Linear 0.0	0.0
 	Animate PlayerStatusSpecHealthValue	FgColor		"SpecHealthDefault"	Linear 0.0	0.0
 	Animate PlayerHealthTextValueShadow	FgColor		"Black"			Linear 0.0	0.0

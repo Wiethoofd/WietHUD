@@ -34,6 +34,7 @@
 		"xpos"			"71"
 		"xpos_minmode"		"71"
 		"wide"			"60"
+		"font"			"HudFontSmallish"
 	}
 	
 	"PlayerStatus_WheelOfDoom"
