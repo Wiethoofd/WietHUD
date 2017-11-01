@@ -154,6 +154,10 @@
 		"ypos_hidef"		"c-130"
 		"ypos_lodef"		"c-130"
 	}
+	"CHudVote"
+	{
+		"wide"		"f0"
+	}
 	HudArenaClassLayout
 	{
 		"zpos"		"40"
