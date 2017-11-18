@@ -1,5 +1,5 @@
 //#base "../../../options/reloadscheme_button.res"
-// Weapon Inspection Panel
+// Weapon/Paint Kit Inspection Panel
 // Embedded in ConfirmApplyPaintKitDialog for War Paints
 
 "Resource/UI/econ/InspectionPanel.res"
@@ -33,7 +33,7 @@
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
 		"ypos"			"20"
-		"zpos"			"5"
+		"zpos"			"100"
 		"wide"			"f80"
 		"tall"			"200"
 		"visible"		"1"
@@ -634,7 +634,7 @@
 
 			"consume_mode"
 			{
-				"visible"	"1" // MAGIC EVERYONE! - Merasmus
+				"visible"	"0"
 			}
 		}
 
@@ -653,7 +653,7 @@
 				"ypos"		"30"
 			}
 			"zpos"			"10"
-			"wide"			"115"
+			"wide"			"120"
 			"tall"			"20"
 			"autoResize"		"0"
 			"visible"		"1"
@@ -664,6 +664,61 @@
 			"NumericInputOnly"	"1"
 			"bgcolor_override"	"0 0 0 200"
 			"maxchars"		"18"
+
+			"consume_mode"
+			{
+				"visible"	"1" // MAGIC EVERYONE! - Merasmus
+			}
+		}
+
+		// Show the random seed for paintkit weapons
+		// Has label and blocks changing the input
+		"SeedLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SeedLabel"
+			"font"			"HudFontSmallest"
+			"labelText"		"Seed"
+			"textAlignment"		"west"
+			"xpos"			"8"
+			"ypos"			"75"
+			"fixed_item"
+			{
+				"ypos"		"50"
+			}
+			"fixed_paintkit"
+			{
+				"ypos"		"30"
+			}
+			"wide"			"80"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"235 227 203 255"
+
+			"consume_mode"
+			{
+				"visible"	"1"
+			}
+		}
+		"SeedTextEntryBlock"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"SeedTextEntryBlock"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"15"
+			"wide"			"120"
+			"tall"			"20"
+			"visible"		"0"
+			"enabled"		"1"
+			"bgcolor_override"	"80 80 80 30"
+			
+			"pin_to_sibling"	"SeedTextEntry"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 			"consume_mode"
 			{
