@@ -156,8 +156,8 @@
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
-				"xpos"			"21"
-				"ypos"			"8"
+				"xpos"			"rs1-4"
+				"ypos"			"cs-0.5"
 				"zpos"			"-1"
 				"wide"			"10"
 				"tall"			"10"
@@ -167,6 +167,7 @@
 				"enabled"		"0"
 				"image"			"../HUD/tournament_panel_brown"
 				"border"		"QuickplayBorder"
+				"proportionaltoparent"	"1"
 
 				"src_corner_height"	"22"		// pixels inside the image
 				"src_corner_width"	"22"
@@ -185,8 +186,8 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"9"
-				"ypos"			"9"
+				"xpos"			"rs1-5"
+				"ypos"			"cs-0.5"
 				"zpos"			"0"
 				"wide"			"8"
 				"tall"			"8"
@@ -196,6 +197,7 @@
 				"enabled"		"0"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
+				"proportionaltoparent"	"1"
 
 				if_mvm
 				{
