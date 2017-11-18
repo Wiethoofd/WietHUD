@@ -261,24 +261,16 @@
 
 		"MissingTicketsAlertImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MissingTicketsAlertImage"
-			"xpos"			"2"
-			"ypos"			"0"
-			"zpos"			"105"
+			"xpos"			"0" //"rs1-211"
+			"ypos"			"5" //"60"
 			"wide"			"25"
 			"tall"			"25"
-			"visible"		"1"
-			"enabled"		"1"
 			"image"			"glyph_alert"
-			"scaleImage"	"1"
-			"mouseinputenabled"	"0"
 			"proportionaltoparent"	"1"
-			"drawcolor"	"255 255 255 255"
 
-			"pin_to_sibling"	"MissingTicketsLabel"
-			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
-			"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
+			"pin_to_sibling"	"Slot1"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		}
 		"MissingTicketsLabel"
 		{
