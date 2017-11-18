@@ -11,7 +11,7 @@
 		"paintbackgroundtype"	"2"
 		"paintborder"		"1"
 	}
-	"SubjectBG"
+	"ToolBG"
 	{
 		"border"		"BackpackItemBorder_Unique"
 	}
