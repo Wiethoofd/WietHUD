@@ -17,9 +17,9 @@
 		"team1_player_delta_x"		"0"
 		"team1_player_delta_y"		"-17"
 
-		// 6v6 with scouts top
-		"team1_player_base_y_minmode"	"136"
-		"team1_player_delta_y_minmode"	"17"
+		// 6v6 with scouts top (optional)
+		//"team1_player_base_y_minmode"	"136"
+		//"team1_player_delta_y_minmode"	"17"
 
 		//Red (centered -> down)
 		"team2_player_base_offset_x"	"0"
