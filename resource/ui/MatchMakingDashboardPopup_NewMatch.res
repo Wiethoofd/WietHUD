@@ -35,6 +35,18 @@
 				"border_default"	"QuickplayBorder"
 				"border_armed"		"ComboBoxBorder"
 			}
+
+			"SmallJoinButton"
+			{
+				"border_default"	"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
+			}
+
+			"WideJoinButton"
+			{
+				"border_default"	"QuickplayBorder"
+				"border_armed"		"ComboBoxBorder"
+			}
 		}
 	}
 }
