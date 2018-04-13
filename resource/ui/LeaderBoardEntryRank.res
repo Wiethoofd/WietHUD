@@ -6,6 +6,7 @@
 	"LeaderboardEntry"
 	{
 		"wide"			"244"
+		"tall"			"21"
 		
 		"Position"
 		{
@@ -18,10 +19,10 @@
 		}
 		"RankImage"
 		{
-			"xpos"		"14"
-			"ypos"		"0"
-			"wide"		"20"
-			"tall"		"20"
+			"xpos"		"9"
+			"ypos"		"cs-0.5"
+			"wide"		"30"
+			"tall"		"30"
 		}
 		"AvatarImage"
 		{

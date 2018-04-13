@@ -1,3 +1,7 @@
+// Find a Game > Competitive
+// Contained in MatchMakingDashboardComp.res
+// Contains PvPCompRankPanel.res & econ/LobbyLeaderboard.res
+
 "Resource/UI/CompStats.res"
 {
 	"ScrollableContainer"
@@ -12,6 +16,46 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
+		"RankImage"
+		{
+			"ControlName"	"CTFLocalPlayerBadgePanel"
+			"fieldName"		"RankImage"
+			"xpos"			"-8"
+			"ypos"			"-15"
+			"zpos"			"110"
+			"wide"			"o1"
+			"tall"			"70"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"matchgroup"	"MatchGroup_Ladder_6v6"
+		}
+	
+		"RankPanel"
+		{
+			"ControlName"	"CPvPRankPanel"
+			"fieldName"		"RankPanel"
+			"xpos"			"-75"
+			"ypos"			"-35"
+			"zpos"			"100"
+			"wide"			"320"
+			"tall"			"100"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"matchgroup"	"MatchGroup_Ladder_6v6"
+
+			"show_model"	"0"
+			"show_name"		"0"
+
+			"BGBorder"
+			{
+				"visible"	"0"
+			}
+		}
 		"ShowLeaderboardsButton"
 		{
 			"ControlName"	"CExButton"
@@ -77,10 +121,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlaylistBGPanel"
 			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"ypos"			"35"
 			"zpos"			"-1"
 			"wide"			"f0"
-			"tall"			"f0"
+			"tall"			"f35"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			//"border"		"MainMenuBGBorder"
@@ -97,7 +141,7 @@
 				"ypos"			"25"
 				"zpos"			"100"
 				"wide"			"f0"
-				"tall"			"p0.915"
+				"tall"			"p0.925"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"InnerShadowBorder"
@@ -342,10 +386,10 @@
 			{
 				"ControlName"	"CLadderLobbyLeaderboard"
 				"fieldName"		"Leaderboard"
-				"xpos"			"4"
+				"xpos"			"0"
 				"ypos"			"25"
 				"wide"			"f0"
-				"tall"			"p0.915"
+				"tall"			"p0.925"
 				"visible"		"0"
 				"enabled"		"1"
 				"mouseinputenabled" 	"1"
