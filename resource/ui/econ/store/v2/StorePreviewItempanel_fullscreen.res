@@ -2,6 +2,19 @@
 
 "Resource/UI/StorePreviewItemPanel_fullscreen.res"
 {
+	"FullscreenStorePreview"
+	{
+		"ypos"	"20"
+		"tall"	"p20"
+		"proportionaltoparent"	"1"
+		"fullscreen_modelpanel_origin_x"	"251"
+		"fullscreen_modelpanel_origin_y"	"0"
+		"fullscreen_modelpanel_origin_z"	"-40"
+	}
+	"classmodelpanel"
+	{
+		"allow_manip"		"1"
+	}
 	"ZoomInButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -58,11 +71,20 @@
 
 	"TryItOutButton"
 	{
+		"xpos"			"0"
+		"ypos"			"10"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
+		
+		"pin_to_sibling"	"AddToCartButton"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"AddToCartButton"
 	{
+		"xpos"			"rs-5"
+		"ypos"			"rs-5"
+		"proportionaltoparent"	"1"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
 	}
