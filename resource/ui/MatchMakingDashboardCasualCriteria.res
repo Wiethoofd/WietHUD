@@ -14,7 +14,8 @@
 	}
 	"QueueButton"
 	{
-		"xpos"			"7"
+		"xpos"			"8"
+		"ypos"			"rs1-5"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
 	}

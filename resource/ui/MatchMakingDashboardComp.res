@@ -23,6 +23,7 @@
 	}
 	"QueueButton"
 	{
+		"ypos"			"rs1-5"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
 	}
