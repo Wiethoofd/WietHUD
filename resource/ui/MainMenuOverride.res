@@ -56,6 +56,35 @@
 	//	"xpos"		"r-10"
 	//	"paintbackgroundtype" "1"
 	//}
+	
+	"RankPanel"
+	{
+		"ypos"		"75"
+	}
+	"CycleRankTypeButton"
+	{
+		"xpos"		"2"
+		"ypos"		"-2"
+		
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+
+		"pin_to_sibling"	"RankBorder"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+	"RankBorder"
+	{
+		"xpos"			"0"
+		"ypos"			"4"
+		"wide"			"212"
+		"border"		"QuickplayBorder"
+		"bgcolor_override"	"TransparentBlack"
+
+		"pin_to_sibling"	"EventPromo"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
 
 	"StreamListPanel"
 	{
@@ -221,8 +250,30 @@
 		"ypos"			"445"
 	}
 
+	"ReportPlayerButton"
+	{
+		"xpos"			"c-51"
+		"ypos"			"445"
+	}
+	"CallVoteButton"
+	{
+		"xpos"			"c-28"
+		"ypos"			"445"
+	}
+	"MutePlayersButton"
+	{
+		"xpos"			"c-5"
+		"ypos"			"445"
+	}
+	"RequestCoachButton"
+	{
+		"xpos"			"c18"
+		"ypos"			"445"
+	}
+
 	"EventPromo"
 	{
+		"wide"			"260"
 		"Background"
 		{
 			"tall"			"f0"

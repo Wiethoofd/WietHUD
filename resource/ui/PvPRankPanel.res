@@ -5,8 +5,8 @@
 {
 	"BGPanel"
 	{
-		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 0"
+		//"border"		"NoBorder"
+		//"bgcolor_override"	"0 0 0 0"
 
 		// Custom bordered background
 		"RankPanelBG"
@@ -21,10 +21,16 @@
 			"border"	"QuickplayBorder"
 			"bgcolor_override"	"TransparentBlack"
 			"proportionaltoparent"	"1"
+			
+			"visible"	"0"
 
 			if_mini
 			{
 				"wide"		"p0.865"
+			}
+			if_large
+			{
+				"visible"	"1"
 			}
 		}
 		
@@ -34,16 +40,15 @@
 			"font"		"HudFontSmallBold"
 			"textAlignment"	"north"
 		}
-		"LevelLabel"
+		"DescLine1"
 		{
 			"wide"		"f65"
 			"textAlignment"	"north"
-
-			if_mini
-			{
-				"wide"		"f0"
-				"textAlignment"	"north-west"
-			}
+		}
+		"DescLine2"
+		{
+			"wide"		"f65"
+			"textAlignment"	"north"
 		}
 
 		"StatsContainer"
@@ -64,6 +69,7 @@
 			"Stats"
 			{
 				"tall"		"p0.69"
+				"visible"	"0"
 				"bgcolor_override"	"0 0 0 0"
 
 				"Frame"

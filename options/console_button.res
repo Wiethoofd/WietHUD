@@ -4,6 +4,13 @@
 	{
 		"border_default"	"MainMenuSubButtonBorder"
 	}
+	"RequestCoachButton"
+	{
+		"SubButton"
+		{
+			"border_default"	"MainMenuSubButtonBorder"
+		}
+	}
 	"ConsoleButton"
 	{
 		"ControlName"	"CExImageButton"
