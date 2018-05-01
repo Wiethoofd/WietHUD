@@ -214,6 +214,13 @@
 		"pin_to_sibling" 	"TimePanelValue"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		if_match
+		{
+			"font"		"HudFontMediumSmallBold"
+			"pin_corner_to_sibling" "PIN_CENTER_TOP"
+			"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		}
 	}
 	"ServerTimeLimitLabelBG"
 	{
@@ -236,5 +243,10 @@
 		"pin_to_sibling" 	"ServerTimeLimitLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
+
+		if_match
+		{
+			"font"		"HudFontMediumSmallBold"
+		}
 	}
 }

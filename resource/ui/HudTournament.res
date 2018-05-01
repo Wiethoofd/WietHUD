@@ -7,6 +7,7 @@
 	{
 		"wide"		"f0"
 		"xpos"		"0"
+		"zpos"		"90"
 		"name_width"	"67"
 		"spacer"	"2"
 		"horiz_inset"	"0"
@@ -46,6 +47,11 @@
 			"team2_player_base_y"			"0"
 			"team1_player_delta_x"			"50"
 			"team2_player_delta_x"			"50"
+		}
+		
+		if_match
+		{
+			"ypos"		"100"
 		}
 
 		"ModeImage"
@@ -437,11 +443,20 @@
 	"TournamentLabel"
 	{
 		"font"			"HudFontSmallShadow"
-		"wide"			"f0"
-		"tall"			"18"
+		"wide"			"350"
+		"tall"			"14"
 		"xpos"			"0"
-		"ypos"			"11"
+		"ypos"			"0"
 		"brighttext"		"1"
+		"textAlignment"		"north"
+		"textinsetX"		"12"
+		"textinsetY"		"-2"
+		"bgcolor_override"	"30 30 30 200"
+		"auto_wide_tocontents"	"1"
+
+		"pin_to_sibling" 	"HudTournamentREDBG"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 	"TournamentConditionLabel"
 	{

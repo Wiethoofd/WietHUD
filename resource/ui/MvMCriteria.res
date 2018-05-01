@@ -51,6 +51,12 @@
 		"ypos"		"7"
 		"tall"		"280"
 
+		"TourLevelLabel"
+		{
+			"xpos"			"352"
+			"zpos"			"2"
+			"wide"			"40"
+		}
 		"TourLevelLabelNumber" // White Tour# over Label
 		{
 			"ControlName"	"Label"
@@ -60,8 +66,8 @@
 			"textAlignment"		"south"
 			"xpos"			"1"
 			"ypos"			"1"
-			"zpos"			"2"
-			"wide"			"30"
+			"zpos"			"3"
+			"wide"			"40"
 			"tall"			"26"
 			"fgcolor_override"	"TanLight"
 

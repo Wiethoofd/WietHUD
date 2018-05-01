@@ -203,6 +203,11 @@
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
 	}
+	"TryItOutButton"
+	{
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"ComboBoxBorder"
+	}
 	"AddToCartButton"
 	{
 		"border_default"	"QuickplayBorder"

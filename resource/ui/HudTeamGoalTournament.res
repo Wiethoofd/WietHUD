@@ -62,7 +62,7 @@
 			"xpos"			"0"	[$WIN32]
 			"ypos"			"0"
 			"wide"			"f0"
-			"tall"			"26"
+			"tall"			"60"
 			"centerwrap"		"1"
 			"wrap"			"1"
 			"autoResize"		"1"
@@ -111,7 +111,7 @@
 			"xpos"			"0"	[$WIN32]
 			"ypos"			"0"	[$WIN32]
 			"wide"			"f0"
-			"tall"			"36"
+			"tall"			"60"
 			"wrap"			"1"
 			"autoResize"		"1"
 			"pinCorner"		"1"
