@@ -7,6 +7,7 @@
 {
 	"item_pickup"
 	{
+		"zpos"				"1000"
 		"PaintBackgroundType"		"2"
 		"bgcolor_override"		"BackpackBGColor"
 		"infocus_bgcolor_override"	"BackpackBGColor"
