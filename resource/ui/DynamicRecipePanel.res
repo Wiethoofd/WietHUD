@@ -66,6 +66,10 @@
 			"border_default"	"QuickplayBorder"
 			"border_armed"		"ComboBoxBorder"
 		}
+		"UntradableLabel"
+		{
+			"font"			"HudFontSmall"
+		}
 	}
 	
 	"mouseoveritempanel"
