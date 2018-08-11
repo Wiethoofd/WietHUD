@@ -23,8 +23,8 @@
 			"tall"		"26"
 		}
 	}
-	
-	"LockImage"
+
+	"DisabledIcon"
 	{
 		"proportionaltoparent"	"1"
 		
