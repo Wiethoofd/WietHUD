@@ -85,6 +85,10 @@
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
+	"NoGCMessage"
+	{
+		"xpos"			"c-280"
+	}
 
 	"StreamListPanel"
 	{

@@ -47,6 +47,10 @@
 			"image_drawcolor"	"245 245 245 255"
 			"image_armedcolor"	"236 236 236 255"
 
+			if_fullmoon {
+				"sound_released"	"UI/wooo_tree.wav"
+			}
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

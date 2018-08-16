@@ -1,6 +1,8 @@
 #base "SourceSchemeBase.res"
 #base "../default_hudfiles/resource/SourceScheme.res"
 
+// Visual Representation of values: https://imgur.com/a/kRyiWE2 (Thanks Whisker)
+
 Scheme
 {
 	Colors

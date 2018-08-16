@@ -57,7 +57,7 @@
 	"ReloadSchemeButton"
 	{
 		"xpos"			"c-12"
-		"ypos"			"r36"
+		"ypos"			"r35"
 		"zpos"			"250000"
 		"wide"			"24"
 	}
@@ -156,10 +156,62 @@
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
+	
+	"CloseButtonCross"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CloseButtonCross"
+		"xpos"			"r30"
+		"ypos"			"32"
+		"zpos"			"100"
+		"wide"			"19"
+		"tall"			"19"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labeltext"		"&X"
+		"font"			"HudFontSmallBold"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"default"		"0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"Command"		"close"
+		"proportionaltoparent"	"1"
+		"actionsignallevel"	"1"
+
+		"paintbackground"	"0"
+
+		"defaultFgColor_override"	"0 0 0 0"
+		"armedFgColor_override"		"0 0 0 0"
+		"depressedFgColor_override"	"0 0 0 0"
+
+		"image_drawcolor"	"150 60 45 255"
+		"image_armedcolor"	"200 80 60 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"close_button"
+			"scaleImage"	"1"
+			"proportionaltoparent" "1"
+		}
+	}
 
 	"CloseButton"
 	{
-		"ypos"			"r40"
+		"ypos"			"r43"
 		"zpos"			"1000"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
@@ -172,9 +224,17 @@
 		"labelText"	"&E"
 		"command"	"vguicancel"
 	}
+	"closeShortKeyAlt"
+	{
+		"ControlName"	"CExButton"
+		"visible"	"1"
+		"xpos"		"r0"
+		"labelText"	"&Q"
+		"command"	"vguicancel"
+	}
 	"OpenLoadoutButton"
 	{
-		"ypos"			"r40"
+		"ypos"			"r43"
 		"zpos"			"1000"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
