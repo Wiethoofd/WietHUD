@@ -64,6 +64,12 @@ event HudSnapShotReminderIn
 {
 	Animate ScreenshotPanel		Position	"c-83 -40"	Linear 0.0 0.001
 	Animate ScreenshotPanel		Position	"c-83 0"	Spline 0.001 0.2
+
+	// Trigger Stop animation events to fix stuck colors
+	RunEvent HudHealthDyingPulseStop 10.0
+	RunEvent HudHealthBonusPulseStop 10.0
+	RunEvent HudLowAmmoPulseStop 10.0
+	RunEvent HudMedicChargedStop 10.0
 }
 event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
 {
