@@ -72,7 +72,7 @@ Widescreen is supported by default with #base include in the following HUD eleme
 | Loadout Screens | resource/ui/ClassSelection.res |
 | Item Received | resource/ui/econ/ItemPickupPanel.res |
 | Item Selection | resource/ui/ItemSelectionPanel.res |
-| Store Page Buttons | resource/ui/econ/v2/StorePanel.res |
+| Store Page Buttons | resource/ui/econ/store/v2/StorePanel.res |
 
 ### Main Menu Buttons
 Custom main menu buttons can be disabled by commenting/removing the first lines in `MainMenuOverride.res` and `GameMenu.res`
