@@ -19,14 +19,7 @@
 	{
 		"ypos"			"5"
 	}
-	
-	"CurrencyStatusPanel" // Upgrade credits
-	{
-		"xpos"			"c42"
-		"ypos"			"r103"
-		"xpos_minmode"		"c42"
-		"ypos_minmode"		"r90"
-	}
+
 	"InWorldCurrencyPanel" // In world credits
 	{
 		"xpos"			"c75"

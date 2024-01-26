@@ -101,7 +101,15 @@
 		"tall"	 	"30"
 		"tall_minmode"	"30"
 	}
-
+	
+	"CurrencyStatusPanel" // Upgrade credits
+	{
+		"xpos"			"c42"
+		"ypos"			"r103"
+		"xpos_minmode"		"c42"
+		"ypos_minmode"		"r90"
+	}
+	
 	HudStopWatch
 	{
 		"xpos"			"0"
